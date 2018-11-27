@@ -1,3 +1,13 @@
+#### Role keys:
+# Professor : faculty
+# Post-doc: postdoc
+# Staff: staff
+# PhD Student: phd
+# Masters Student: masters
+# Collaborator: collab
+# Intern: intern
+# Intern Alumni: intern-alum
+# Alumni: alum
 
 liam:
     display_name: "Liam Paull"
@@ -7,7 +17,9 @@ liam:
     role: faculty
 
 
-
+florian:
+    display_name: "Florian Golemo"
+    role: postdoc
 
 vincent:
     display_name: "Vincent Mai"
@@ -15,13 +27,57 @@ vincent:
     role: phd
 
 
+krishna:
+    display_name: "Krishna Murthy Jatavallabhula"
+    role: phd
 
-ugrad-a:
-    display_name: "Intern A"
+manfred:
+    display_name: "Manfred Diaz"
+    role: phd
+
+ruixiang:
+    display_name: "Ruixiang Zhang"
+    role: phd
+
+sai:
+    display_name: "Sai Krishna G.V."
+    role: masters
+
+gunshi:
+    display_name: "Gunshi Gupta"
+    role: masters
+
+nithin:
+    display_name: "Nithin Vasisth"
+    role: masters
+
+breandan:
+    display_name: "Breandan Considine"
+    role: masters
+
+bhairav:
+    display_name: "Bhairav Mehta"
     role: intern
 
+dhaivat:
+    display_name: "Dhaivat Bhatt"
+    role: intern
 
-ugrad-alum-a:
-    display_name: "Past Ugrad A"
+zihang:
+    display_name: "Zihan Wang"
     role: intern-alum
+
+homanga:
+    display_name: "Homanga Bharadhwaj"
+    role: intern-alum
+
+adam:
+    display_name: "Adam Sigal"
+    role: intern-alum
+
+maxime:
+    display_name: "Maxime Chevalier-Boisvert"
+    role: staff
+
+
 
