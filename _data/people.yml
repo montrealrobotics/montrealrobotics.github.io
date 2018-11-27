@@ -9,9 +9,10 @@ liam:
 
 
 
-grad-a:
-    display_name: "Grad A"
-    role: grad
+vincent:
+    display_name: "Vincent Mai"
+    github: maivincent
+    role: phd
 
 
 
