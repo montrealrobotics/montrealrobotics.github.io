@@ -13,19 +13,20 @@ liam:
     display_name: "Liam Paull"
     webpage: "http://liampaull.ca"
     github: liampaull
-    img: /img/people/liam.jpg
+    image: /img/people/liam.jpg
     role: faculty
 
 
 florian:
     display_name: "Florian Golemo"
     role: postdoc
+    image: /img/people/florian.jpg
 
 vincent:
     display_name: "Vincent Mai"
     github: maivincent
     role: phd
-
+    image: /img/people/vincent.jpg
 
 krishna:
     display_name: "Krishna Murthy Jatavallabhula"
@@ -34,22 +35,27 @@ krishna:
 manfred:
     display_name: "Manfred Diaz"
     role: phd
+    image: /img/people/manfred.jpg
 
 ruixiang:
     display_name: "Ruixiang Zhang"
     role: phd
+    image: /img/people/ruixiang.jpg
 
 sai:
     display_name: "Sai Krishna G.V."
     role: masters
+    image: /img/people/sai.jpg
 
 gunshi:
     display_name: "Gunshi Gupta"
     role: masters
+    image: /img/people/gunshi.jpg
 
 nithin:
     display_name: "Nithin Vasisth"
     role: masters
+    image: /img/people/nithin.jpg
 
 breandan:
     display_name: "Breandan Considine"
@@ -58,6 +64,7 @@ breandan:
 bhairav:
     display_name: "Bhairav Mehta"
     role: intern
+    image: /img/people/bhairav.jpg
 
 dhaivat:
     display_name: "Dhaivat Bhatt"
@@ -66,6 +73,7 @@ dhaivat:
 zihang:
     display_name: "Zihan Wang"
     role: intern-alum
+    image: /img/people/zihan.jpg
 
 homanga:
     display_name: "Homanga Bharadhwaj"
@@ -78,6 +86,7 @@ adam:
 maxime:
     display_name: "Maxime Chevalier-Boisvert"
     role: staff
+    image: /img/people/maxime.jpg
 
 
 
