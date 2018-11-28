@@ -31,6 +31,9 @@ vincent:
 krishna:
     display_name: "Krishna Murthy Jatavallabhula"
     role: phd
+    image: /img/people/krishna.jpg
+    webpage: "https://krrish94.github.io"
+    github: krrish94
 
 manfred:
     display_name: "Manfred Diaz"
@@ -65,6 +68,7 @@ bhairav:
     display_name: "Bhairav Mehta"
     role: intern
     image: /img/people/bhairav.jpg
+    webpage: "https://bhairavmehta95.github.io/"
 
 dhaivat:
     display_name: "Dhaivat Bhatt"
@@ -83,10 +87,33 @@ adam:
     display_name: "Adam Sigal"
     role: intern-alum
 
+sarthak:
+    display_name: "Sarthak Sharma"
+    role: intern-alum
+
 maxime:
     display_name: "Maxime Chevalier-Boisvert"
     role: staff
     image: /img/people/maxime.jpg
 
+keehong:
+    display_name: "Keehong Seo"
+    role: collab
 
+yoshua:
+    display_name: "Yoshua Bengio"
+    role: collab
 
+teddy:
+    display_name: "Teddy Ort"
+    role: collab
+
+ganesh:
+    display_name: "Ganesh Iyer"
+    role: collab
+    webpage: "https://epiception.github.io"
+
+madhav:
+    display_name: "K. Madhava Krishna"
+    role: collab
+    webpage: "https://robotics.iiit.ac.in"

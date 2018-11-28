@@ -24,7 +24,7 @@ roles:
   - key: intern
     name: Interns
   - key: intern-alum
-    name: Past Interns Students
+    name: Past Interns
   - key: collab
     name: Collaborators
   - key: alum
