@@ -63,6 +63,7 @@ nithin:
 breandan:
     display_name: "Breandan Considine"
     role: masters
+    image: /image/people/breandan.jpg
 
 bhairav:
     display_name: "Bhairav Mehta"
@@ -106,6 +107,22 @@ yoshua:
 
 teddy:
     display_name: "Teddy Ort"
+    role: collab
+
+daniela:
+    display_name: "Daniela Rus"
+    role: collab
+
+chris:
+    display_name: "Chris Pal"
+    role: collab
+
+michalis:
+    display_name: "Michalis Famelis"
+    role: collab
+
+sarath:
+    display_name: "Sarath Chandar"
     role: collab
 
 ganesh:
