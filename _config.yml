@@ -33,6 +33,9 @@ roles:
 # Number of news stories on the front page.
 front_page_news: 8
 
+# Number of old projects on the front page
+front_page_old_projects: 4
+
 # Base pathname for links.
 base: ''
 

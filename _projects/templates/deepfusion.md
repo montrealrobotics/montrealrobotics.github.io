@@ -1,7 +1,7 @@
 ---
 title: DeepFusion
 
-notitle: true
+notitle: false
 
 description: |
   Learning to fuse depth images, for a consistent representation of the world.

@@ -12,17 +12,13 @@ role-tables:
     width: 8
     image: true
 - - roles: [intern, intern-alum, collab]
-    width: 5
+    width: 4
     image: false
-  - roles: [alum]
-    width: 7
-    image: false
-
 ---
 
 <div class="jumbotron">
     <p>
-        The <b>Robotics Group</b> at <b>University of Montreal</b> is dedicated to making robots more capable, easier to use, and safer.
+        Welcome to the home of the <b>Embodied AI Lab</b> at the <b>University of Montreal</b>. A group dedicated to making robots more capable, easier to use, and safer with machine learning where appropriate.
     </p>
 </div>
 
@@ -43,7 +39,7 @@ role-tables:
 </section>
 
 <section>
-    <h2>Research</h2>
+    <h2>Current Research Projects</h2>
     <div class="card-columns">
         {% comment %}
         Sort the projects by date, putting those without dates last
@@ -56,6 +52,20 @@ role-tables:
             {% endif %}
         {% endfor %}
     </div>
+    <p></p>
+    <h2>Past Research Projects</h2>
+    <div class="card-columns">
+        {% for p in projects_by_date limit: site.front_page_old_projects %}
+          {% if p.status == "inactive" %}
+            {% include project-card.html project=p %}
+          {% endif %}
+        {% endfor %}
+    </div>
+        <p>
+            <span class="fa fa-fw fa-history"></span>
+            <a href="{{ site.base }}/resesarch.html">All projects&hellip;</a>
+        </p>
+
 </section>
 
 <div id="people">

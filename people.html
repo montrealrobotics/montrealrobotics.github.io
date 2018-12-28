@@ -7,16 +7,16 @@ picture-role-groups:
 - {roles: [others], width: 8}
 
 no-picture-role-groups:
-- {roles: [collab, intern, intern-alum], width: 5}
-- {roles: [alum], width: 7}
+- {roles: [collab, intern, intern-alum], width: 4}
+
 ---
 
 <section class="people row justify-content-between">
     {% for role-group in page.picture-role-groups %}
         <div class="col-md-{{ role-group.width }}">
-            {% for role in role-group.roles %}
-                {% include role-people.html role=role image=true %}
-            {% endfor %}
+          {% for role in role-group.roles %}
+            {% include role-people.html role=role image=true %}
+          {% endfor %}
         </div>
     {% endfor %}
 </section>
