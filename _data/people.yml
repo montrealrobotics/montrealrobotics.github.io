@@ -63,11 +63,11 @@ nithin:
 breandan:
     display_name: "Breandan Considine"
     role: masters
-    image: /image/people/breandan.jpg
+    image: /img/people/breandan.jpg
 
 bhairav:
     display_name: "Bhairav Mehta"
-    role: intern
+    role: masters
     image: /img/people/bhairav.jpg
     webpage: "https://bhairavmehta95.github.io/"
 
