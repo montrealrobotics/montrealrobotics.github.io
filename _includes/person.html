@@ -27,6 +27,14 @@ there by default by Bootstrap columns.
     {% assign name = person.display_name %}
 {% endif %}
 
+{% if person.github %}
+    {% capture name %}
+        {{ name }} <a href="https://github.com/{{ person.github | escape }}"><i class="fab fa-github"></i></a>
+    {% endcapture %}
+{% endif %}
+
+
+
 {% if include.image %}
     <div class="person person-with-image row align-items-center">
         <div class="col-auto">

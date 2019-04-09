@@ -19,6 +19,8 @@ liam:
 
 florian:
     display_name: "Florian Golemo"
+    webpage: "https://fgolemo.github.io/"
+    github: fgolemo
     role: postdoc
     image: /img/people/florian.jpg
 
@@ -38,6 +40,7 @@ krishna:
 manfred:
     display_name: "Manfred Diaz"
     role: phd
+    github: takeitallsource
     image: /img/people/manfred.jpg
 
 ruixiang:
@@ -94,6 +97,7 @@ sarthak:
 
 maxime:
     display_name: "Maxime Chevalier-Boisvert"
+    github: maximecb
     role: staff
     image: /img/people/maxime.jpg
 

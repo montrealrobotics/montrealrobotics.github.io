@@ -2,8 +2,7 @@
 layout: default
 title: Code
 ---
-This is an example of an additional page you could add to the site (and its navigation).
+Please see our published articles for their corresponding code repos. In general, our repositories can be found here:
 
-If you like this template, find our group's other code here:
+https://github.com/montrealrobotics
 
- * [uwsampa on GitHub](https://github.com/uwsampa/)
