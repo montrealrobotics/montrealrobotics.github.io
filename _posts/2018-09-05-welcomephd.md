@@ -1,7 +1,7 @@
 ---
 layout: post
 shortnews: true
-icon: star-o
+icon: newspaper
 ---
 
 Manfred Diaz and Ruixiang Zhang join the group as PhD students ...
