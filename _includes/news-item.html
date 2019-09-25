@@ -2,7 +2,7 @@
 {% assign item = include.item %}
 {% if item.icon %}
 {% assign icon = item.icon %}
-{% assign class = "shortnews" %}
+{% assign class = "card-body border-left-success" %}
 {% else %}
 {% assign icon = "newspaper-o" %}
 {% endif %}
@@ -21,11 +21,10 @@
 {% endcapture %}
 
 {% capture header %}
-<span class="fas fa-fw fa-{{ icon }}"></span>
-<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-{{ icon }}"></i> {{ post.date | date: '%B %d, %Y' }}</span>
 {% endcapture %}
 
-<li class="{{ class }}">
+<div class="{{ class }}">
     {% if post.image %}
 
         {% capture img %}
@@ -51,4 +50,5 @@
         {{ header }}
         {{ news }}
     {% endif %}
-</li>
+</div>
+<br/>
