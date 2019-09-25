@@ -1,4 +1,5 @@
 name: Robotics Group @ University of Montreal
+description: The Robotics and Embodied AI Lab @ U de Montreal
 url: http://montrealrobotics.github.io
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
@@ -74,8 +75,6 @@ highlighter: pygments
 
 # Jekyll-Scholar
 scholar:
-
-  last_name: Krishna Murthy
 
   style: apa
   locale: en
