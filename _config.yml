@@ -49,7 +49,7 @@ navigation:
   - title: Home
     link: /
   - title: People
-    link: /#people
+    link: /people.html
   - title: Research
     link: /research.html
   - title: Publications

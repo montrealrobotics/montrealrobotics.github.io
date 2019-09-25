@@ -36,15 +36,20 @@ there by default by Bootstrap columns.
 
 
 {% if include.image %}
-    <div class="person person-with-image row align-items-center">
-        <div class="col-auto">
-            {% include person-image.html person=person %}
-        </div>
-        <div class="col pl-0">
-            <h6 class="person-name"> {{ name }} </h6>
-            {% if person.bio %}
-                <div class="bio">{{person.bio}}</div>
-            {% endif %}
+    <div class="card mb-4 py-3 border-bottom-primary">
+        <div class="card-body">
+
+            <div class="person person-with-image row align-items-center">
+                <div class="col-auto">
+                    {% include person-image.html person=person %}
+                </div>
+                <div class="col pl-0">
+                    <h4 class="person-name"> {{ name }} </h4>
+                    {% if person.bio %}
+                        <div class="bio">{{person.bio}}</div>
+                    {% endif %}
+                </div>
+            </div>
         </div>
     </div>
 {% else %}

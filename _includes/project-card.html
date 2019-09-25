@@ -28,7 +28,7 @@
                 <h3 class="card-title">
                     <strong>
                         {{  project.title }} 
-                        <span class="badge badge-secondary">{{ project.status }}</span>
+                        <span class="badge badge-secondary">{{ project.status | upper}}</span>
                     </strong>
                 </h3>
                 {% endif %}
@@ -51,6 +51,7 @@
                 {% endif %}
                 
                 {% if project.no-link != true or project.link %}
+                <br/>
                 <div class="text-right">
                         <a href="{{ proj-url }}" class="btn btn-primary btn-icon-split btn-sm">
                                 <span class="icon text-white-50">

@@ -9,24 +9,36 @@ picture-role-groups:
 no-picture-role-groups:
 - {roles: [collab, intern, intern-alum], width: 4}
 
+# groups of columns of {roles: list, width: num, image: bool}
+role-tables:
+- - roles: [faculty, postdoc, staff]
+    width: 4
+    image: true
+  - roles: [phd, masters]
+    width: 8
+    image: true
+- - roles: [intern, intern-alum, collab]
+    width: 4
+    image: false
+    
 ---
 
-<section class="people row justify-content-between">
-    {% for role-group in page.picture-role-groups %}
-        <div class="col-md-{{ role-group.width }}">
-          {% for role in role-group.roles %}
-            {% include role-people.html role=role image=true %}
-          {% endfor %}
-        </div>
-    {% endfor %}
-</section>
-
-<section class="people row justify-content-between">
-    {% for role-group in page.no-picture-role-groups %}
-        <div class="col-md-{{ role-group.width }}">
-            {% for role in role-group.roles %}
-                {% include role-people.html role=role image=false %}
-            {% endfor %}
-        </div>
-    {% endfor %}
-</section>
+<section id="people">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary text-lg">People</h6>
+            </div>
+            <div class="card-body">
+                {% for role-table in page.role-tables %}
+                {% for role-column in role-table %}
+                        {% for role in role-column.roles %}
+                            {% include role-people.html role=role image=role-column.image %}
+                            <br/>
+                        {% endfor %}
+                {% endfor %}
+            
+        {% endfor %}
+            </div>
+    
+        </div>  
+    </section>
