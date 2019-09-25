@@ -65,7 +65,7 @@ nithin:
 
 breandan:
     display_name: "Breandan Considine"
-    role: masters
+    role: alum
     image: /assets/img/people/breandan.jpg
 
 bhairav:
@@ -82,12 +82,28 @@ rey:
     display_name: "Rey Reza Wiyatno"
     role: masters
 
+philippe:
+    display_name: "Philippe Laferriere"
+    role: masters
+
 sharath:
     display_name: "Sharath Chandra Raparthy"
     role: intern
 
 mark:
-    display_name: Mark Van der Merwe
+    display_name: "Mark Van der Merwe"
+    role: intern
+
+amrut:
+    display_name: "Amrut Sarangi"
+    role: intern
+
+rohan:
+    display_name: "Rohan Raj"
+    role: intern
+    
+dishank:
+    display_name: "Dishank Bansal"
     role: intern
 
 zihang:
