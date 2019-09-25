@@ -53,6 +53,47 @@ navigation:
   - title: Research
     link: /research.html
   - title: Publications
-    link: /publications.html
+    link: /publications/
   - title: Code
     link: /code.html
+
+# Includes
+include: ['_pages']
+
+gems:
+    - jekyll-paginate
+    - jekyll/scholar
+    - jemoji
+
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+# Jekyll-Scholar
+scholar:
+
+  last_name: Krishna Murthy
+
+  style: apa
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  source: /_bibliography/
+  bibliography: pubs.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+
+jquery_version: "1.12.4"
+katex_version: "0.7.1"
+anchorjs_version: "3.2.2"
