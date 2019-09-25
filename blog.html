@@ -2,9 +2,17 @@
 layout: default
 title: Blog
 ---
+              
+<div class="card border-bottom-primary shadow py-2 mb-4">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="h2 font-weight-bold text-primary mb-1">Recent News</div>
+                    </div>
+                  </div>
+                </div>
+</div>
 
-<ul class="news list-unstyled">
 {% for post in site.posts %}
     {% include news-item.html item=post %}
 {% endfor %}
-</ul>

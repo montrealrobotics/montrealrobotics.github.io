@@ -22,41 +22,36 @@
     <body>
         <div class="container">
             <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
-            <div class="header d-flex
-                        flex-column
-                        flex-md-row justify-content-md-between">
-                <!-- comment this out until we get a nice logo and name
-                     <a href="{{ site.base }}/" class="">
-                       <img src="{{ site.base }}/img/logo.png"
-                         srcset="{{ site.base }}/img/logo@2x.png 2x"
-                         alt="Awesome" id="logo">
-                </a> -->
-                <ul class="nav nav-pills justify-content-center">
-
-                    {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
-                    {% for item in site.navigation %}
-
-                        {% assign itemshorturl = item.link | replace:'.html','' %}
-
-                        {% assign maybe-active = '' %}
-                        {% if item.title == 'Research' and page.layout == 'project' %}
-                            {% assign maybe-active = 'active' %}
-                        {% endif %}
-                        {% if itemshorturl == shorturl or is-research %}
-                            {% assign maybe-active = 'active' %}
-                        {% endif %}
-
-                        <li class="nav-item">
-                            <a class="nav-link {{ maybe-active }}"
-                               href="{{ site.base }}{{ item.link }}">
-                                {{ item.title }}
-                            </a>
-                        </li>
-
-                    {% endfor %}
-
-                </ul>
-            </div>
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-dark bg-primary mb-2 text-white">
+                <a class="navbar-brand" href="#">REAL</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                                {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
+                                {% for item in site.navigation %}
+            
+                                    {% assign itemshorturl = item.link | replace:'.html','' %}
+            
+                                    {% assign maybe-active = '' %}
+                                    {% if item.title == 'Research' and page.layout == 'project' %}
+                                        {% assign maybe-active = 'active' %}
+                                    {% endif %}
+                                    {% if itemshorturl == shorturl or is-research %}
+                                        {% assign maybe-active = 'active' %}
+                                    {% endif %}
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link {{ maybe-active }}"
+                                           href="{{ site.base }}{{ item.link }}">
+                                            {{ item.title }}
+                                        </a>
+                                    </li>
+                                    {% endfor %}
+                        </ul>
+                      </div>
+            </nav>
 
             {% if page.image %}
                 <img src="{{ page.image }}"
