@@ -4,16 +4,18 @@
   booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
   pages={1--8},
   month={May},
-  year={2016}
+  year={2016},
 }
 
-@inproceedings{mu2016slam,
+@inproceedings{mu2016iros,
   title={Slam with objects using a nonparametric pose graph},
   author={Mu, Beipeng and Liu, Shih-Yuan and Paull, Liam and Leonard, John and How, Jonathan P},
   booktitle={IEEE/RSJ International Conference onnIntelligent Robots and Systems (IROS)},
-  pages={4602--4609},
   year={2016},
-  month={Oct}
+  month={Oct},
+  image = {papers/mu2016iros.png},
+  arxiv = {1704.05959},
+  abstract = {Mapping and self-localization in unknown environments are fundamental capabilities in many robotic applications. These tasks typically involve the identification of objects as unique features or landmarks, which requires the objects both to be detected and then assigned a unique identifier that can be maintained when viewed from different perspectives and in different images. The data association and simultaneous localization and mapping (SLAM) problems are, individually, well-studied in the literature. But these two problems are inherently tightly coupled, and that has not been well-addressed. Without accurate SLAM, possible data associations are combinatorial and become intractable easily. Without accurate data association, the error of SLAM algorithms diverge easily. This paper proposes a novel nonparametric pose graph that models data association and SLAM in a single framework. An algorithm is further introduced to alternate between inferring data association and performing SLAM. Experimental results show that our approach has the new capability of associating object detections and localizing objects at the same time, leading to significantly better performance on both the data association and SLAM problems than achieved by considering only one and ignoring imperfections in the other.},
 }
 
 @inproceedings{paull2017duckietown,
@@ -22,7 +24,10 @@
   booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
   pages={1497--1504},
   year={2017},
-  month={May}
+  month={May},
+  image = {papers/paull2017duckietown.png},
+  arxiv = {http://www.mit.edu/~hangzhao/papers/duckietown.pdf},
+  abstract = {Duckietown is an open, inexpensive and flexible platform for autonomy education and research. The platform comprises small autonomous vehicles (“Duckiebots”) built from off-the-shelf components, and cities (“Duckietowns”) complete with roads, signage, traffic lights, obstacles, and citizens (duckies) in need of transportation. The Duckietown platform offers a wide range of functionalities at a low cost. Duckiebots sense the world with only one monocular camera and perform all processing onboard with a Raspberry Pi 2, yet are able to: follow lanes while avoiding obstacles, pedestrians (duckies) and other Duckiebots, localize within a global map, navigate a city, and coordinate with other Duckiebots to avoid collisions. Duckietown is a useful tool since educators and researchers can save money and time by not having to develop all of the necessary supporting infrastructure and capabilities. All materials are available as open source, and the hope is that others in the community will adopt the platform for education and research.},
 }
 
 @inproceedings{rosman2017hybrid,
@@ -31,7 +36,7 @@
   booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   pages={6894--6901},
   year={2017},
-  month={Oct}
+  month={Oct},
 }
 
 @article{paull2018probabilistic,
@@ -41,23 +46,18 @@
   volume={37},
   number={1},
   pages={21--45},
-  year={2018}
+  year={2018},
 }
 
-@inproceedings{iyer2018geometric,
-  title={Geometric Consistency for Self-Supervised End-to-End Visual Odometry},
-  author={Iyer, Ganesh and Murthy, J Krishna and Gunshi Gupta, K and Paull, Liam},
-  booktitle={CVPR workshop on Deep Learning for SLAM},
-  month={July},
-  year={2018}
-}
-
-@inproceedings{ort2018autonomous,
+@inproceedings{ort2018icra,
   title={Autonomous Vehicle Navigation in Rural Environments without Detailed Prior Maps},
   author={Ort, Teddy and Paull, Liam and Rus, Daniela},
   booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
   year={2018},
-  month={May}
+  month={May},
+  image = {papers/ort2018icra.png},
+  arxiv = {https://toyota.csail.mit.edu/sites/default/files/documents/papers/ICRA2018_AutonomousVehicleNavigationRuralEnvironment.pdf},
+  abstract = {State-of-the-art autonomous driving systems rely heavily on detailed and highly accurate prior maps. However, outside of small urban areas, it is very challenging to build, store, and transmit detailed maps since the spatial scales are so large. Furthermore, maintaining detailed maps of large rural areas can be impracticable due to the rapid rate at which these environments can change. This is a significant limitation for the widespread applicability of autonomous driving technology, which has the potential for an incredibly positive societal impact. In this paper, we address the problem of autonomous navigation in rural environments through a novel mapless driving framework that combines sparse topological maps for global navigation with a sensor-based perception system for local navigation. First, a local navigation goal within the sensor view of the vehicle is chosen as a waypoint leading towards the global goal. Next, the local perception system generates a feasible trajectory in the vehicle frame to reach the waypoint while abiding by the rules of the road for the segment being traversed. These trajectories are updated to remain in the local frame using the vehicle’s odometry and the associated uncertainty based on the least-squares residual and a recursive filtering approach, which allows the vehicle to navigate road networks reliably, and at high speed, without detailed prior maps. We demonstrate the performance of the system on a full-scale autonomous vehicle navigating in a challenging rural environment and benchmark the system on a large amount of collected data.},
 }
 
 @article{mai2018local,
@@ -67,21 +67,49 @@
   volume={3},
   number={4},
   pages={2971--2978},
-  year={2018}
+  year={2018},
+  month={October},
+}
+
+@inproceedings{CTCNet,
+  title = {Geometric Consistency for Self-Supervised End-to-End Visual Odometry},
+  author = {Iyer, Ganesh and Murthy, J Krishna and Gunshi Gupta, K and Paull, Liam},
+  booktitle = {CVPR Workshop on Deep Learning for Visual SLAM},
+  month = {June},
+  year = {2018},
+  arxiv = {1804.03789},
+  projectpage = {https://krrish94.github.io/CTCNet-release/},
+  image = {papers/ctcnet.png},
+  abstract = {With the success of deep learning based approaches in tackling challenging problems in computer vision, a wide range of deep architectures have recently been proposed for the task of visual odometry (VO) estimation. Most of these proposed solutions rely on supervision, which requires the acquisition of precise ground-truth camera pose information, collected using expensive motion capture systems or high-precision IMU/GPS sensor rigs. In this work, we propose an unsupervised paradigm for deep visual odometry learning. We show that using a noisy teacher, which could be a standard VO pipeline, and by designing a loss term that enforces geometric consistency of the trajectory, we can train accurate deep models for VO that do not require ground-truth labels. We leverage geometry as a self-supervisory signal and propose "Composite Transformation Constraints (CTCs)", that automatically generate supervisory signals for training and enforce geometric consistency in the VO estimate. We also present a method of characterizing the uncertainty in VO estimates thus obtained. To evaluate our VO pipeline, we present exhaustive ablation studies that demonstrate the efficacy of end-to-end, self-supervised methodologies to train deep models for monocular VO. We show that leveraging concepts from geometry and incorporating them into the training of a recurrent neural network results in performance competitive to supervised deep VO methods.},
 }
 
 @inproceedings{amini2018learning,
   title={Learning steering bounds for parallel autonomous systems},
   author={Amini, Alexander and Paull, Liam and Balch, Thomas and Karaman, Sertac and Rus, Daniela},
   booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
-  pages={1--8},
   year={2018},
-  month={May}
+  month={May},
 }
 
 @article{bharadhwaj2018data,
   title={A Data-Efficient Framework for Training and Sim-to-Real Transfer of Navigation Policies},
   author={Bharadhwaj, Homanga and Wang, Zihan and Bengio, Yoshua and Paull, Liam},
-  journal={arXiv preprint arXiv:1810.04871},
-  year={2018}
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2019},
+  month={May},
+  arxiv = {1810.04871},
+  image = {papers/homanga2019icra.png},
+  abstract = {Learning effective visuomotor policies for robots purely from data is challenging, but also appealing since a learning-based system should not require manual tuning or calibration. In the case of a robot operating in a real environment the training process can be costly, time-consuming, and even dangerous since failures are common at the start of training. For this reason, it is desirable to be able to leverage \textit{simulation} and \textit{off-policy} data to the extent possible to train the robot. In this work, we introduce a robust framework that plans in simulation and transfers well to the real environment. Our model incorporates a gradient-descent based planning module, which, given the initial image and goal image, encodes the images to a lower dimensional latent state and plans a trajectory to reach the goal. The model, consisting of the encoder and planner modules, is trained through a meta-learning strategy in simulation first. We subsequently perform adversarial domain transfer on the encoder by using a bank of unlabelled but random images from the simulation and real environments to enable the encoder to map images from the real and simulated environments to a similarly distributed latent representation. By fine tuning the entire model (encoder + planner) with far fewer real world expert demonstrations, we show successful planning performances in different navigation tasks.},
+}
+
+@article{sai2019dal,
+  title = {Deep Active Localization},
+  author = {Krishna, Sai and Seo, Keehong and Bhatt, Dhaivat and Mai, Vincent and Murthy, Krishna and Paull, Liam},
+  booktitle = {IEEE Robotics and Automation Letters (RAL)},
+  year = {2019},
+  month = {May},
+  arxiv = {1903.01669},
+  code = {https://github.com/montrealrobotics/dal},
+  image = {papers/dal.png},
+  abstract = {Active localization is the problem of generating robot actions that allow it to maximally disambiguate its pose within a reference map. Traditional approaches to this use an information-theoretic criterion for action selection and hand-crafted perceptual models. In this work we propose an end-to-end differentiable method for learning to take informative actions that is trainable entirely in simulation and then transferable to real robot hardware with zero refinement. The system is composed of two modules: a convolutional neural network for perception, and a deep reinforcement learned planning module. We introduce a multi-scale approach to the learned perceptual model since the accuracy needed to perform action selection with reinforcement learning is much less than the accuracy needed for robot control. We demonstrate that the resulting system outperforms using the traditional approach for either perception or planning. We also demonstrate our approaches robustness to different map configurations and other nuisance parameters through the use of domain randomization in training. The code is also compatible with the OpenAI gym framework, as well as the Gazebo simulator.},
 }

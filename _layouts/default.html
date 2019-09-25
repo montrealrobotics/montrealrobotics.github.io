@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl | prepend: site.url }}">
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
       </head>
     <body>
         <div class="container">
@@ -79,8 +80,12 @@
 
         </div> <!-- /container -->
 
+        <!-- Load jquery-->
+        <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
         <!-- Support retina images. -->
         <script type="text/javascript"
-                src="{{ site.base }}/js/srcset-polyfill.js"></script>
+                src="{{ site.base }}/assets/js/srcset-polyfill.js"></script>
+        <!-- Support hidden abstract/bibtex blocks. -->
+        <script src="{{ site.base }}/assets/js/common.js"></script>
     </body>
 </html>
