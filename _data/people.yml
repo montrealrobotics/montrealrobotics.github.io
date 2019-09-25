@@ -50,7 +50,7 @@ ruixiang:
 
 sai:
     display_name: "Sai Krishna G.V."
-    role: masters
+    role: alum
     image: /assets/img/people/sai.jpg
 
 gunshi:
@@ -76,6 +76,18 @@ bhairav:
 
 dhaivat:
     display_name: "Dhaivat Bhatt"
+    role: masters
+
+rey:
+    display_name: "Rey Reza Wiyatno"
+    role: masters
+
+sharath:
+    display_name: "Sharath Chandra Raparthy"
+    role: intern
+
+mark:
+    display_name: Mark Van der Merwe
     role: intern
 
 zihang:

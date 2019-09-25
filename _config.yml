@@ -54,8 +54,10 @@ navigation:
     link: /research.html
   - title: Publications
     link: /publications/
-  - title: Code
-    link: /code.html
+  - title: Contact
+    link: /contact.html
+  - title: Blog
+  - link: /blog.html
 
 # Includes
 include: ['_pages']
