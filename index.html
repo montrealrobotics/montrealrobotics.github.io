@@ -69,33 +69,32 @@ role-tables:
 </section>
 
 <section>
-    <h2>Current Research Projects</h2>
-    <div class="card-columns">
-        {% comment %}
-        Sort the projects by date, putting those without dates last
-        {% endcomment %}
-        {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-        {% assign projects_by_date = projects_by_date | reverse %}
-        {% for p in projects_by_date %}
-            {% if p.status != "inactive" %}
-                {% include project-card.html project=p %}
-            {% endif %}
-        {% endfor %}
-    </div>
-    <p></p>
-    <h2>Past Research Projects</h2>
-    <div class="card-columns">
-        {% for p in projects_by_date limit: site.front_page_old_projects %}
-          {% if p.status == "inactive" %}
-            {% include project-card.html project=p %}
-          {% endif %}
-        {% endfor %}
-    </div>
-        <p>
-            <span class="fas fa-fw fa-history"></span>
-            <a href="{{ site.base }}/resesarch.html">All projects&hellip;</a>
-        </p>
+    <div class="card shadow mb-4">
+        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+            <h6 class="m-0 font-weight-bold text-primary text-lg">Projects</h6>
+        </div>
+        <div class="card-body">
+            {% comment %}
+            Sort the projects by date, putting those without dates last
+            {% endcomment %}
+            {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
+            {% assign projects_by_date = projects_by_date | reverse %}
+            {% for p in projects_by_date %}
+              {% include project-card.html project=p %}
+            {% endfor %}
+            <p>
+                <a href="{{ site.base }}/resesarch.html" class="btn btn-primary btn-icon-split btn-sm">
+                  <span class="icon text-white-50">
+                  <i class="fa fa-robot"></i>
+                  </span>
+                  <span class="text">All projects&hellip;</span>
+                </a> 
+            </p>
+        </div>
 
+    </div>
+
+   
 </section>
 
 <div id="people">
