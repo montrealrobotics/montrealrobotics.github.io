@@ -13,7 +13,7 @@ liam:
     display_name: "Liam Paull"
     webpage: "http://liampaull.ca"
     github: liampaull
-    image: /img/people/liam.jpg
+    image: /assets/img/people/liam.jpg
     role: faculty
 
 
@@ -22,18 +22,18 @@ florian:
     webpage: "https://fgolemo.github.io/"
     github: fgolemo
     role: postdoc
-    image: /img/people/florian.jpg
+    image: /assets/img/people/florian.jpg
 
 vincent:
     display_name: "Vincent Mai"
     github: maivincent
     role: phd
-    image: /img/people/vincent.jpg
+    image: /assets/img/people/vincent.jpg
 
 krishna:
     display_name: "Krishna Murthy Jatavallabhula"
     role: phd
-    image: /img/people/krishna.jpg
+    image: /assets/img/people/krishna.jpg
     webpage: "https://krrish94.github.io"
     github: krrish94
 
@@ -41,37 +41,37 @@ manfred:
     display_name: "Manfred Diaz"
     role: phd
     github: takeitallsource
-    image: /img/people/manfred.jpg
+    image: /assets/img/people/manfred.jpg
 
 ruixiang:
     display_name: "Ruixiang Zhang"
     role: phd
-    image: /img/people/ruixiang.jpg
+    image: /assets/img/people/ruixiang.jpg
 
 sai:
     display_name: "Sai Krishna G.V."
     role: masters
-    image: /img/people/sai.jpg
+    image: /assets/img/people/sai.jpg
 
 gunshi:
     display_name: "Gunshi Gupta"
     role: masters
-    image: /img/people/gunshi.jpg
+    image: /assets/img/people/gunshi.jpg
 
 nithin:
     display_name: "Nithin Vasisth"
     role: masters
-    image: /img/people/nithin.jpg
+    image: /assets/img/people/nithin.jpg
 
 breandan:
     display_name: "Breandan Considine"
     role: masters
-    image: /img/people/breandan.jpg
+    image: /assets/img/people/breandan.jpg
 
 bhairav:
     display_name: "Bhairav Mehta"
     role: masters
-    image: /img/people/bhairav.jpg
+    image: /assets/img/people/bhairav.jpg
     webpage: "https://bhairavmehta95.github.io/"
 
 dhaivat:
@@ -81,7 +81,7 @@ dhaivat:
 zihang:
     display_name: "Zihan Wang"
     role: intern-alum
-    image: /img/people/zihan.jpg
+    image: /assets/img/people/zihan.jpg
 
 homanga:
     display_name: "Homanga Bharadhwaj"
@@ -99,7 +99,7 @@ maxime:
     display_name: "Maxime Chevalier-Boisvert"
     github: maximecb
     role: staff
-    image: /img/people/maxime.jpg
+    image: /assets/img/people/maxime.jpg
 
 keehong:
     display_name: "Keehong Seo"
