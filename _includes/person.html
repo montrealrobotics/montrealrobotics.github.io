@@ -36,27 +36,40 @@ there by default by Bootstrap columns.
 
 
 {% if include.image %}
-    <div class="card mb-4 py-3 border-bottom-primary">
-        <div class="card-body">
-
+<div class="card mr-2 mb-2 border-bottom-primary" style="min-width: 300px">
+    <div class="card-body">
             <div class="person person-with-image row align-items-center">
-                <div class="col-auto">
                     {% include person-image.html person=person %}
-                </div>
-                <div class="col pl-0">
                     <h4 class="person-name"> {{ name }} </h4>
                     {% if person.bio %}
                         <div class="bio">{{person.bio}}</div>
                     {% endif %}
+                <div class="col-auto">
+                    
+                </div>
+                <div class="col pl-0">
+                    
                 </div>
             </div>
-        </div>
     </div>
+</div>
+    
 {% else %}
-    <div class="person person-without-image">
-        {{ name }}
-        {% if person.bio %}
-            <span class="bio">{{person.bio}}</span>
-        {% endif %}
+<div class="card mr-2 mb-2 border-bottom-primary" style="min-width: 300px">
+        <div class="card-body">
+                <div class="person person-with-image row align-items-center">
+                        {% include person-image.html person=person %}
+                        <h4 class="person-name"> {{ name }} </h4>
+                        {% if person.bio %}
+                            <div class="bio">{{person.bio}}</div>
+                        {% endif %}
+                    <div class="col-auto">
+                        
+                    </div>
+                    <div class="col pl-0">
+                        
+                    </div>
+                </div>
+        </div>
     </div>
 {% endif %}

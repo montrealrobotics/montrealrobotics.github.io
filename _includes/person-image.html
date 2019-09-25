@@ -13,7 +13,7 @@ text-decoration hack is for Safari. We don't SVGs to be underlined.
 
 {% if person.image %}
     {% capture image %}
-        <img class="rounded-circle profile"
+        <img class="rounded-circle profile" style="float: none !important"
              alt="{{ person.display_name }}"
              title="{{ person.display_name }}"
              src="{{ site.base }}{{ person.image }}" />

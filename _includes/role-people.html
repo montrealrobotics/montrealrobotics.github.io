@@ -9,12 +9,14 @@
                 <div class="col mr-2">
                   <div class="text-md font-weight-bold text-primary text-uppercase mb-1">{{ role.name }}</div>
                   <div class="h5 mb-0 font-weight-bold text-gray-800">
-                        {% for item in site.data.people %}
-                        {% assign person = item[1] %}
-                        {% if person.role == role.key %}
-                            {% include person.html person=person image=include.image %}
-                        {% endif %}
-                    {% endfor %}
+                      <div class="row">
+                            {% for item in site.data.people %}
+                            {% assign person = item[1] %}
+                            {% if person.role == role.key %}
+                                {% include person.html person=person image=include.image %}
+                            {% endif %}
+                        {% endfor %}
+                      </div>
                   </div>
                 </div>
               </div>
