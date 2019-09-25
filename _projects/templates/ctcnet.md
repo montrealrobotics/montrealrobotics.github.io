@@ -13,5 +13,5 @@ people:
   - liam
 
 layout: project
-link: "https://en.wikipedia.org/wiki/X-Men"
+link: "https://krrish94.github.io/CTCNet-release/"
 ---
