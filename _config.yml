@@ -1,6 +1,6 @@
 name: Robotics Group @ University of Montreal
 description: The Robotics and Embodied AI Lab @ U de Montreal
-url: http://montrealrobotics.github.io
+url: https://montrealrobotics.github.io
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
