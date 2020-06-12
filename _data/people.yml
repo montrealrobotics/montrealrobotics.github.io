@@ -86,6 +86,12 @@ philippe:
     display_name: "Philippe Laferriere"
     role: masters
 
+anthony:
+    display_name: "Anthony Courchesne"
+    role: masters
+    image: /assets/img/people/anthony.jpg
+    webpage: "https://helium.sparkpi.ca/"
+
 sharath:
     display_name: "Sharath Chandra Raparthy"
     role: intern
