@@ -112,6 +112,13 @@ dishank:
     display_name: "Dishank Bansal"
     role: intern
 
+waleed:
+    display_name: "Waleed Khamies"
+    role: intern
+    github: khamies
+    image: /assets/img/people/waleed.jpg
+    webpage: "https://khamies.github.io/about"
+
 zihang:
     display_name: "Zihan Wang"
     role: intern-alum
@@ -172,3 +179,4 @@ madhav:
     display_name: "K. Madhava Krishna"
     role: collab
     webpage: "https://robotics.iiit.ac.in"
+
