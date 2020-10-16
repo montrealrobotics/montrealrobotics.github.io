@@ -84,7 +84,9 @@ rey:
 
 philippe:
     display_name: "Philippe Laferriere"
+    github: plafer
     role: masters
+    image: /assets/img/people/philippe.png
 
 anthony:
     display_name: "Anthony Courchesne"
