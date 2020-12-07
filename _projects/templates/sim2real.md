@@ -2,7 +2,7 @@
 title: Efficient Sim-to-real transfer
 
 description: |
-  This project has a lot of people working on it!!
+  A major thrust area for the group
 
 people:
   - homanga

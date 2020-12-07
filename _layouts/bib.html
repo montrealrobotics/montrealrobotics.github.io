@@ -65,6 +65,9 @@
     {% if entry.year %}
       {{entry.year}}
     {% endif %}
+    {% if entry.highlight %}
+      <b> {{entry.highlight}} </b>
+    {% endif %}
     </span>
   {% endif %}
 
@@ -118,7 +121,7 @@
   <div id="mybibtex">
   <span class="bibtex hidden">
     <p>
-      @article{ {{ entry.key }}, <br>
+      @inproceedings{ {{ entry.key }}, <br>
       author = { {% for author in entry.author_array %} 
                   {% unless forloop.last %}
                       {{ author.last }}, {{ author.first }} and
@@ -131,7 +134,7 @@
         journal = { {{ entry.journal}} }, <br>
       {% endif %}
       {% if entry.booktitle %}
-        journal = { {{ entry.booktitle}} }, <br>
+        booktitle = { {{ entry.booktitle}} }, <br>
       {% endif %}
       {% if entry.year %}
         year = { {{ entry.year }} }, <br>

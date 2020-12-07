@@ -40,9 +40,11 @@ title: Contact
                 </div>
                 <!-- Card Body -->
                 <div class="card-body">
-
                   <p>
                   If you are looking to intern with REAL, please fill out our <a href="https://forms.gle/BB5csPfhZ7zUEEgg9">internship application form</a>.
+                  </p>
+                  <p>
+                  <b>We are recruiting up to two interns for Winter 2021 (Jan-May). Please see <a href="/interns-winter-2021"> this listing</a> if interested</b>
                   </p>
                 </div>
               </div>

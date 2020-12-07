@@ -1,6 +1,6 @@
 ---
 title: Kimplete
-status: active
+status: inactive
 
 notitle: false
 

@@ -48,6 +48,10 @@ ruixiang:
     role: phd
     image: /assets/img/people/ruixiang.jpg
 
+zhen:
+    display_name: "Zhen Liu"
+    role: phd
+
 sai:
     display_name: "Sai Krishna G.V."
     role: alum
@@ -55,12 +59,12 @@ sai:
 
 gunshi:
     display_name: "Gunshi Gupta"
-    role: masters
+    role: alum
     image: /assets/img/people/gunshi.jpg
 
 nithin:
     display_name: "Nithin Vasisth"
-    role: masters
+    role: alum
     image: /assets/img/people/nithin.jpg
 
 breandan:
@@ -70,12 +74,16 @@ breandan:
 
 bhairav:
     display_name: "Bhairav Mehta"
-    role: masters
+    role: alum
     image: /assets/img/people/bhairav.jpg
     webpage: "https://bhairavmehta95.github.io/"
 
 dhaivat:
     display_name: "Dhaivat Bhatt"
+    role: masters
+
+dishank:
+    display_name: "Dishank Bansal"
     role: masters
 
 rey:
@@ -94,29 +102,33 @@ anthony:
     image: /assets/img/people/anthony.jpg
     webpage: "https://helium.sparkpi.ca/"
 
+kaustubh:
+    display_name: "Kaustubh Mani"
+    role: intern
+
 sharath:
     display_name: "Sharath Chandra Raparthy"
-    role: intern
+    role: intern-alum
 
 mark:
     display_name: "Mark Van der Merwe"
-    role: intern
+    role: intern-alum
 
 amrut:
     display_name: "Amrut Sarangi"
-    role: intern
+    role: intern-alum
 
 rohan:
     display_name: "Rohan Raj"
-    role: intern
+    role: intern-alum
     
 dishank:
     display_name: "Dishank Bansal"
-    role: intern
+    role: intern-alum
 
 waleed:
     display_name: "Waleed Khamies"
-    role: intern
+    role: intern-alum
     github: khamies
     image: /assets/img/people/waleed.jpg
     webpage: "https://khamies.github.io/about"

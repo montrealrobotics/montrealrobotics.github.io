@@ -49,7 +49,7 @@
   abstract = {Modern autonomous systems such as driverless vehicles need to safely operate in a wide range of conditions. A potential solution is to employ a hybrid systems approach, where safety is guaranteed in each individual mode within the system. This offsets complexity and responsibility from the individual controllers onto the complexity of determining discrete mode transitions. In this work we propose an efficient framework based on recursive neural networks and coreset data summarization to learn the transitions between an arbitrary number of controller modes that can have arbitrary complexity. Our approach allows us to efficiently gather annotation data from the large-scale datasets that are required to train such hybrid nonlinear systems to be safe under all operating conditions, favoring underexplored parts of the data. We demonstrate the construction of the embedding, and efficient detection of switching points for autonomous and nonautonomous car data. We further show how our approach enables efficient sampling of training data, to further improve either our embedding or the controllers},
 }
 
-@article{paull2018probabilistic,
+@inproceedings{paull2018probabilistic,
   title={Probabilistic cooperative mobile robot area coverage and its application to autonomous seabed mapping},
   author={Paull, Liam and Seto, Mae and Leonard, John J and Li, Howard},
   journal={The International Journal of Robotics Research},
@@ -72,7 +72,7 @@
   abstract = {State-of-the-art autonomous driving systems rely heavily on detailed and highly accurate prior maps. However, outside of small urban areas, it is very challenging to build, store, and transmit detailed maps since the spatial scales are so large. Furthermore, maintaining detailed maps of large rural areas can be impracticable due to the rapid rate at which these environments can change. This is a significant limitation for the widespread applicability of autonomous driving technology, which has the potential for an incredibly positive societal impact. In this paper, we address the problem of autonomous navigation in rural environments through a novel mapless driving framework that combines sparse topological maps for global navigation with a sensor-based perception system for local navigation. First, a local navigation goal within the sensor view of the vehicle is chosen as a waypoint leading towards the global goal. Next, the local perception system generates a feasible trajectory in the vehicle frame to reach the waypoint while abiding by the rules of the road for the segment being traversed. These trajectories are updated to remain in the local frame using the vehicle’s odometry and the associated uncertainty based on the least-squares residual and a recursive filtering approach, which allows the vehicle to navigate road networks reliably, and at high speed, without detailed prior maps. We demonstrate the performance of the system on a full-scale autonomous vehicle navigating in a challenging rural environment and benchmark the system on a large amount of collected data.},
 }
 
-@article{mai2018local,
+@inproceedings{mai2018local,
   title={Local Positioning System Using UWB Range Measurements for an Unmanned Blimp},
   author={Mai, Vincent and Kamel, Mina and Krebs, Matthias and Schaffner, Andreas and Meier, Daniel and Paull, Liam and Siegwart, Roland},
   journal={IEEE Robotics and Automation Letters},
@@ -109,7 +109,7 @@
   abstract = {Deep learning has been successfully applied to “end-to-end” learning of the autonomous driving task, where a deep neural network learns to predict steering control commands from camera data input. While these previous works support reactionary control, the representation learned is not usable for higher-level decision making required for autonomous navigation. This paper tackles the problem of learning a representation to predict a continuous control probability distribution, and thus steering control options and bounds for those options, which can be used for autonomous navigation. Each mode of the distribution encodes a possible macro-action that the system could execute at that instant, and the covariances of the modes place bounds on safe steering control values. Our approach has the added advantage of being trained on unlabeled data collected from inexpensive cameras. The deep neural network based algorithm generates a probability distribution over the space of steering angles, from which we leverage Variational Bayesian methods to extract a mixture model and compute the different possible actions in the environment. A bound, which the autonomous vehicle must respect in our parallel autonomy setting, is then computed for each of these actions. We evaluate our approach on a challenging dataset containing a wide variety of driving conditions, and show that our algorithm is capable of parameterizing Gaussian Mixture Models for possible actions, and extract steering bounds with a mean error of only 2 degrees. Additionally, we demonstrate our system working on a full scale autonomous vehicle and evaluate its ability to successful handle various different parallel autonomy situations.},
 }
 
-@article{bharadhwaj2018data,
+@inproceedings{bharadhwaj2018data,
   title={A Data-Efficient Framework for Training and Sim-to-Real Transfer of Navigation Policies},
   author={Bharadhwaj, Homanga and Wang, Zihan and Bengio, Yoshua and Paull, Liam},
   booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
@@ -120,7 +120,7 @@
   abstract = {Learning effective visuomotor policies for robots purely from data is challenging, but also appealing since a learning-based system should not require manual tuning or calibration. In the case of a robot operating in a real environment the training process can be costly, time-consuming, and even dangerous since failures are common at the start of training. For this reason, it is desirable to be able to leverage \textit{simulation} and \textit{off-policy} data to the extent possible to train the robot. In this work, we introduce a robust framework that plans in simulation and transfers well to the real environment. Our model incorporates a gradient-descent based planning module, which, given the initial image and goal image, encodes the images to a lower dimensional latent state and plans a trajectory to reach the goal. The model, consisting of the encoder and planner modules, is trained through a meta-learning strategy in simulation first. We subsequently perform adversarial domain transfer on the encoder by using a bank of unlabelled but random images from the simulation and real environments to enable the encoder to map images from the real and simulated environments to a similarly distributed latent representation. By fine tuning the entire model (encoder + planner) with far fewer real world expert demonstrations, we show successful planning performances in different navigation tasks.},
 }
 
-@article{sai2019dal,
+@inproceedings{sai2019dal,
   title = {Deep Active Localization},
   author = {Krishna, Sai and Seo, Keehong and Bhatt, Dhaivat and Mai, Vincent and Murthy, Krishna and Paull, Liam},
   booktitle = {IEEE Robotics and Automation Letters (RAL)},
@@ -132,13 +132,87 @@
   abstract = {Active localization is the problem of generating robot actions that allow it to maximally disambiguate its pose within a reference map. Traditional approaches to this use an information-theoretic criterion for action selection and hand-crafted perceptual models. In this work we propose an end-to-end differentiable method for learning to take informative actions that is trainable entirely in simulation and then transferable to real robot hardware with zero refinement. The system is composed of two modules: a convolutional neural network for perception, and a deep reinforcement learned planning module. We introduce a multi-scale approach to the learned perceptual model since the accuracy needed to perform action selection with reinforcement learning is much less than the accuracy needed for robot control. We demonstrate that the resulting system outperforms using the traditional approach for either perception or planning. We also demonstrate our approaches robustness to different map configurations and other nuisance parameters through the use of domain randomization in training. The code is also compatible with the OpenAI gym framework, as well as the Gazebo simulator.},
 }
 
-@article{gradslam,
+@inproceedings{adr,
+  title = {Active Domain Randomization},
+  author = {Mehta, Bhairav and Diaz, Manfred and Golemo, Florian and Pal, Christopher and Paull, Liam},
+  booktitle = {Conference on Robot Learning (CoRL)},
+  year = {2019},
+  arxiv = {1904.04762},
+  code = {https://github.com/montrealrobotics/active-domainrand},
+  image = {papers/adr.gif},
+  abstract = {We tackle the uniform sampling assumption in domain randomization and learn a randomization strategy, looking for the most informative environments. Our method shows significant improvements in agent performance, agent generalization, sample complexity, and interpretability over the traditional domain and dynamics randomization strategies.},
+}
+
+@inproceedings{gradslam,
   title = {gradSLAM: Dense SLAM meets automatic differentiation},
   author = {{Krishna Murthy}, Jatavallabhula and Iyer, Ganesh and Paull, Liam},
   booktitle = {International Conference on Robotics and Automation (ICRA)},
   year={2020},
   arxiv = {1910.10672},
-  projectpage = {http://montrealrobotics.ca/gradSLAM/},
+  projectpage = {https://gradslam.github.io},
+  code = {https://github.com/gradslam/gradslam},
   image = {papers/gradslam.png},
   abstract = {The question of "representation" is central in the context of dense simultaneous localization and mapping (SLAM). Newer learning-based approaches have the potential to leverage data or task performance to directly inform the choice of representation. However, learning representations for SLAM has been an open question, because traditional SLAM systems are not end-to-end differentiable.In this work, we present gradSLAM, a differentiable computational graph take on SLAM. Leveraging the automatic differentiation capabilities of computational graphs, gradSLAM enables the design of SLAM systems that allow for gradient-based learning across each of their components, or the system as a whole. This is achieved by creating differentiable alternatives for each non-differentiable component in a typical dense SLAM system. Specifically, we demonstrate how to design differentiable trust-region optimizers, surface measurement and fusion schemes, as well as differentiate over rays, without sacrificing performance. This amalgamation of dense SLAM with computational graphs enables us to backprop all the way from 3D maps to 2D pixels, opening up new possibilities in gradient-based learning for SLAM.},
+}
+
+@inproceedings{lamaml,
+  title = {La-MAML: Look-ahead Meta Learning for Continual Learning},
+  author = {Gupta, Gunshi and Yadav, Karmesh and Paull, Liam},
+  booktitle = {Neural Information Processing Systems (Neurips)},
+  highlight = {Oral (top 1.1%)},
+  year = {2020},
+  arxiv = {2007.13904},
+  projectpage = {https://mila.quebec/en/article/la-maml-look-ahead-meta-learning-for-continual-learning/},
+  image = {papers/lamaml.png},
+  abstract = {The continual learning problem involves training models with limited capacity to perform well on a set of an unknown number of sequentially arriving tasks. While meta-learning shows great potential for reducing interference between old and new tasks, the current training procedures tend to be either slow or offline, and sensitive to many hyper-parameters. In this work, we propose Look-ahead MAML (La-MAML), a fast optimisation-based meta-learning algorithm for online-continual learning, aided by a small episodic memory. Our proposed modulation of per-parameter learning rates in our meta-learning update allows us to draw connections to prior work on hypergradients and meta-descent. This provides a more flexible and efficient way to mitigate catastrophic forgetting compared to conventional prior-based methods. La-MAML achieves performance superior to other replay-based, prior-based and meta-learning based approaches for continual learning on real-world visual classification benchmarks.},
+}
+
+@inproceedings{che2020neurips,
+  title = {Your GAN is Secretly an Energy-based Model and You Should Use Discriminator Driven Latent Sampling},
+  author = {Che, Tong and Zhang, Ruixiang and Sohl-Dickstein, Jascha and Larochelle, Hugo and Paull, Liam and Cao, Yuan and Bengio, Yoshua},
+  booktitle = {Neural Information Processing Systems (Neurips)},
+  year = {2020},
+  arxiv = {2003.06060},
+  abstract = {We show that the sum of the implicit generator log-density of a GAN with the logit score of the discriminator defines an energy function which yields the true data density when the generator is imperfect but the discriminator is optimal, thus making it possible to improve on the typical generator. To make that practical, we show that sampling from this modified density can be achieved by sampling in latent space according to an energy-based model induced by the sum of the latent prior log-density and the discriminator output score. This can be achieved by running a Langevin MCMC in latent space and then applying the generator function, which we call Discriminator Driven Latent Sampling~(DDLS). We show that DDLS is highly efficient compared to previous methods which work in the high-dimensional pixel space and can be applied to improve on previously trained GANs of many types. We evaluate DDLS on both synthetic and real-world datasets qualitatively and quantitatively. On CIFAR-10, DDLS substantially improves the Inception Score of an off-the-shelf pre-trained SN-GAN from 8.22 to 9.09 which is even comparable to the class-conditional BigGAN model. This achieves a new state-of-the-art in unconditional image synthesis setting without introducing extra parameters or additional training.},
+}
+
+@inproceedings{mehta2020curriculum,
+  title = {Curriculum in Gradient-Based Meta-Reinforcement Learning},
+  author = {Mehta, Bhairav and Deleu, Tristan and Raparthy, {Sharath Chandra} and Pal, Christopher and Paull, Liam},
+  booktitle = {BETR-RL Workshop},
+  year = {2020},
+  arxiv = {2002.07956},
+  image = {papers/mehta2020curriculum.png},
+  abstract = {Can Meta-RL use curriculum learning? In this work, we explore that question and find that curriculum learning stabilizes meta-RL in complex navigation and locomotion tasks. We also highlight issues with Meta-RL benchmarks by highlighting failure cases when we vary task distributions.},
+}
+
+@inproceedings{ssadr,
+  title = {Generating Automatic Curricula via Self-Supervised Active Domain Randomization},
+  author = {Raparthy, {Sharath Chandra} and Mehta, Bhairav and Paull, Liam},
+  booktitle = {BETR-RL Workshop},
+  year = {2020},
+  arxiv = {2002.07911},
+  code = {https://github.com/montrealrobotics/unsupervised-adr},
+  image = {papers/ssadr.png},
+  abstract = {Can you learn domain randomization curricula with no rewards? We show that agents trained via self-play in the ADR framework outperform uniform domain randomization by magnitudes in both simulated and real-world transfer.},
+}
+
+@inproceedings{aido2018,
+  title = {The AI Driving Olympics at NeurIPS 2018},
+  author = {Zilly, Julian and Tani, Jacopo and Considine, Breandan and Mehta, Bhairav and Daniele, {Andrea F} and Diaz, Manfred and Bernasconi, Gianmarco and Ruch, Claudio Hakenberg, Jan and Golemo, Florian and Bowser, {A Kirsten} and Walter, {Matthew R} and Hristov, Ruslan and Mallya, Sunil and Frazzoli, Emilio and Censi, Andrea and Paull, Liam},
+  booktitle = {Springer},
+  year = {2020},
+  arxiv = {1903.02503},
+  image = {papers/aido18.png},
+  abstract = {Despite recent breakthroughs, the ability of deep learning and reinforcement learning to outperform traditional approaches to control physically embodied robotic agents remains largely unproven. To help bridge this gap, we created the “AI Driving Olympics” (AI-DO), a competition with the objective of evaluating the state of the art in machine learning and artificial intelligence for mobile robotics. Based on the simple and well specified autonomous driving and navigation environment called “Duckietown,” AI-DO includes a series of tasks of increasing complexity – from simple lane-following to fleet management. For each task, we provide tools for competitors to use in the form of simulators, logs, code templates, baseline implementations and low-cost access to robotic hardware. We evaluate submissions in simulation online, on standardized hardware environments, and finally at the competition event. The first AI-DO, AI-DO 1, occurred at the Neural Information Processing Systems (NeurIPS) conference in December 2018. The results of AI-DO 1 highlight the need for better benchmarks, which are lacking in robotics, as well as improved mechanisms to bridge the gap between simulation and reality.},
+}
+
+@inproceedings{probod,
+  title = {Probabilistic Object Detection: Strenghts, Weaknesses, and Opportunities},
+  author = {Bhatt, Dhaivat and Bansal, Dishank and Gupta, Gunshi and Jatavallabhula, {Krishna Murthy} and Lee, Hanju and Paull, Liam},
+  booktitle = {ICML workshop on AI for autonomous driving},
+  year = {2020},
+  projectpage = {https://gunshigupta.netlify.app/publication/probod/},
+  image = {papers/probod.png},
+  abstract = {Deep neural networks are the de-facto standard for object detection in autonomous driving applications. However, neural networks cannot be blindly trusted even within the training data distribution, let alone outside it. This has paved way for several probabilistic object detection techniques that measure uncertainty in the outputs of an object detector. Through this position paper, we serve three main purposes. First, we briefly sketch the landscape of current methods for probabilistic object detection. Second, we present the main shortcomings of these approaches. Finally, we present promising avenues for future research, and proof-of-concept results where applicable. Through this effort, we hope to bring the community one step closer to performing accurate, reliable, and consistent probabilistic object detection.},
 }
