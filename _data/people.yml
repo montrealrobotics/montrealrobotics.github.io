@@ -78,12 +78,15 @@ bhairav:
     image: /assets/img/people/bhairav.jpg
     webpage: "https://bhairavmehta95.github.io/"
 
-dhaivat:
-    display_name: "Dhaivat Bhatt"
-    role: masters
-
 dishank:
     display_name: "Dishank Bansal"
+    role: masters
+    webpage: "http://dishank-b.github.io/"
+    github: dishank-b
+    image: /assets/img/people/dishank.jpg
+
+dhaivat:
+    display_name: "Dhaivat Bhatt"
     role: masters
 
 rey:
@@ -122,9 +125,12 @@ rohan:
     display_name: "Rohan Raj"
     role: intern-alum
     
-dishank:
-    display_name: "Dishank Bansal"
-    role: intern-alum
+# dishank:
+#     display_name: "Dishank Bansal"
+#     role: intern-alum
+#     webpage: "http://dishank-b.github.io/"
+#     github: dishank-b
+#     image: /assets/img/people/dishank.jpg
 
 waleed:
     display_name: "Waleed Khamies"
