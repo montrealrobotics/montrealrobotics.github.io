@@ -109,6 +109,18 @@ kaustubh:
     display_name: "Kaustubh Mani"
     role: intern
 
+nikhil:
+    display_name: "Nikhil Varma Keetha"
+    role: intern
+
+harsha:
+    display_name: "Sai Sree Harsha"
+    role: intern
+
+abhishek:
+    display_name: "Abhishek Jain"
+    role: intern
+
 sharath:
     display_name: "Sharath Chandra Raparthy"
     role: intern-alum
