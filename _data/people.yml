@@ -195,6 +195,11 @@ ganesh:
     role: collab
     webpage: "https://epiception.github.io"
 
+soroush:
+    display_name: "Soroush Saryazdi"
+    role: collab
+    webpage: "https://saryazdi.github.io/"
+
 madhav:
     display_name: "K. Madhava Krishna"
     role: collab
