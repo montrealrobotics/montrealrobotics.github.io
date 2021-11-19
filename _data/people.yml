@@ -13,7 +13,7 @@ liam:
     display_name: "Liam Paull"
     webpage: "http://liampaull.ca"
     github: liampaull
-    image: /assets/img/people/liam.jpg
+    image: /img/people/liam.jpg
     role: faculty
 
 
@@ -22,18 +22,18 @@ florian:
     webpage: "https://fgolemo.github.io/"
     github: fgolemo
     role: postdoc
-    image: /assets/img/people/florian.jpg
+    image: /img/people/florian.jpg
 
 vincent:
     display_name: "Vincent Mai"
     github: maivincent
     role: phd
-    image: /assets/img/people/vincent.jpg
+    image: /img/people/vincent.jpg
 
 krishna:
     display_name: "Krishna Murthy Jatavallabhula"
     role: phd
-    image: /assets/img/people/krishna.jpg
+    image: /img/people/krishna.jpg
     webpage: "https://krrish94.github.io"
     github: krrish94
 
@@ -41,12 +41,12 @@ manfred:
     display_name: "Manfred Diaz"
     role: phd
     github: takeitallsource
-    image: /assets/img/people/manfred.jpg
+    image: /img/people/manfred.jpg
 
 ruixiang:
     display_name: "Ruixiang Zhang"
     role: phd
-    image: /assets/img/people/ruixiang.jpg
+    image: /img/people/ruixiang.jpg
 
 zhen:
     display_name: "Zhen Liu"
@@ -55,27 +55,27 @@ zhen:
 sai:
     display_name: "Sai Krishna G.V."
     role: alum
-    image: /assets/img/people/sai.jpg
+    image: /img/people/sai.jpg
 
 gunshi:
     display_name: "Gunshi Gupta"
     role: alum
-    image: /assets/img/people/gunshi.jpg
+    image: /img/people/gunshi.jpg
 
 nithin:
     display_name: "Nithin Vasisth"
     role: alum
-    image: /assets/img/people/nithin.jpg
+    image: /img/people/nithin.jpg
 
 breandan:
     display_name: "Breandan Considine"
     role: alum
-    image: /assets/img/people/breandan.jpg
+    image: /img/people/breandan.jpg
 
 bhairav:
     display_name: "Bhairav Mehta"
     role: alum
-    image: /assets/img/people/bhairav.jpg
+    image: /img/people/bhairav.jpg
     webpage: "https://bhairavmehta95.github.io/"
 
 dishank:
@@ -83,7 +83,7 @@ dishank:
     role: masters
     webpage: "http://dishank-b.github.io/"
     github: dishank-b
-    image: /assets/img/people/dishank.jpg
+    image: /img/people/dishank.jpg
 
 dhaivat:
     display_name: "Dhaivat Bhatt"
@@ -97,12 +97,12 @@ philippe:
     display_name: "Philippe Laferriere"
     github: plafer
     role: masters
-    image: /assets/img/people/philippe.png
+    image: /img/people/philippe.png
 
 anthony:
     display_name: "Anthony Courchesne"
     role: masters
-    image: /assets/img/people/anthony.jpg
+    image: /img/people/anthony.jpg
     webpage: "https://helium.sparkpi.ca/"
 
 kaustubh:
@@ -142,19 +142,19 @@ rohan:
 #     role: intern-alum
 #     webpage: "http://dishank-b.github.io/"
 #     github: dishank-b
-#     image: /assets/img/people/dishank.jpg
+#     image: /img/people/dishank.jpg
 
 waleed:
     display_name: "Waleed Khamies"
     role: intern-alum
     github: khamies
-    image: /assets/img/people/waleed.jpg
+    image: /img/people/waleed.jpg
     webpage: "https://khamies.github.io/about"
 
 zihang:
     display_name: "Zihan Wang"
     role: intern-alum
-    image: /assets/img/people/zihan.jpg
+    image: /img/people/zihan.jpg
 
 homanga:
     display_name: "Homanga Bharadhwaj"
@@ -172,7 +172,7 @@ maxime:
     display_name: "Maxime Chevalier-Boisvert"
     github: maximecb
     role: staff
-    image: /assets/img/people/maxime.jpg
+    image: /img/people/maxime.jpg
 
 keehong:
     display_name: "Keehong Seo"
