@@ -79,6 +79,7 @@ git checkout -b $DEPLOY_BRANCH
 
 # Build site
 bundle exec jekyll build
+git submodule deinit --all
 
 # Delete and move files
 find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name '.gitignore' -exec rm -rf {} \;
