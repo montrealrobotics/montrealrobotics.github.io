@@ -93,7 +93,7 @@ rm -rf .git/modules
 git rm --cached website-assets
 git commit -m"remove"
 git add website-assets
-git commit -a"add"
+git commit -m"add"
 git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
 git push -f -q origin $DEPLOY_BRANCH
