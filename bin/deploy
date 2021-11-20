@@ -90,15 +90,18 @@ rm -R _site/
 rm -rf .git/modules
 
 # Push to DEPLOY_BRANCH
-git rm --cached website-assets
-git commit -m"remove"
-git add website-assets
-git commit -m"add"
+
 git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
 git push -f -q origin $DEPLOY_BRANCH
 git commit -m"remove"
 
+git rm --cached website-assets
+git commit -m"remove"
+git push -f -q origin $DEPLOY_BRANCH
+git add website-assets
+git commit -m"add"
+git push -f -q origin $DEPLOY_BRANCH
 
 # Move back to SRC_BRANCH
 git checkout $SRC_BRANCH
