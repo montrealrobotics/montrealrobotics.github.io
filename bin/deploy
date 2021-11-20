@@ -85,8 +85,6 @@ find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name '.gitignore' -exec rm 
 mv _site/* .
 rm -R _site/
 
-rm website-assets/.git
-
 
 # Push to DEPLOY_BRANCH
 git add -fA
@@ -95,7 +93,11 @@ git push -f -q origin $DEPLOY_BRANCH
 
 # Move back to SRC_BRANCH
 git checkout $SRC_BRANCH
-
+git submodule init
+git submodule update
+cd website-assets
+git checkout master
+cd ..
 echo "Deployed successfully!"
 
 exit 0
