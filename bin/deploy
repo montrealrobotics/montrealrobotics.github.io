@@ -80,6 +80,7 @@ git checkout -b $DEPLOY_BRANCH
 
 # Build site
 bundle exec jekyll build
+
 git submodule deinit --all
 
 # Delete and move files
@@ -89,9 +90,15 @@ rm -R _site/
 rm -rf .git/modules
 
 # Push to DEPLOY_BRANCH
+git rm --cached website-assets
+git commit -m"remove"
+git add website-assets
+git commit -a"add"
 git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
 git push -f -q origin $DEPLOY_BRANCH
+git commit -m"remove"
+
 
 # Move back to SRC_BRANCH
 git checkout $SRC_BRANCH
