@@ -15,7 +15,7 @@ people:
   - gunshi
 
 layout: project
-image: assets/img/papers/adr.gif
+image: /img/papers/adr.gif
 
 last-updated: 2019-06-28
 ---
