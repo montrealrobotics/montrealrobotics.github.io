@@ -77,9 +77,6 @@ then
 fi
 git checkout -b $DEPLOY_BRANCH
 
-git submodule init
-git submodule update
-
 
 # Build site
 bundle exec jekyll build
@@ -98,6 +95,7 @@ git push -f -q origin $DEPLOY_BRANCH
 
 # Move back to SRC_BRANCH
 git checkout $SRC_BRANCH
+rm -rf website-assets
 git submodule init
 git submodule update
 cd website-assets
