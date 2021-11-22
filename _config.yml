@@ -64,7 +64,7 @@ navigation:
   - title: Contact
     link: /contact.html
   - title: Blog
-  - link: /blog.html
+    link: /blog.html
 
 # Includes
 include: ['_pages']
