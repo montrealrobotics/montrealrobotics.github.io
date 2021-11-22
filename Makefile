@@ -14,7 +14,7 @@ install:
 SERVE_HOST ?= 127.0.0.1
 SERVE_PORT ?= 5000
 
-serve: _includes/pubs.html
+serve: 
 	bundle exec jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST)
 
 clean:
