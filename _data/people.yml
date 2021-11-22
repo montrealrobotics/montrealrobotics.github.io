@@ -15,6 +15,13 @@ liam:
     github: liampaull
     image: /img/people/liam.jpg
     role: faculty
+    
+glen:
+    display_name: "Glen Berseth"
+    webpage: "http://fracturedplane.com"
+    github: Neo-X
+    image: /img/people/glen.jpg
+    role: faculty
 
 
 florian:
