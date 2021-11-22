@@ -111,6 +111,13 @@ anthony:
     role: masters
     image: /img/people/anthony.jpg
     webpage: "https://helium.sparkpi.ca/"
+    
+miguel:
+    display_name: "Miguel Saavedra-Ruiz"
+    role: masters
+    webpage: "https://mikes96.github.io/"
+    github: MikeS96
+    image: /img/people/miguel.jpg
 
 kaustubh:
     display_name: "Kaustubh Mani"
