@@ -168,11 +168,6 @@ sarthak:
     display_name: "Sarthak Sharma"
     role: intern-alum
 
-maxime:
-    display_name: "Maxime Chevalier-Boisvert"
-    github: maximecb
-    role: staff
-    image: /img/people/maxime.jpg
 
 keehong:
     display_name: "Keehong Seo"
