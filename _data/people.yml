@@ -99,6 +99,8 @@ dhaivat:
 rey:
     display_name: "Rey Reza Wiyatno"
     role: masters
+    image: /img/people/rey.jpg
+    webpage: "http://rrwiyatn.github.io/"
 
 philippe:
     display_name: "Philippe Laferriere"
