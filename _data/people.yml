@@ -151,6 +151,8 @@ bhairav:
 anthony:
     display_name: "Anthony Courchesne"
     role: masters-alum
+    thesis: "On quantifying the value of simulation for training and evaluating robotic agents"
+    thesis_link: 
     image: /img/people/anthony.jpg
     webpage: "https://helium.sparkpi.ca/"
     current_role: Project manager at Institut du Vehicule Innovant (IVI)
@@ -159,14 +161,14 @@ anthony:
 dhaivat:
     display_name: "Dhaivat Bhatt"
     role: masters-alum
-    thesis:
+    thesis: "Variational aleatoric uncertainty calibration in neural regression"
     thesis_link:
     current_role: Research engineer at Samsung
 
 rey:
     display_name: "Rey Reza Wiyatno"
     role: masters-alum
-    thesis:
+    thesis: "Lifelong Topological Visual Navigation"
     thesis_link:
     current_role:
     image: /img/people/rey.jpg
