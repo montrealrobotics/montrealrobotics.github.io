@@ -84,11 +84,13 @@ mostafa:
     role: phd
     interests: "Continual learning, imitation learning"
     image: /img/people/mostafa.jpeg
+
     
 miguel:
     display_name: "Miguel Saavedra-Ruiz"
     role: masters
-    image: /img/people/miguel.jpeg
+    webpage: "https://mikes96.github.io/"
+    image: /img/people/miguel.jpg
 
 ali-k:
     display_name: "Ali Kuwajerwala"
@@ -167,6 +169,8 @@ rey:
     thesis:
     thesis_link:
     current_role:
+    image: /img/people/rey.jpg
+    webpage: "http://rrwiyatn.github.io/"
 
 
 

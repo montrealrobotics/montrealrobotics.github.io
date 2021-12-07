@@ -216,3 +216,13 @@
   image = {papers/probod.png},
   abstract = {Deep neural networks are the de-facto standard for object detection in autonomous driving applications. However, neural networks cannot be blindly trusted even within the training data distribution, let alone outside it. This has paved way for several probabilistic object detection techniques that measure uncertainty in the outputs of an object detector. Through this position paper, we serve three main purposes. First, we briefly sketch the landscape of current methods for probabilistic object detection. Second, we present the main shortcomings of these approaches. Finally, we present promising avenues for future research, and proof-of-concept results where applicable. Through this effort, we hope to bring the community one step closer to performing accurate, reliable, and consistent probabilistic object detection.},
 }
+
+
+@inproceedings{biv,
+  title = {Batch Inverse-Variance Weighting: Deep Heteroscedastic Regression},
+  author = {Mai, Vincent and Khamies, Waleed and Paull, Liam},
+  booktitle = {ICML Workshop on Uncertainty & Robustness in Deep Learning},
+  year = {2021},
+  arxiv = {2107.04497},
+  abstract = {In the supervised learning task of heteroscedastic regression, each label is subject to noise from a different distribution. The label generator may estimate the variance of the noise distribution for each label, which is useful information to mitigate its impact. We adapt an inverse-variance weighted mean square error, based on the Gauss-Markov theorem, for gradient descent on neural networks. We introduce Batch Inverse-Variance, a loss function which is robust to near-ground truth samples, and allows to control the effective learning rate. Our experimental results show that BIV improves significantly the performance of the networks on two noisy datasets, compared to L2 loss, inverse-variance weighting, and a filtering-based baseline.},
+}

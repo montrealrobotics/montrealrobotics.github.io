@@ -26,7 +26,7 @@ title: Contact
 <div class="card-body">
 
     <p>
-    If you are looking to join an M.Sc. or a Ph.D. program at Universite de Montreal or Mila, and would like to work at REAL, please <a href="https://mila.quebec/en/admission/">apply through Mila admissions</a>. Indicate <a href="http://liampaull.ca">Liam Paull</a> as one of your faculty advisors of choice.
+    If you are looking to join an M.Sc. or a Ph.D. program at Universite de Montreal or Mila, and would like to work at REAL, please <a href="https://mila.quebec/en/admission/">apply through Mila admissions</a>. Indicate either <a href="http://liampaull.ca">Liam Paull</a> or <a href="https://www.fracturedplane.com/">Glen Berseth</a> as some of your faculty advisors of choice.
     </p>
 </div>
 </div>
