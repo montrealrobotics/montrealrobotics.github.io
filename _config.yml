@@ -17,19 +17,22 @@ roles:
   - key: staff
     name: Staff
   - key: postdoc
-    name: Researchers
+    name: Postdocs
   - key: masters
     name: Master's Students
   - key: phd
     name: PhD Students
   - key: intern
-    name: Interns
+    name: Undergraduate Researchers and Interns
+  - key: postdoc-alum
+    name: Past Postocs
+  - key: phd-alum
+    name: Past PhD Students
+  - key: masters-alum
+    name: Past Master's Students
   - key: intern-alum
-    name: Past Interns
-  - key: collab
-    name: Collaborators
-  - key: alum
-    name: Alumni
+    name: Past Undergraduate Researchers and Interns
+
 
 includes_dir: website-assets/_includes
 layouts_dir: website-assets/_layouts

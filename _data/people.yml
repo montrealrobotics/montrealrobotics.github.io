@@ -1,25 +1,36 @@
 #### Role keys:
-# Professor : faculty
-# Post-doc: postdoc
-# Staff: staff
-# PhD Student: phd
-# Masters Student: masters
-# Collaborator: collab
-# Intern: intern
-# Intern Alumni: intern-alum
-# Alumni: alum
-
+# roles:
+#   - key: faculty
+#     name: Faculty
+#   - key: staff
+#     name: Staff
+#   - key: postdoc
+#     name: Postdocs
+#   - key: masters
+#     name: Master's Students
+#   - key: phd
+#     name: PhD Students
+#   - key: intern
+#     name: Undergraduate Researchers and Interns
+#   - key: postdoc-alum
+#     name: Past Postocs
+#   - key: phd-alum
+#     name: Past PhD Students
+#   - key: masters-alum
+#     name: Past Master's Students
+#   - key: intern-alum
+#     name: Past Undergraduate Researchers and Interns
+    
 liam:
     display_name: "Liam Paull"
     webpage: "http://liampaull.ca"
-    github: liampaull
     image: /img/people/liam.jpg
     role: faculty
+    interests: "Robot perception, uncertainty, sim2real, and robot benchmarking"
     
 glen:
     display_name: "Glen Berseth"
     webpage: "http://fracturedplane.com"
-    github: Neo-X
     image: /img/people/glen.jpg
     role: faculty
 
@@ -27,13 +38,19 @@ glen:
 florian:
     display_name: "Florian Golemo"
     webpage: "https://fgolemo.github.io/"
-    github: fgolemo
     role: postdoc
+    coadvisor: Chris Pal
     image: /img/people/florian.jpg
+
+ali:
+    display_name: "Ali Harakeh"
+    webpage: "https://www.aharakeh.com/"
+    interests: "Bayesian deep learning, conformal prediction, out-of-distribution generalization, and continual learning"
+    role: postdoc
+    image: /img/people/ali-h.jpg
 
 vincent:
     display_name: "Vincent Mai"
-    github: maivincent
     role: phd
     image: /img/people/vincent.jpg
 
@@ -42,180 +59,182 @@ krishna:
     role: phd
     image: /img/people/krishna.jpg
     webpage: "https://krrish94.github.io"
-    github: krrish94
 
 manfred:
     display_name: "Manfred Diaz"
     role: phd
-    github: takeitallsource
     image: /img/people/manfred.jpg
+    webpage: "https://manfreddiaz.github.io/"
 
 ruixiang:
     display_name: "Ruixiang Zhang"
     role: phd
     image: /img/people/ruixiang.jpg
+    coadvisor: "Yoshua Bengio"
 
 zhen:
     display_name: "Zhen Liu"
+    coadvisor: "Yoshua Bengio"
     role: phd
+    image: /img/people/zhen.jpeg
+    website: "http://itszhen.com/"
 
-sai:
-    display_name: "Sai Krishna G.V."
-    role: alum
-    image: /img/people/sai.jpg
+mostafa:
+    display_name: "Mostafa Elaraby"
+    role: phd
+    interests: "Continual learning, imitation learning"
+    image: /img/people/mostafa.jpeg
+    
+miguel:
+    display_name: "Miguel Saavedra-Ruiz"
+    role: masters
+    image: /img/people/miguel.jpeg
 
-gunshi:
-    display_name: "Gunshi Gupta"
-    role: alum
-    image: /img/people/gunshi.jpg
-
-nithin:
-    display_name: "Nithin Vasisth"
-    role: alum
-    image: /img/people/nithin.jpg
-
-breandan:
-    display_name: "Breandan Considine"
-    role: alum
-    image: /img/people/breandan.jpg
-
-bhairav:
-    display_name: "Bhairav Mehta"
-    role: alum
-    image: /img/people/bhairav.jpg
-    webpage: "https://bhairavmehta95.github.io/"
+ali-k:
+    display_name: "Ali Kuwajerwala"
+    role: masters
+    image: /img/people/ali-k.jpeg
+    webpage: "https://alihkw.com/"
 
 dishank:
     display_name: "Dishank Bansal"
     role: masters
     webpage: "http://dishank-b.github.io/"
-    github: dishank-b
     image: /img/people/dishank.jpg
 
-dhaivat:
-    display_name: "Dhaivat Bhatt"
-    role: masters
+    
 
-rey:
-    display_name: "Rey Reza Wiyatno"
-    role: masters
+sai:
+    display_name: "Sai Krishna G.V."
+    role: masters-alum
+    thesis: "Deep active localization"
+    thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/22526"
+    current_role: "Reinforcement learning researcher at AI-Redefined"
+    image: /img/people/sai.jpg
+    webpage: "https://saikrishna-1996.github.io/"
 
-philippe:
-    display_name: "Philippe Laferriere"
-    github: plafer
-    role: masters
-    image: /img/people/philippe.png
+
+gunshi:
+    display_name: "Gunshi Gupta"
+    role: masters-alum
+    thesis: "Look-ahead meta-learning for continual learning"
+    thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/24315"
+    current_role: PhD student at Oxford
+    image: /img/people/gunshi.jpg
+
+nithin:
+    display_name: "Nithin Vasisth"
+    role: masters-alum
+    thesis: "Lifelong learning of concepts in CRAFT"
+    thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/24335"
+    image: /img/people/nithin.jpg
+
+breandan:
+    display_name: "Breandan Considine"
+    role: masters-alum
+    thesis: "Programming tools for intelligent systems"
+    thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/24310"
+    current_role: "PhD student at McGill"
+    coadvisor: "Michalis Famelis"
+    image: /img/people/breandan.jpg
+
+bhairav:
+    display_name: "Bhairav Mehta"
+    role: masters-alum
+    thesis: "On learning and generalization in unstructured task spaces"
+    thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/24310"
+    current_role: "PhD student at MIT"
+    image: /img/people/bhairav.jpg
 
 anthony:
     display_name: "Anthony Courchesne"
-    role: masters
+    role: masters-alum
     image: /img/people/anthony.jpg
     webpage: "https://helium.sparkpi.ca/"
+    current_role: Project manager at Institut du Vehicule Innovant (IVI)
+        
+
+dhaivat:
+    display_name: "Dhaivat Bhatt"
+    role: masters-alum
+    thesis:
+    thesis_link:
+    current_role: Research engineer at Samsung
+
+rey:
+    display_name: "Rey Reza Wiyatno"
+    role: masters-alum
+    thesis:
+    thesis_link:
+    current_role:
+
+
+
 
 kaustubh:
     display_name: "Kaustubh Mani"
-    role: intern
+    role: intern-alum
+    current_role: "PhD student at the University of Montreal"
 
 nikhil:
     display_name: "Nikhil Varma Keetha"
-    role: intern
+    role: intern-alum
+    current_role:
 
 harsha:
     display_name: "Sai Sree Harsha"
-    role: intern
+    role: intern-alum
+    current_role:
 
 abhishek:
     display_name: "Abhishek Jain"
-    role: intern
+    role: intern-alum
 
 sharath:
     display_name: "Sharath Chandra Raparthy"
     role: intern-alum
+    current_role: "PhD student at the University of Montreal"
 
 mark:
     display_name: "Mark Van der Merwe"
     role: intern-alum
+    current_role: "PhD student at the University of Michigan"
+    webpage: "https://mvandermerwe.github.io/"
 
 amrut:
     display_name: "Amrut Sarangi"
     role: intern-alum
+    
 
 rohan:
     display_name: "Rohan Raj"
     role: intern-alum
     
-# dishank:
-#     display_name: "Dishank Bansal"
-#     role: intern-alum
-#     webpage: "http://dishank-b.github.io/"
-#     github: dishank-b
-#     image: /img/people/dishank.jpg
 
 waleed:
     display_name: "Waleed Khamies"
     role: intern-alum
-    github: khamies
     image: /img/people/waleed.jpg
     webpage: "https://khamies.github.io/about"
 
-zihang:
+zihan:
     display_name: "Zihan Wang"
     role: intern-alum
     image: /img/people/zihan.jpg
+    current_role: "Master's student at Stanford"
 
 homanga:
     display_name: "Homanga Bharadhwaj"
     role: intern-alum
+    current_role: "PhD student at the University of Toronto"
 
 adam:
     display_name: "Adam Sigal"
     role: intern-alum
+    current_role: "PhD student at McGill"
 
 sarthak:
     display_name: "Sarthak Sharma"
     role: intern-alum
-
-
-keehong:
-    display_name: "Keehong Seo"
-    role: collab
-
-yoshua:
-    display_name: "Yoshua Bengio"
-    role: collab
-
-teddy:
-    display_name: "Teddy Ort"
-    role: collab
-
-daniela:
-    display_name: "Daniela Rus"
-    role: collab
-
-chris:
-    display_name: "Chris Pal"
-    role: collab
-
-michalis:
-    display_name: "Michalis Famelis"
-    role: collab
-
-sarath:
-    display_name: "Sarath Chandar"
-    role: collab
-
-ganesh:
-    display_name: "Ganesh Iyer"
-    role: collab
-    webpage: "https://epiception.github.io"
-
-soroush:
-    display_name: "Soroush Saryazdi"
-    role: collab
-    webpage: "https://saryazdi.github.io/"
-
-madhav:
-    display_name: "K. Madhava Krishna"
-    role: collab
-    webpage: "https://robotics.iiit.ac.in"
+    current_role: "AI/ML Engineer at Verisk AI Lab"
 

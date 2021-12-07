@@ -2,53 +2,71 @@
 layout: default
 title: People
 
-picture-role-groups:
-- {roles: [faculty, postdoc, staff, phd, masters, alum], width: 4}
-- {roles: [others], width: 8}
-
-no-picture-role-groups:
-- {roles: [collab, intern, intern-alum], width: 4}
-
 # groups of columns of {roles: list, width: num, image: bool}
-role-tables:
-- - roles: [faculty, postdoc, staff]
+member-tables:
+- - roles: [faculty, postdoc]
     width: 4
     image: true
-  - roles: [phd, masters, alum]
-    width: 8
+  - roles: [phd, masters]
+    width: 4
     image: true
-- - roles: [intern, intern-alum, collab]
+
+
+alumni-tables:
+- - roles: [masters-alum, intern-alum]
     width: 4
     image: false
-    
+
 ---
 
 <div class="card border-bottom-primary shadow py-2 mb-4">
         <div class="card-body">
           <div class="row no-gutters align-items-center">
             <div class="col mr-2">
-              <div class="h2 font-weight-bold text-primary mb-1">Members and Collaborators</div>
+              <div class="h2 font-weight-bold text-primary mb-1">Members</div>
             </div>
           </div>
         </div>
 </div>
 
 <section id="people">
-        <div class="card shadow mb-4">
-            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary text-lg">People</h6>
+  <div class="card shadow mb-4">
+    <div class="card-body">
+      {% for role-table in page.member-tables %}
+        {% for role-column in role-table %}
+          {% for role in role-column.roles %}
+            {% include role-people.html role=role image=role-column.image %}
+      <br/>
+          {% endfor %}
+        {% endfor %} 
+      {% endfor %}
+    </div>
+  </div>  
+</section>
+
+
+<div class="card border-bottom-primary shadow py-2 mb-4">
+        <div class="card-body">
+          <div class="row no-gutters align-items-center">
+            <div class="col mr-2">
+              <div class="h2 font-weight-bold text-primary mb-1">Alumni</div>
             </div>
-            <div class="card-body">
-                {% for role-table in page.role-tables %}
-                {% for role-column in role-table %}
-                        {% for role in role-column.roles %}
-                            {% include role-people.html role=role image=role-column.image %}
-                            <br/>
-                        {% endfor %}
-                {% endfor %}
-            
-        {% endfor %}
-            </div>
-    
-        </div>  
-    </section>
+          </div>
+        </div>
+</div>
+
+<section id="people">
+  <div class="card shadow mb-4">
+    <div class="card-body">
+      {% for role-table in page.alumni-tables %}
+      {% for role-column in role-table %}
+      {% for role in role-column.roles %}
+      {% include role-people.html role=role image=role-column.image %}
+      <br/>
+      {% endfor %}
+      {% endfor %}
+      
+      {% endfor %}
+    </div>
+  </div>  
+</section>
