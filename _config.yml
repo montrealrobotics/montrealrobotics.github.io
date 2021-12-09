@@ -53,6 +53,8 @@ base: ''
 collections:
   projects:
     output: true
+  events:
+    output: true
 
 # Navigation bar links.
 navigation:
@@ -64,6 +66,8 @@ navigation:
     link: /research.html
   - title: Publications
     link: /publications/
+  - title: Events
+    link: /events/
   - title: Contact
     link: /contact.html
   - title: Blog

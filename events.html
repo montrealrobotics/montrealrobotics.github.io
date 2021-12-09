@@ -1,0 +1,25 @@
+---
+layout: default
+title: Events
+---
+
+<div class="card border-bottom-primary shadow py-2 mb-4">
+        <div class="card-body">
+          <div class="row no-gutters align-items-center">
+            <div class="col mr-2">
+              <div class="h2 font-weight-bold text-primary mb-1">Events</div>
+            </div>
+          </div>
+        </div>
+</div>
+
+<!-- <div class="card-columns"> -->
+    {% comment %}
+    Sort the events by date, putting those without dates last
+    {% endcomment %}
+    {% assign events_by_date = site.events | sort: 'date', 'first' %}
+    {% assign events_by_date = events_by_date | reverse %}
+    {% for p in events_by_date %}
+        {% include event-card.html event=p %}
+    {% endfor %}
+<!-- </div> -->
