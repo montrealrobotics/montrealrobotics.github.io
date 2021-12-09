@@ -104,6 +104,12 @@ dishank:
     webpage: "http://dishank-b.github.io/"
     image: /img/people/dishank.jpg
 
+charlie:
+    display_name: "Charlie Gauthier"
+    role: masters
+    image: /img/people/charlie.jpg
+    
+
     
 
 sai:
@@ -164,6 +170,7 @@ dhaivat:
     thesis: "Variational aleatoric uncertainty calibration in neural regression"
     thesis_link:
     current_role: Research engineer at Samsung
+    image: /img/people/dhaivat.jpeg
 
 rey:
     display_name: "Rey Reza Wiyatno"
@@ -244,3 +251,51 @@ sarthak:
     role: intern-alum
     current_role: "AI/ML Engineer at Verisk AI Lab"
 
+
+keehong:
+    display_name: "Keehong Seo"
+    role: collab
+
+yoshua:
+    display_name: "Yoshua Bengio"
+    role: collab
+
+teddy:
+    display_name: "Teddy Ort"
+    role: collab
+
+daniela:
+    display_name: "Daniela Rus"
+    role: collab
+
+chris:
+    display_name: "Chris Pal"
+    role: collab
+
+michalis:
+    display_name: "Michalis Famelis"
+    role: collab
+
+sarath:
+    display_name: "Sarath Chandar"
+    role: collab
+
+ganesh:
+    display_name: "Ganesh Iyer"
+    role: collab
+    webpage: "https://epiception.github.io"
+
+soroush:
+    display_name: "Soroush Saryazdi"
+    role: collab
+    webpage: "https://saryazdi.github.io/"
+
+madhav:
+    display_name: "K. Madhava Krishna"
+    role: collab
+    webpage: "https://robotics.iiit.ac.in"
+
+anqi:
+    display_name: "Anqi Xu"
+    role: collab
+    webpage: "https://anqixu.me/"

@@ -1,19 +1,22 @@
 ---
 title: gradslam
-status: active
 
 notitle: false
 
 description: |
-  Differentiable dense SLAM for task-driven representation learning
+  gradslam is an open-source framework providing differentiable building blocks for simultaneous localization and mapping (SLAM) systems. We enable the usage of dense SLAM subsystems from the comfort of PyTorch.
 
 people:
   - krishna
-  - ganesh
   - liam
+
+collaborators:
+  - ganesh
+  
 
 layout: project
 image: "https://gradslam.github.io/images/pointfusiondemo.gif"
+link: https://gradslam.github.io/
 last-updated: 2020-12-06
 ---
 

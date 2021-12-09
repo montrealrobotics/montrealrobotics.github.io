@@ -1,17 +1,20 @@
 ---
 title: Self-supervised visual odometry estimation
-status: inactive
 
 description: |
   A self-supervised deep network for visual odometry estimation from monocular imagery.
 
 people:
   - krishna
-  - ganesh
   - gunshi
-  - madhav
   - liam
+
+collaborators:
+  - ganesh
+  - madhav
 
 layout: project
 link: "https://krrish94.github.io/CTCNet-release/"
+image: /img/events/ctcnet.png
+last-updated: 2019-01-01
 ---

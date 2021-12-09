@@ -9,8 +9,10 @@ description: |
 
 people:
   - rey
-  - anqi
   - liam
+
+collaborators:
+  - anqi
 
 layout: project
 image: /img/papers/ltvn.gif

@@ -1,18 +1,17 @@
 ---
 title: Active Domain Randomization
-status: active
 
 description: Making sim-to-real transfer more efficient
 
 people:
-  - homanga
-  - zihan
-  - liam
-  - yoshua
-  - florian
   - bhairav
+  - florian
   - manfred
-  - gunshi
+  - liam
+
+
+collaborators:
+  - chris
 
 layout: project
 image: /img/papers/adr.gif
