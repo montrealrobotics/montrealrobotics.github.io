@@ -109,6 +109,11 @@ charlie:
     role: masters
     image: /img/people/charlie.jpg
     
+simon:
+    display_name: "Simon Demeule"
+    role: masters
+    webpage: "https://simondemeule.com/"
+    image: /img/people/simon.jpg
 
     
 
