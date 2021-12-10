@@ -9,6 +9,7 @@ description: |
 people:
   - liam
   - charlie
+  - mostafa
 
 image: /img/events/aido-6.jpg
 link: "https:/driving-olympics.ai"
