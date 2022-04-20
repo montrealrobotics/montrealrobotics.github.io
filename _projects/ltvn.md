@@ -16,6 +16,7 @@ collaborators:
 
 layout: project
 image: /img/papers/ltvn.gif
+link: https://montrealrobotics.ca/ltvn/
 last-updated: 2021-11-26
 ---
 
