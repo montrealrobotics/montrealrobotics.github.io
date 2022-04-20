@@ -309,3 +309,84 @@ hanju:
     display_name: "Hanju Lee"
     role: collab
     webpage: "https://www.linkedin.com/in/lee-hanju-1848323/?originalSubdomain=jp"
+
+agia:
+    display_name: Christopher Agia
+    role: collab
+    webpage: https://agiachris.github.io/
+
+khodeir:
+    display_name: Mohamed Khodeir
+    role: collab
+    webpage: https://www.linkedin.com/in/khodeir/?originalSubdomain=ca
+
+miksik:
+    display_name: Ondrej Miksik
+    role: collab
+    webpage: https://www.microsoft.com/en-us/research/people/onmiksik/
+
+vineet:
+    display_name: Vibhav Vineet
+    role: collab
+    webpage: http://vibhavvineet.info/
+
+mukadam:
+    display_name: Mustafa Mukadam
+    role: collab
+    webpage: https://www.mustafamukadam.com/
+
+shkurti:
+    display_name: Florian Shkurti
+    role: collab
+    webpage: http://www.cs.toronto.edu/~florian/
+
+
+macklin:
+    display_name: Miles Macklin
+    role: collab
+
+
+
+voleti:
+    display_name: Vikram Voleti
+    role: collab
+
+
+petrini:
+    display_name: Linda Petrini
+    role: collab
+
+
+weiss:
+    display_name: Martin Weiss
+    role: collab
+
+
+parent:
+    display_name: Jerome Parent-Levesque
+    role: collab
+
+
+xie:
+    display_name: Kevin Xie
+    role: collab
+
+
+
+nowrouzerzahrai:
+    display_name: Derek Nowrouzerzahrai
+    role: collab
+
+
+fidler:
+    display_name: Sanja Fidler
+    role: collab
+
+
+erleben:
+    display_name: Kenny Erleben
+    role: collab
+
+yadav:
+    display_name: Karmesh Yadav
+    role: collab

@@ -12,6 +12,7 @@ people:
 
 collaborators:
   - ganesh
+  - soroush
   
 
 layout: project
