@@ -14,7 +14,7 @@ people:
   - liam
 
 layout: project
-#image: /img/papers/mai2022ivrl.png
+image: /img/papers/mai2022ivrl.png
 last-updated: 2022-01-12
 ---
 
