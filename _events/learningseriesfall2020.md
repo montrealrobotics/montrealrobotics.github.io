@@ -15,7 +15,7 @@ people:
   - liam
 
 image: /img/events/learningseries.jpg
-link: "https://montrealrobotics.ca/robotlearningseries/"
+link: "https://montrealrobotics.ca/robotlearningseries/fall2020/"
 date: 2021-01-15
 ---
 

@@ -15,7 +15,7 @@ people:
   - liam
 
 image: /img/events/learningseries.jpg
-link: "https://montrealrobotics.ca/robotlearningseries/fall2020"
+link: "https://montrealrobotics.ca/robotlearningseries/summer2020"
 date: 2020-09-4
 ---
 
