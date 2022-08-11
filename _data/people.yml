@@ -20,14 +20,14 @@
 #     name: Past Master's Students
 #   - key: intern-alum
 #     name: Past Undergraduate Researchers and Interns
-    
+
 liam:
     display_name: "Liam Paull"
     webpage: "http://liampaull.ca"
     image: /img/people/liam.jpg
     role: faculty
     interests: "Robot perception, uncertainty, sim2real, and robot benchmarking"
-    
+
 glen:
     display_name: "Glen Berseth"
     webpage: "http://fracturedplane.com"
@@ -48,6 +48,13 @@ ali:
     interests: "Bayesian deep learning, conformal prediction, out-of-distribution generalization, and continual learning"
     role: postdoc
     image: /img/people/ali-h.jpg
+
+steven:
+    display_name: "Steven Parkison"
+    webpage: "https://saparkison.github.io/"
+    interests: "SLAM, optimization, robotic perception, and lukewarm coffee"
+    role: postdoc
+    image: /img/people/stevenhead.png
 
 vincent:
     display_name: "Vincent Mai"
@@ -85,7 +92,7 @@ mostafa:
     interests: "Continual learning, imitation learning"
     image: /img/people/mostafa.jpeg
 
-    
+
 miguel:
     display_name: "Miguel Saavedra-Ruiz"
     role: masters
