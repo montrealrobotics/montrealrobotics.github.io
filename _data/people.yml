@@ -38,7 +38,7 @@ glen:
 florian:
     display_name: "Florian Golemo"
     webpage: "https://fgolemo.github.io/"
-    role: postdoc
+    role: postdoc-alum
     coadvisor: Chris Pal
     image: /img/people/florian.jpg
 
@@ -63,9 +63,10 @@ vincent:
 
 krishna:
     display_name: "Krishna Murthy Jatavallabhula"
-    role: phd
+    role: phd-alum
     image: /img/people/krishna.jpg
     webpage: "https://krrish94.github.io"
+    current_role: PostDoc at MIT with Antonio Torralba and Joshua Tenenbaum
 
 manfred:
     display_name: "Manfred Diaz"
