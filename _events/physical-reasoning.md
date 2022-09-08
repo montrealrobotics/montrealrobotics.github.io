@@ -13,4 +13,3 @@ image: /img/events/physical-reasoning.jpg
 link: "https://physical-reasoning.github.io/"
 date: 2021-12-14
 ---
-

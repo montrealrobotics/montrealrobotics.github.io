@@ -33,6 +33,7 @@ glen:
     webpage: "http://fracturedplane.com"
     image: /img/people/glen.jpg
     role: faculty
+    interests: "Reinforcement learning, robotics, machine learning, generalization, planning"
 
 
 florian:
