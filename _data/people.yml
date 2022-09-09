@@ -4,6 +4,8 @@
 #     name: Faculty
 #   - key: staff
 #     name: Staff
+#   - key: developer
+#     name: Software Developers
 #   - key: postdoc
 #     name: Postdocs
 #   - key: masters
@@ -56,6 +58,11 @@ steven:
     interests: "SLAM, optimization, robotic perception, and lukewarm coffee"
     role: postdoc
     image: /img/people/stevenhead.png
+
+kirsty:
+    display_name: "Kirsty Ellis"
+    role: developer
+    image: /img/people/kirsty.jpg
 
 vincent:
     display_name: "Vincent Mai"
