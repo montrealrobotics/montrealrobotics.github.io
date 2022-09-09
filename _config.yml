@@ -16,6 +16,8 @@ roles:
     name: Faculty
   - key: staff
     name: Staff
+  - key: developer
+    name: Software Developers
   - key: postdoc
     name: Postdocs
   - key: masters
