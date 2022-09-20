@@ -130,6 +130,10 @@ simon:
     role: masters
     webpage: "https://simondemeule.com/"
     image: /img/people/simon.jpg
+adriana:
+    display_name: "Adriana Hugessen"
+    role: masters
+    image: /img/people/adriana.jpg
 
     
 
