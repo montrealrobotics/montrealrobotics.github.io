@@ -139,6 +139,11 @@ albert:
     role: phd
     image: /img/people/albert-z.jpg
     webpage: "albertzhan.github.io"
+raj:
+    display_name: "Raj Ghugare"
+    role: intern
+    image: /img/people/raj-g.png
+    webpage: "http://RajGhugare19.github.io/"
 
     
 
