@@ -134,6 +134,11 @@ adriana:
     display_name: "Adriana Hugessen"
     role: masters
     image: /img/people/adriana.jpg
+albert:
+    display_name: "Albert Zhan"
+    role: phd
+    image: /img/people/albert-z.jpg
+    webpage: "albertzhan.github.io"
 
     
 
