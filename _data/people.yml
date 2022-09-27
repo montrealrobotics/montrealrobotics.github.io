@@ -64,6 +64,13 @@ kirsty:
     role: developer
     image: /img/people/kirsty.jpg
 
+roger:
+    display_name: "Roger Creus Castanyer"
+    role: masters
+    image: /img/people/rogercreus.jpeg
+    interests: "(Unsupervised) (Deep) reinforcement learning"
+    webpage: "https://roger-creus.github.io/"
+
 vincent:
     display_name: "Vincent Mai"
     role: phd
