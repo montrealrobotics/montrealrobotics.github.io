@@ -49,8 +49,9 @@ ali:
     display_name: "Ali Harakeh"
     webpage: "https://www.aharakeh.com/"
     interests: "Bayesian deep learning, conformal prediction, out-of-distribution generalization, and continual learning"
-    role: postdoc
+    role: postdoc-alum
     image: /img/people/ali-h.jpg
+    current_role: Senior Applied Research Scientist at Mila
 
 steven:
     display_name: "Steven Parkison"
