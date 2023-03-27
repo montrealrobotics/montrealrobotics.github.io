@@ -110,6 +110,13 @@ mostafa:
     image: /img/people/mostafa.jpeg
 
 
+sacha:
+    display_name: Sacha Morin
+    role: phd
+    webpage: https://sachamorin.github.io/
+    image: /img/people/sacha.jpg
+    coadvisor: "Guy Wolf"
+
 miguel:
     display_name: "Miguel Saavedra-Ruiz"
     role: masters
@@ -428,8 +435,3 @@ erleben:
 yadav:
     display_name: Karmesh Yadav
     role: collab
-    
-sacha:
-    display_name: Sacha Morin
-    role: collab
-    webpage: https://sachamorin.github.io/

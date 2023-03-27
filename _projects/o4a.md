@@ -8,11 +8,9 @@ description: |
   An end-to-end fully parametric method for image-goal navigation that leverages self-supervised and manifold learning to replace a topological graph with a geodesic regressor. During navigation, the geodesic regressor is used as an attractor in a potential function defined in latent space, allowing to frame navigation as a minimization problem.
 
 people:
+  - sacha
   - miguel
   - liam
-  
-collaborators:
-  - sacha
 
 layout: project
 image: /img/papers/o4a.gif
