@@ -115,7 +115,7 @@ sacha:
     role: phd
     webpage: https://sachamorin.github.io/
     image: /img/people/sacha.jpg
-    coadvisor: "Guy Wolf"
+    coadvisor: "Guy Wolf &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
 
 miguel:
     display_name: "Miguel Saavedra-Ruiz"
