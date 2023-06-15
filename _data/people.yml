@@ -111,11 +111,11 @@ mostafa:
 
 
 sacha:
-    display_name: Sacha Morin
+    display_name: "Sacha Morin"
     role: phd
     webpage: https://sachamorin.github.io/
     image: /img/people/sacha.jpg
-    coadvisor: "Guy Wolf &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+    coadvisor: "Guy Wolf"
 
 miguel:
     display_name: "Miguel Saavedra-Ruiz"
