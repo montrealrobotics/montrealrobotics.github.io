@@ -74,7 +74,7 @@ roger:
 
 vincent:
     display_name: "Vincent Mai"
-    role: phd
+    role: phd-alum
     image: /img/people/vincent.jpg
 
 krishna:
@@ -128,11 +128,17 @@ dishank:
     webpage: "http://dishank-b.github.io/"
     image: /img/people/dishank.jpg
 
-charlie:
+charlie1:
     display_name: "Charlie Gauthier"
-    role: masters
+    role: masters-alum
     image: /img/people/charlie.jpg
-    
+
+charlie2:
+    display_name: "Charlie Gauthier"
+    role: phd
+    image: /img/people/charlie.jpg
+
+
 simon:
     display_name: "Simon Demeule"
     role: masters
@@ -153,7 +159,22 @@ raj:
     image: /img/people/raj-g.png
     webpage: "http://RajGhugare19.github.io/"
 
-    
+atharva:
+    display_name: "Atharva Chandak"
+    role: intern
+    image: /img/people/atharva.jpeg
+
+bipasha:
+    display_name: "Bipasha Sen"
+    role: intern
+    image: /img/people/bipasha.jpeg
+
+
+aditya:
+    display_name: "Aditya Agarwal"
+    role: intern
+    image: /img/people/aditya.png
+
 
 sai:
     display_name: "Sai Krishna G.V."
