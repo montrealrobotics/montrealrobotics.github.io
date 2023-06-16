@@ -9,10 +9,25 @@ description: |
   ConceptFusion builds open-set 3D maps that can be queried via text, click, image, or audio. Given a series of RGB-D images, our system builds a 3D scene representation, that is inherently multimodal by leveraging foundation models such as CLIP, and therefore doesn't require any additional training or finetuning.
 
 people:
-  - krishna
   - ali-k
   - liam
+
+collaborators:
+  - krishna
+  - qiao
+  - mohd
+  - tao
+  - alaa
+  - shuang
+  - ganesh
+  - soroush
+  - nikhil
+  - ayush
+  - tenenbaum
+  - celso
+  - madhav
   - shkurti
+  - torralba
 
 layout: project
 image: /img/papers/conceptfusion.gif

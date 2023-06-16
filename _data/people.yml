@@ -408,6 +408,51 @@ shkurti:
     role: collab
     webpage: http://www.cs.toronto.edu/~florian/
 
+qiao:
+    display_name: Qiao Gu
+    role: collab
+    webpage: https://georgegu1997.github.io/
+  
+mohd:
+    display_name: Mohd Omama
+    role: collab
+    webpage: https://scholar.google.com/citations?user=jFH3ShsAAAAJ&hl=en
+
+tao:
+    display_name: Tao Chen
+    role: collab
+    webpage: https://taochenshh.github.io/
+
+alaa:
+    display_name: Alaa Maalouf
+    role: collab
+    webpage: https://www.csail.mit.edu/person/alaa-maalouf
+
+shuang:
+    display_name: Shuang Li
+    role: collab
+    webpage: https://people.csail.mit.edu/lishuang/
+
+ayush:
+    display_name: Ayush Tewari
+    role: collab
+    webpage: https://ayushtewari.com/
+
+tenenbaum:
+    display_name: Joshua B. Tenenbaum
+    role: collab
+    webpage: http://web.mit.edu/cocosci/josh.html
+
+celso:
+    display_name: Celso Miguel de Melo
+    role: collab
+    webpage: https://celsodemelo.net/
+
+torralba:
+    display_name: Antonio Torralba
+    role: collab
+    webpage: https://groups.csail.mit.edu/vision/torralbalab/
+
 
 macklin:
     display_name: Miles Macklin
