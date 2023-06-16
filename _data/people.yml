@@ -76,6 +76,7 @@ vincent:
     display_name: "Vincent Mai"
     role: phd-alum
     image: /img/people/vincent.jpg
+    current_role: AI researcher at the Institut de Recherche d'Hydro Québec (IREQ)
 
 krishna:
     display_name: "Krishna Murthy Jatavallabhula"
