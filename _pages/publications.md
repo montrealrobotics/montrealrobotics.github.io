@@ -3,7 +3,7 @@ layout: default
 permalink: /publications/
 title: Publications
 description: Publications (reverse chronological order)
-years: [2022, 2021, 2020, 2019, 2018, 2017, 2016]
+years: [2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016]
 ---
 <div class="card border-bottom-primary shadow py-2 mb-4">
         <div class="card-body">
