@@ -140,13 +140,13 @@ charlie1:
     display_name: "Charlie Gauthier"
     role: masters-alum
     image: /img/people/charlie.jpg
+    thesis: "Fear prediction for training robust RL agents"
+    thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/28235"
 
 charlie2:
     display_name: "Charlie Gauthier"
     role: phd
     image: /img/people/charlie.jpg
-    thesis: "Fear prediction for training robust RL agents"
-    thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/28235"
 
 simon:
     display_name: "Simon Demeule"
