@@ -118,12 +118,6 @@ sacha:
     image: /img/people/sacha.jpg
     coadvisor: "Guy Wolf"
 
-miguel:
-    display_name: "Miguel Saavedra-Ruiz"
-    role: masters
-    webpage: "https://mikes96.github.io/"
-    image: /img/people/miguel.jpg
-
 ali-k:
     display_name: "Ali Kuwajerwala"
     role: masters
@@ -147,6 +141,12 @@ charlie2:
     display_name: "Charlie Gauthier"
     role: phd
     image: /img/people/charlie.jpg
+
+miguel:
+    display_name: "Miguel Saavedra-Ruiz"
+    role: phd
+    webpage: "https://mikes96.github.io/"
+    image: /img/people/miguel.jpg
 
 simon:
     display_name: "Simon Demeule"
