@@ -157,7 +157,7 @@ miguel1:
 
 miguel2:
     display_name: "Miguel Saavedra-Ruiz"
-    role: master-alum
+    role: masters-alum
     webpage: "https://mikes96.github.io/"
     image: /img/people/miguel.jpg
     thesis: "Leveraging Self-Supervision for Visual Embodied Navigation with Neuralized Potential Fields"
