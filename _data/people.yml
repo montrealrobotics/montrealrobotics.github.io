@@ -57,8 +57,9 @@ steven:
     display_name: "Steven Parkison"
     webpage: "https://saparkison.github.io/"
     interests: "SLAM, optimization, robotic perception, and lukewarm coffee"
-    role: postdoc
+    role: postdoc-alum
     image: /img/people/stevenhead.png
+    current_role: Robotics researcher at the Institut de Recherche d'Hydro Québec (IREQ)
 
 kirsty:
     display_name: "Kirsty Ellis"
@@ -126,9 +127,11 @@ ali-k:
 
 dishank:
     display_name: "Dishank Bansal"
-    role: masters
+    role: masters-alum
     webpage: "http://dishank-b.github.io/"
+    thesis: "Calibrated Uncertainty Estimation for SLAM"
     image: /img/people/dishank.jpg
+    current_role: Research Engineer at Meta
 
 charlie1:
     display_name: "Charlie Gauthier"
@@ -136,32 +139,48 @@ charlie1:
     image: /img/people/charlie.jpg
     thesis: "Fear prediction for training robust RL agents"
     thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/28235"
+    current_role: PhD Student at Mila / REAL
 
 charlie2:
     display_name: "Charlie Gauthier"
     role: phd
     image: /img/people/charlie.jpg
 
-miguel:
+
+miguel1:
     display_name: "Miguel Saavedra-Ruiz"
     role: phd
     webpage: "https://mikes96.github.io/"
     image: /img/people/miguel.jpg
+
+
+
+miguel2:
+    display_name: "Miguel Saavedra-Ruiz"
+    role: master-alum
+    webpage: "https://mikes96.github.io/"
+    image: /img/people/miguel.jpg
+    thesis: "Leveraging Self-Supervision for Visual Embodied Navigation with Neuralized Potential Fields"
+    current_role: PhD Student at Mila / REAL
+
 
 simon:
     display_name: "Simon Demeule"
     role: masters
     webpage: "https://simondemeule.com/"
     image: /img/people/simon.jpg
+    
 adriana:
     display_name: "Adriana Hugessen"
     role: masters
     image: /img/people/adriana.jpg
+    
 albert:
     display_name: "Albert Zhan"
     role: phd
     image: /img/people/albert-z.jpg
     webpage: "albertzhan.github.io"
+    
 raj:
     display_name: "Raj Ghugare"
     role: intern
@@ -175,14 +194,16 @@ atharva:
 
 bipasha:
     display_name: "Bipasha Sen"
-    role: intern
+    role: intern-alum
     image: /img/people/bipasha.jpeg
+    current_role: PhD student at MIT
 
 
 aditya:
     display_name: "Aditya Agarwal"
-    role: intern
+    role: intern-alum
     image: /img/people/aditya.png
+    current_role: PhD student at Brown
 
 
 sai:
@@ -209,6 +230,7 @@ nithin:
     thesis: "Lifelong learning of concepts in CRAFT"
     thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/24335"
     image: /img/people/nithin.jpg
+    current_role: Senior project scientist at Robert Bosch Center for Cyber-Physical Systems @ IISc
 
 breandan:
     display_name: "Breandan Considine"
@@ -224,7 +246,7 @@ bhairav:
     role: masters-alum
     thesis: "On learning and generalization in unstructured task spaces"
     thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/24310"
-    current_role: "PhD student at MIT"
+    current_role: "CEO at Innabox"
     image: /img/people/bhairav.jpg
 
 anthony:
@@ -260,17 +282,17 @@ rey:
 kaustubh:
     display_name: "Kaustubh Mani"
     role: intern-alum
-    current_role: "PhD student at the University of Montreal"
+    current_role: "PhD student at Mila / REALl"
 
 nikhil:
     display_name: "Nikhil Varma Keetha"
     role: intern-alum
-    current_role:
+    current_role: PhD student at CMU
 
 harsha:
     display_name: "Sai Sree Harsha"
     role: intern-alum
-    current_role:
+    current_role: Master's student at UCSD
 
 abhishek:
     display_name: "Abhishek Jain"
@@ -279,7 +301,7 @@ abhishek:
 sharath:
     display_name: "Sharath Chandra Raparthy"
     role: intern-alum
-    current_role: "PhD student at the University of Montreal"
+    current_role: "PhD student at Mila with Irina Rish"
 
 mark:
     display_name: "Mark Van der Merwe"
