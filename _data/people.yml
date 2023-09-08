@@ -187,9 +187,13 @@ raj:
     image: /img/people/raj-g.png
     webpage: "http://RajGhugare19.github.io/"
 
+aurelien:
+    display_name: "Aurélien Bück-Kaeffer"
+    role: intern-alum
+
 atharva:
     display_name: "Atharva Chandak"
-    role: intern
+    role: intern-alum
     image: /img/people/atharva.jpeg
 
 bipasha:
