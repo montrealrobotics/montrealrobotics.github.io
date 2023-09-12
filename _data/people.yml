@@ -92,6 +92,13 @@ manfred:
     image: /img/people/manfred.jpg
     webpage: "https://manfreddiaz.github.io/"
 
+luke:
+    display_name: "Luke Rowe"
+    role: phd
+    image: /img/people/luke.png
+    coadvisor: "Chris Pal"
+    interests: "Prediction, planning, and simulation for autonomous driving"
+
 ruixiang:
     display_name: "Ruixiang Zhang"
     role: phd
