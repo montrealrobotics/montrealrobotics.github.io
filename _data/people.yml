@@ -188,6 +188,12 @@ albert:
     image: /img/people/albert-z.jpg
     webpage: "albertzhan.github.io"
     
+siddarth:
+    display_name: "Siddarth Venkatraman"
+    role: phd
+    image: /img/people/siddarth.jpg
+    interests: Reinforcement learning, representation learning
+
 raj:
     display_name: "Raj Ghugare"
     role: intern
