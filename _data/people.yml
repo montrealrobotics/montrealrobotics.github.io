@@ -42,6 +42,7 @@ florian:
     display_name: "Florian Golemo"
     webpage: "https://fgolemo.github.io/"
     role: postdoc-alum
+    advisor: Liam Paull
     coadvisor: Chris Pal
     image: /img/people/florian.jpg
 
@@ -49,6 +50,7 @@ ali:
     display_name: "Ali Harakeh"
     webpage: "https://www.aharakeh.com/"
     interests: "Bayesian deep learning, conformal prediction, out-of-distribution generalization, and continual learning"
+    advisor: Liam Paull
     role: postdoc-alum
     image: /img/people/ali-h.jpg
     current_role: Senior Applied Research Scientist at Mila
@@ -57,6 +59,7 @@ steven:
     display_name: "Steven Parkison"
     webpage: "https://saparkison.github.io/"
     interests: "SLAM, optimization, robotic perception, and lukewarm coffee"
+    advisor: Liam Paull
     role: postdoc-alum
     image: /img/people/stevenhead.png
     current_role: Robotics researcher at the Institut de Recherche d'Hydro Québec (IREQ)
@@ -69,6 +72,7 @@ kirsty:
 roger:
     display_name: "Roger Creus Castanyer"
     role: masters
+    advisor: Glen Berseth
     image: /img/people/rogercreus.jpeg
     interests: "(Unsupervised) (Deep) reinforcement learning"
     webpage: "https://roger-creus.github.io/"
@@ -76,12 +80,14 @@ roger:
 vincent:
     display_name: "Vincent Mai"
     role: phd-alum
+    advisor: Liam Paull
     image: /img/people/vincent.jpg
     current_role: AI researcher at the Institut de Recherche d'Hydro Québec (IREQ)
 
 krishna:
     display_name: "Krishna Murthy Jatavallabhula"
     role: phd-alum
+    advisor: Liam Paull
     image: /img/people/krishna.jpg
     webpage: "https://krrish94.github.io"
     current_role: PostDoc at MIT with Antonio Torralba and Joshua Tenenbaum
@@ -89,12 +95,14 @@ krishna:
 manfred:
     display_name: "Manfred Diaz"
     role: phd
+    advisor: Liam Paull
     image: /img/people/manfred.jpg
     webpage: "https://manfreddiaz.github.io/"
 
 luke:
     display_name: "Luke Rowe"
     role: phd
+    advisor: Liam Paull
     image: /img/people/luke.png
     coadvisor: "Chris Pal"
     interests: "Prediction, planning, and simulation for autonomous driving"
@@ -102,11 +110,13 @@ luke:
 ruixiang:
     display_name: "Ruixiang Zhang"
     role: phd
+    advisor: Liam Paull
     image: /img/people/ruixiang.jpg
     coadvisor: "Yoshua Bengio"
 
 zhen:
     display_name: "Zhen Liu"
+    advisor: Liam Paull
     coadvisor: "Yoshua Bengio"
     role: phd
     image: /img/people/zhen.jpeg
@@ -115,6 +125,7 @@ zhen:
 mostafa:
     display_name: "Mostafa Elaraby"
     role: phd
+    advisor: Liam Paull
     interests: "Continual learning, imitation learning"
     image: /img/people/mostafa.jpeg
 
@@ -122,6 +133,7 @@ mostafa:
 sacha:
     display_name: "Sacha Morin"
     role: phd
+    advisor: Liam Paull
     webpage: https://sachamorin.github.io/
     image: /img/people/sacha.jpg
     coadvisor: "Guy Wolf"
@@ -129,34 +141,40 @@ sacha:
 ali-k:
     display_name: "Ali Kuwajerwala"
     role: masters
+    advisor: Liam Paull
     image: /img/people/ali-k.jpeg
     webpage: "https://alihkw.com/"
 
 dishank:
     display_name: "Dishank Bansal"
     role: masters-alum
+    advisor: Liam Paull
     webpage: "http://dishank-b.github.io/"
     thesis: "Calibrated Uncertainty Estimation for SLAM"
     image: /img/people/dishank.jpg
     current_role: Research Engineer at Meta
 
-charlie1:
+charlie:
     display_name: "Charlie Gauthier"
     role: masters-alum
     image: /img/people/charlie.jpg
+    advisor: Liam Paull
     thesis: "Fear prediction for training robust RL agents"
     thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/28235"
     current_role: PhD Student at Mila / REAL
 
 charlie2:
     display_name: "Charlie Gauthier"
+    advisor: Liam Paull
     role: phd
+    coadvisor: "Glen Berseth"
     image: /img/people/charlie.jpg
 
 
-miguel1:
+miguel:
     display_name: "Miguel Saavedra-Ruiz"
     role: phd
+    advisor: Liam Paull
     webpage: "https://mikes96.github.io/"
     image: /img/people/miguel.jpg
 
@@ -165,6 +183,7 @@ miguel1:
 miguel2:
     display_name: "Miguel Saavedra-Ruiz"
     role: masters-alum
+    advisor: Liam Paull
     webpage: "https://mikes96.github.io/"
     image: /img/people/miguel.jpg
     thesis: "Leveraging Self-Supervision for Visual Embodied Navigation with Neuralized Potential Fields"
@@ -174,22 +193,26 @@ miguel2:
 simon:
     display_name: "Simon Demeule"
     role: masters
+    advisor: Glen Berseth
     webpage: "https://simondemeule.com/"
     image: /img/people/simon.jpg
     
 adriana:
     display_name: "Adriana Hugessen"
+    advisor: Glen Berseth
     role: masters
     image: /img/people/adriana.jpg
     
 albert:
     display_name: "Albert Zhan"
     role: phd
+    advisor: Glen Berseth
     image: /img/people/albert-z.jpg
     webpage: "albertzhan.github.io"
     
 siddarth:
     display_name: "Siddarth Venkatraman"
+    advisor: Glen Berseth
     role: phd
     image: /img/people/siddarth.jpg
     interests: Reinforcement learning, representation learning
@@ -227,6 +250,7 @@ sai:
     display_name: "Sai Krishna G.V."
     role: masters-alum
     thesis: "Deep active localization"
+    advisor: Liam Paull
     thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/22526"
     current_role: "Reinforcement learning researcher at AI-Redefined"
     image: /img/people/sai.jpg
@@ -236,6 +260,7 @@ sai:
 gunshi:
     display_name: "Gunshi Gupta"
     role: masters-alum
+    advisor: Liam Paull
     thesis: "Look-ahead meta-learning for continual learning"
     thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/24315"
     current_role: PhD student at Oxford
@@ -246,6 +271,7 @@ nithin:
     role: masters-alum
     thesis: "Lifelong learning of concepts in CRAFT"
     thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/24335"
+    advisor: Liam Paull
     image: /img/people/nithin.jpg
     current_role: Senior project scientist at Robert Bosch Center for Cyber-Physical Systems @ IISc
 
@@ -254,6 +280,7 @@ breandan:
     role: masters-alum
     thesis: "Programming tools for intelligent systems"
     thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/24310"
+    advisor: Liam Paull
     current_role: "PhD student at McGill"
     coadvisor: "Michalis Famelis"
     image: /img/people/breandan.jpg
@@ -262,6 +289,7 @@ bhairav:
     display_name: "Bhairav Mehta"
     role: masters-alum
     thesis: "On learning and generalization in unstructured task spaces"
+    advisor: Liam Paull
     thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/24310"
     current_role: "CEO at Innabox"
     image: /img/people/bhairav.jpg
@@ -270,6 +298,7 @@ anthony:
     display_name: "Anthony Courchesne"
     role: masters-alum
     thesis: "On quantifying the value of simulation for training and evaluating robotic agents"
+    advisor: Liam Paull
     thesis_link: 
     image: /img/people/anthony.jpg
     webpage: "https://helium.sparkpi.ca/"
@@ -280,6 +309,7 @@ dhaivat:
     display_name: "Dhaivat Bhatt"
     role: masters-alum
     thesis: "Variational aleatoric uncertainty calibration in neural regression"
+    advisor: Liam Paull
     thesis_link:
     current_role: Research engineer at Samsung
     image: /img/people/dhaivat.jpeg
@@ -288,6 +318,7 @@ rey:
     display_name: "Rey Reza Wiyatno"
     role: masters-alum
     thesis: "Lifelong Topological Visual Navigation"
+    advisor: Liam Paull
     thesis_link:
     current_role:
     image: /img/people/rey.jpg
