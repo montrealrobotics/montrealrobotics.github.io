@@ -152,6 +152,12 @@ ali-k:
     image: /img/people/ali-k.jpeg
     webpage: "https://alihkw.com/"
 
+mahtab:
+    display_name: "Mahtab Sandhu"
+    role: masters
+    advisor: Liam Paull
+    # image: /img/people/ali-k.jpeg
+
 dishank:
     display_name: "Dishank Bansal"
     role: masters-alum
