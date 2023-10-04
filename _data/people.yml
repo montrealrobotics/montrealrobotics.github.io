@@ -55,6 +55,13 @@ ali:
     image: /img/people/ali-h.jpg
     current_role: Senior Applied Research Scientist at Mila
 
+kaustubh:
+    display_name: "Kaustubh Mani"
+    interests: "Safety, Robustness and Model-Based RL"
+    advisor: Liam Paull
+    role: phd
+   
+
 steven:
     display_name: "Steven Parkison"
     webpage: "https://saparkison.github.io/"
