@@ -113,3 +113,8 @@ scholar:
 jquery_version: "1.12.4"
 katex_version: "0.7.1"
 anchorjs_version: "3.2.2"
+
+plugins:
+  - jekyll-multiple-languages-plugin
+
+languages: ["en", "fr"]
