@@ -97,7 +97,20 @@ luke:
     role: phd
     image: /img/people/luke.png
     coadvisor: "Chris Pal"
-    interests: "Prediction, planning, and simulation for autonomous driving"
+
+raj:
+    display_name: "Raj Ghugare"
+    role: phd
+    image: /img/people/raj-g.png
+    interests: "Reinforcement learning, machine learning"
+    webpage: "http://RajGhugare19.github.io/"
+
+esraa:
+    display_name: "Esra'a Saleh"
+    role: phd
+    image: /img/people/esraa.png
+    coadvisor: "Aaron Courville"
+    webpage: "https://esraasaleh.com/"
 
 ruixiang:
     display_name: "Ruixiang Zhang"
@@ -187,12 +200,6 @@ albert:
     role: phd
     image: /img/people/albert-z.jpg
     webpage: "albertzhan.github.io"
-    
-raj:
-    display_name: "Raj Ghugare"
-    role: intern
-    image: /img/people/raj-g.png
-    webpage: "http://RajGhugare19.github.io/"
 
 aurelien:
     display_name: "Aurélien Bück-Kaeffer"
