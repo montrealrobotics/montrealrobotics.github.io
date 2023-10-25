@@ -1,33 +1,458 @@
----
-layout: default
-title: Home
-notitle: true
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      
+        <title>Robotics Group @ University of Montreal</title>
+        <meta name="description" content="The Robotics and Embodied AI Lab @ U de Montreal">
+      
+        <link rel="shortcut icon" href="https://montrealrobotics.github.io/website-assets/assets/img/favicon.png">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous">
+        <link rel="stylesheet" href="https://montrealrobotics.github.io/website-assets/assets/css/sb-admin-2.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://montrealrobotics.github.io/website-assets/assets/css/main.css">
+        <link rel="canonical" href="https://montrealrobotics.github.io/">
 
-# groups of columns of {roles: list, width: num, image: bool}
-role-tables:
-- - roles: [faculty, postdoc]
-    width: 4
-    image: true
-  - roles: [phd, masters, developer]
-    width: 8
-    image: true
-- - roles: [intern, intern-alum, collab]
-    width: 4
-    image: false
-carousels:
-  - images: 
-    - image: /img/slider/group1.jpg
-    - image: /img/slider/group2.jpg
-    - image: /img/slider/group3.jpg
----
+      </head>
+    <body>
+        <div class="container">
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-dark bg-primary mb-2 text-white">
+                <a class="navbar-brand" href="/">REAL</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                                
+                                
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link active"
+                                           href="/">
+                                            Home
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/people.html">
+                                            People
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/research.html">
+                                            Research
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/publications/">
+                                            Publications
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/events.html">
+                                            Events
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/contact.html">
+                                            Contact
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/blog.html">
+                                            Blog
+                                        </a>
+                                    </li>
+                                    
+                        </ul>
+                      </div>
+            </nav>
 
-<div class="jumbotron">
-    {% include carousel.html height="50" unit="%" duration="4" number="1" %}
+            
+
+            <!--  -->
+
+            <div class="jumbotron">
+    
+
+
+<div class="carousel__holder">
+    <div id="carousel0" class="carousel">
+        
+          <input class="carousel__activator" type="radio" name="carousel0" id="0a" checked="checked" />
+        
+          <input class="carousel__activator" type="radio" name="carousel0" id="0b"  />
+        
+          <input class="carousel__activator" type="radio" name="carousel0" id="0c"  />
+        
+        
+          
+          
+          
+          
+          <div class="carousel__controls">
+              <label class="carousel__control carousel__control--backward" for="0c"></label>
+              <label class="carousel__control carousel__control--forward" for="0b"></label>
+          </div>
+        
+          
+          
+          
+          
+          <div class="carousel__controls">
+              <label class="carousel__control carousel__control--backward" for="0a"></label>
+              <label class="carousel__control carousel__control--forward" for="0c"></label>
+          </div>
+        
+          
+          
+          
+          
+          <div class="carousel__controls">
+              <label class="carousel__control carousel__control--backward" for="0b"></label>
+              <label class="carousel__control carousel__control--forward" for="0a"></label>
+          </div>
+        
+        <div class="carousel__track">
+          <ul>
+            
+            <li class="carousel__slide" style="background-image: url('/img/slider/group1.jpg');"></li>
+            
+            <li class="carousel__slide" style="background-image: url('/img/slider/group2.jpg');"></li>
+            
+            <li class="carousel__slide" style="background-image: url('/img/slider/group3.jpg');"></li>
+            
+          </ul>
+        </div>
+        <div class="carousel__indicators">
+            
+              <label class="carousel__indicator" for="0a"></label>
+            
+              <label class="carousel__indicator" for="0b"></label>
+            
+              <label class="carousel__indicator" for="0c"></label>
+            
+        </div>
+    </div>
+</div>
+
+<style>
+.carousel__holder {width: 100%; position: relative; padding-bottom: 50%; margin: 1rem 0 1rem;}
+.carousel {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  position: absolute;
+  padding: 0;
+}
+.carousel__controls,
+.carousel__activator {
+  display: none;
+}
+
+.carousel__activator:nth-of-type(1):checked ~ .carousel__track {
+  -webkit-transform: translateX(-000%);
+          transform: translateX(-000%);
+}
+.carousel__activator:nth-of-type(1):checked ~ .carousel__slide:nth-of-type(1) {
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(1):checked ~ .carousel__controls:nth-of-type(1) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(1):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(1) {
+  opacity: 1;
+}
+
+.carousel__activator:nth-of-type(2):checked ~ .carousel__track {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+.carousel__activator:nth-of-type(2):checked ~ .carousel__slide:nth-of-type(2) {
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(2):checked ~ .carousel__controls:nth-of-type(2) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(2):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(2) {
+  opacity: 1;
+}
+
+.carousel__activator:nth-of-type(3):checked ~ .carousel__track {
+  -webkit-transform: translateX(-200%);
+          transform: translateX(-200%);
+}
+.carousel__activator:nth-of-type(3):checked ~ .carousel__slide:nth-of-type(3) {
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(3):checked ~ .carousel__controls:nth-of-type(3) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(3):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(3) {
+  opacity: 1;
+}
+
+
+.carousel__control {
+  height: 30px;
+  width: 30px;
+  margin-top: -15px;
+  top: 50%;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  border-width: 5px 5px 0 0;
+  border-style: solid;
+  border-color: #fafafa;
+  opacity: 0.35;
+  opacity: 1;
+  outline: 0;
+  z-index: 3;
+}
+.carousel__control:hover {
+  opacity: 1;
+}
+.carousel__control--backward {
+  left: 20px;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+}
+.carousel__control--forward {
+  right: 20px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.carousel__indicators {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+.carousel__indicator {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  display: inline-block;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0.35;
+  margin: 0 2.5px 0 2.5px;
+}
+.carousel__indicator:hover {
+  opacity: 0.75;
+}
+.carousel__track {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  transition: -webkit-transform 0.5s ease 0s;
+  transition: transform 0.5s ease 0s;
+  transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
+}
+.carousel__track .carousel__slide {
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.carousel__track .carousel__slide:nth-of-type(1) {
+  -webkit-transform: translateX(000%);
+          transform: translateX(000%);
+}
+
+.carousel__track .carousel__slide:nth-of-type(2) {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.carousel__track .carousel__slide:nth-of-type(3) {
+  -webkit-transform: translateX(200%);
+          transform: translateX(200%);
+}
+
+
+.carousel--scale .carousel__slide {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+.carousel__slide {
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+}
+.carousel__slide .overlay {height: 100%;}
+.carousel--thumb .carousel__indicator {
+  height: 30px;
+  width: 30px;
+}
+.carousel__indicator {
+  background-color: #fafafa;
+}
+
+.carousel__slide:nth-of-type(1),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(1) {
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel__slide:nth-of-type(2),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(2) {
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel__slide:nth-of-type(3),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(3) {
+  background-size: cover;
+  background-position: center;
+}
+
+</style>
+
+<script>
+  function isVisible(el) {
+        while (el) {
+            if (el === document) {
+                return true;
+            }
+
+            var $style = window.getComputedStyle(el, null);
+
+            if (!el) {
+                return false;
+            } else if (!$style) {
+                return false;
+            } else if ($style.display === 'none') {
+                return false;
+            } else if ($style.visibility === 'hidden') {
+                return false;
+            } else if (+$style.opacity === 0) {
+                return false;
+            } else if (($style.display === 'block' || $style.display === 'inline-block') &&
+                $style.height === '0px' && $style.overflow === 'hidden') {
+                return false;
+            } else {
+                return $style.position === 'fixed' || isVisible(el.parentNode);
+            }
+        }
+  }
+  
+  setInterval(function(){
+    var j=0;
+    var elements = document.querySelectorAll('#carousel0 .carousel__control--forward');
+    for(i=(elements.length - 1);i>-1;i--) {
+      if(isVisible(elements[i])) j=i;
+    }
+    elements[j].click();
+  },4000);
+  
+</script>
     <!-- <img src="/img/group.jpg" class="d-block w-100" alt="..."> -->
     <h1 class="display-4">Robotics and Embodied AI Lab (REAL)</h1>
     <p class="lead">The <strong>Robotics and Embodied AI Lab (REAL)</strong> is a research lab in <a href="http://diro.umontreal.ca">DIRO</a> at the  <b>Université de Montréal</b>  and is also affiliated with  <a href="https://mila.quebec/en/">Mila</a>. REAL is dedicated to making generalist robots and other embodied agents. </p>
     <p> We are always looking out for talented students to join us as full-time students / visitors. To know more, click on the link below.</p>
-    <a class="btn btn-primary btn-lg" href="{{ site.base }}/contact.html" role="button">Learn more</a>
+    <a class="btn btn-primary btn-lg" href="/contact.html" role="button">Learn more</a>
   </div>
 
 
@@ -38,18 +463,224 @@ carousels:
         </div>
         <!-- Card Body -->
         <div class="card-body">
-            {% for post in site.posts limit: site.front_page_news %}
-            {% include news-item.html item=post %}
-            {% endfor %}
-            {% assign numposts = site.posts | size %}
-            {% if numposts >= 1 %}
-                <a href="{{ site.base }}/blog.html" class="btn btn-primary btn-icon-split btn-sm">
+            
+            
+
+
+
+
+
+
+
+<div class="card-body border-left-success">
+    
+        
+<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> December 05, 2020</span>
+
+        
+    <div>
+        
+            Krishna <a href="https://blogs.nvidia.com/blog/2020/12/04/graduate-fellowships-gpu-computing-research/">won an NVIDIA fellowship</a> for 2021-22. Congratulations!
+
+        
+    </div>
+
+    
+</div>
+<br/>
+
+            
+            
+
+
+
+
+
+
+
+<div class="card-body border-left-success">
+    
+        
+<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> November 30, 2020</span>
+
+        
+    <div>
+        
+            We released <a href="http://gradslam.github.io/">gradslam</a> - a differentiable dense SLAM framework for deep learning. Check it out!
+
+        
+    </div>
+
+    
+</div>
+<br/>
+
+            
+            
+
+
+
+
+
+
+
+<div class="card-body border-left-success">
+    
+        
+<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> October 30, 2020</span>
+
+        
+    <div>
+        
+            We organized an IROS workshop on <a href="http://montrealrobotics.ca/driving-benchmarks/">Benchmarking progress in autonomous driving</a>
+
+        
+    </div>
+
+    
+</div>
+<br/>
+
+            
+            
+
+
+
+
+
+
+
+<div class="card-body border-left-success">
+    
+        
+<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> October 15, 2020</span>
+
+        
+    <div>
+        
+            Checkout our new Neurips 2020 Oral paper <a href="https://arxiv.org/abs/2007.13904">La-MAML: Look-Ahead Meta-Learning for Continual Learning</a> [<a href="https://github.com/montrealrobotics/La-MAML">Code</a>], [<a href="https://www.youtube.com/watch?v=HzewyVu8LaY">Short Video</a>].
+
+        
+    </div>
+
+    
+</div>
+<br/>
+
+            
+            
+
+
+
+
+
+
+
+<div class="card-body border-left-success">
+    
+        
+<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> October 10, 2020</span>
+
+        
+    <div>
+        
+            Two papers accepted to Neurips 2020 (one of them an oral - top 1.1%). Congratulations Gunshi and Ruixiang!
+
+        
+    </div>
+
+    
+</div>
+<br/>
+
+            
+            
+
+
+
+
+
+
+
+<div class="card-body border-left-success">
+    
+        
+<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> September 10, 2020</span>
+
+        
+    <div>
+        
+            <a href="http://montrealrobotics.ca/robotlearningseries/">Robot learning seminar series</a> launched!
+
+        
+    </div>
+
+    
+</div>
+<br/>
+
+            
+            
+
+
+
+
+
+
+
+<div class="card-body border-left-success">
+    
+        
+<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> June 30, 2020</span>
+
+        
+    <div>
+        
+            Gunshi Gupta succesfully completes her M.Sc. and joins Wayve as a deep learning researcher!
+
+        
+    </div>
+
+    
+</div>
+<br/>
+
+            
+            
+
+
+
+
+
+
+
+<div class="card-body border-left-success">
+    
+        
+<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> June 05, 2020</span>
+
+        
+    <div>
+        
+            Our paper [MapLite: Autonomous intersection navigation without detailed prior maps] was adjudged <em>best Robotics and Automation Letters (RAL) paper for 2019</em>! Check it out <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8936918">here</a>. And, here’s a short <a href="https://youtu.be/P6Kk5pB2gF4">video abstract</a>.
+
+        
+    </div>
+
+    
+</div>
+<br/>
+
+            
+            
+            
+                <a href="/blog.html" class="btn btn-primary btn-icon-split btn-sm">
                     <span class="icon text-white-50">
                     <i class="fa fa-history"></i>
                     </span>
                     <span class="text">More news &hellip;</span>
                 </a>
-            {% endif %}
+            
         </div>
     </div>
 </section>
@@ -60,16 +691,1945 @@ carousels:
             <h6 class="m-0 font-weight-bold text-primary text-lg">Projects</h6>
         </div>
         <div class="card-body">
-            {% comment %}
-            Sort the projects by date, putting those without dates last
-            {% endcomment %}
-            {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-            {% assign projects_by_date = projects_by_date | reverse %}
-            {% for p in projects_by_date %}
-              {% include project-card.html project=p %}
-            {% endfor %}
+            
+            
+            
+            
+              
+
+
+
+
+
+<div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+                
+                    
+                    
+                    
+                    <a href="https://concept-fusion.github.io/">
+                            <img class="card-img" style="height: 90%; object-fit: contain" src="/img/papers/conceptfusion.gif" alt="ConceptFusion: Open-set Multimodal 3D Mapping"/>
+                    </a>
+                
+          </div>
+          <div class="col-md-8">
+            <div class="card-body border-bottom-primary">
+                
+                <h3 class="card-title">
+                    <strong>
+                        ConceptFusion: Open-set Multimodal 3D Mapping 
+                    </strong>
+                </h3>
+                
+                
+              <p class="card-text"><p>ConceptFusion builds open-set 3D maps that can be queried via text, click, image, or audio. Given a series of RGB-D images, our system builds a 3D scene representation, that is inherently multimodal by leveraging foundation models such as CLIP, and therefore doesn’t require any additional training or finetuning.</p>
+</p>
+              
+                <div class="card-footer d-flex flex-row flex-wrap justify-content-right">
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://alihkw.com/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Ali Kuwajerwala"
+             title="Ali Kuwajerwala"
+             src="/img/people/ali-k.jpeg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/img/people/liam.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                </div>
+                
+                
+                  Collaborators:
+                  <ul>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://krrish94.github.io"
+                         style="text-decoration: none">
+                        Krishna Murthy Jatavallabhula
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://georgegu1997.github.io/"
+                         style="text-decoration: none">
+                        Qiao Gu
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://scholar.google.com/citations?user=jFH3ShsAAAAJ&amp;hl=en"
+                         style="text-decoration: none">
+                        Mohd Omama
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://taochenshh.github.io/"
+                         style="text-decoration: none">
+                        Tao Chen
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://www.csail.mit.edu/person/alaa-maalouf"
+                         style="text-decoration: none">
+                        Alaa Maalouf
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://people.csail.mit.edu/lishuang/"
+                         style="text-decoration: none">
+                        Shuang Li
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://epiception.github.io"
+                         style="text-decoration: none">
+                        Ganesh Iyer
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://saryazdi.github.io/"
+                         style="text-decoration: none">
+                        Soroush Saryazdi
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      Nikhil Varma Keetha
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://ayushtewari.com/"
+                         style="text-decoration: none">
+                        Ayush Tewari
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="http://web.mit.edu/cocosci/josh.html"
+                         style="text-decoration: none">
+                        Joshua B. Tenenbaum
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://celsodemelo.net/"
+                         style="text-decoration: none">
+                        Celso Miguel de Melo
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://robotics.iiit.ac.in"
+                         style="text-decoration: none">
+                        K. Madhava Krishna
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="http://www.cs.toronto.edu/~florian/"
+                         style="text-decoration: none">
+                        Florian Shkurti
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://groups.csail.mit.edu/vision/torralbalab/"
+                         style="text-decoration: none">
+                        Antonio Torralba
+                      </a>
+                      
+                    </li>
+                    
+                  </ul>
+                
+                
+                
+                <br/>
+                <div class="text-right">
+                        <a href="https://concept-fusion.github.io/" class="btn btn-primary btn-icon-split btn-sm">
+                                <span class="icon text-white-50">
+                                <i class="fa fa-robot"></i>
+                                </span>
+                                <span class="text">Read more &raquo;</span>
+                            </a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+            
+              
+
+
+
+
+
+<div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+                
+                    
+                    
+                    
+                    <a href="https://montrealrobotics.ca/o4a/">
+                            <img class="card-img" style="height: 90%; object-fit: contain" src="/img/papers/o4a.gif" alt="One-4-All - Neural Potential Fields for Embodied Navigation"/>
+                    </a>
+                
+          </div>
+          <div class="col-md-8">
+            <div class="card-body border-bottom-primary">
+                
+                <h3 class="card-title">
+                    <strong>
+                        One-4-All - Neural Potential Fields for Embodied Navigation 
+                    </strong>
+                </h3>
+                
+                
+              <p class="card-text"><p>An end-to-end fully parametric method for image-goal navigation that leverages self-supervised and manifold learning to replace a topological graph with a geodesic regressor. During navigation, the geodesic regressor is used as an attractor in a potential function defined in latent space, allowing to frame navigation as a minimization problem.</p>
+</p>
+              
+                <div class="card-footer d-flex flex-row flex-wrap justify-content-right">
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://sachamorin.github.io/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Sacha Morin"
+             title="Sacha Morin"
+             src="/img/people/sacha.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <svg class="profile noprofile"
+             alt=""
+             viewBox="0 0 100 100">
+            <title></title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                
+            </text>
+        </svg>
+    
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/img/people/liam.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                </div>
+                
+                
+                
+                
+                <br/>
+                <div class="text-right">
+                        <a href="https://montrealrobotics.ca/o4a/" class="btn btn-primary btn-icon-split btn-sm">
+                                <span class="icon text-white-50">
+                                <i class="fa fa-robot"></i>
+                                </span>
+                                <span class="text">Read more &raquo;</span>
+                            </a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+            
+              
+
+
+
+
+
+<div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+                
+                    
+                    
+                    
+                    <a href="https://f-cal.github.io/">
+                            <img class="card-img" style="height: 90%; object-fit: contain" src="/img/papers/f_cal_od_gif1.gif" alt="f-Cal - Calibrated aleatoric uncertainty estimation from neural networks for robot perception"/>
+                    </a>
+                
+          </div>
+          <div class="col-md-8">
+            <div class="card-body border-bottom-primary">
+                
+                <h3 class="card-title">
+                    <strong>
+                        f-Cal - Calibrated aleatoric uncertainty estimation from neural networks for robot perception 
+                    </strong>
+                </h3>
+                
+                
+              <p class="card-text"><p>f-Cal is calibration method proposed to calibrate probabilistic regression networks. Typical bayesian neural networks are shown to be overconfident in their predictions. To use the predictions for downstream tasks, reliable and calibrated uncertainity estimates are critical. f-Cal is a straightforward loss function, which can be employed to train any probabilistic neural regressor, and obtain calibrated uncertainty estimates.</p>
+</p>
+              
+                <div class="card-footer d-flex flex-row flex-wrap justify-content-right">
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Dhaivat Bhatt"
+             title="Dhaivat Bhatt"
+             src="/img/people/dhaivat.jpeg" />
+    
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <svg class="profile noprofile"
+             alt="Kaustubh Mani"
+             viewBox="0 0 100 100">
+            <title>Kaustubh Mani</title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                K
+            </text>
+        </svg>
+    
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://dishank-b.github.io/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Dishank Bansal"
+             title="Dishank Bansal"
+             src="/img/people/dishank.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://krrish94.github.io"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Krishna Murthy Jatavallabhula"
+             title="Krishna Murthy Jatavallabhula"
+             src="/img/people/krishna.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/img/people/liam.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                </div>
+                
+                
+                  Collaborators:
+                  <ul>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://www.linkedin.com/in/lee-hanju-1848323/?originalSubdomain=jp"
+                         style="text-decoration: none">
+                        Hanju Lee
+                      </a>
+                      
+                    </li>
+                    
+                  </ul>
+                
+                
+                
+                <br/>
+                <div class="text-right">
+                        <a href="https://f-cal.github.io/" class="btn btn-primary btn-icon-split btn-sm">
+                                <span class="icon text-white-50">
+                                <i class="fa fa-robot"></i>
+                                </span>
+                                <span class="text">Read more &raquo;</span>
+                            </a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+            
+              
+
+
+
+
+
+<div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+                
+                    
+                    
+                    
+                    <a href="https://montrealrobotics.ca/ivrl/">
+                            <img class="card-img" style="height: 90%; object-fit: contain" src="/img/papers/mai2022ivrl_resized.jpg" alt="Inverse Variance Reinforcement Learning"/>
+                    </a>
+                
+          </div>
+          <div class="col-md-8">
+            <div class="card-body border-bottom-primary">
+                
+                <h3 class="card-title">
+                    <strong>
+                        Inverse Variance Reinforcement Learning 
+                    </strong>
+                </h3>
+                
+                
+              <p class="card-text"><p>Improving sample efficiency in deep reinforcement learning by mitigating the impacts of heteroscedastic noise in the bootstraped target using uncertainty estimation.</p>
+</p>
+              
+                <div class="card-footer d-flex flex-row flex-wrap justify-content-right">
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Vincent Mai"
+             title="Vincent Mai"
+             src="/img/people/vincent.jpg" />
+    
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <svg class="profile noprofile"
+             alt="Kaustubh Mani"
+             viewBox="0 0 100 100">
+            <title>Kaustubh Mani</title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                K
+            </text>
+        </svg>
+    
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://khamies.github.io/about"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Waleed Khamies"
+             title="Waleed Khamies"
+             src="/img/people/waleed.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/img/people/liam.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                </div>
+                
+                
+                
+                
+                <br/>
+                <div class="text-right">
+                        <a href="https://montrealrobotics.ca/ivrl/" class="btn btn-primary btn-icon-split btn-sm">
+                                <span class="icon text-white-50">
+                                <i class="fa fa-robot"></i>
+                                </span>
+                                <span class="text">Read more &raquo;</span>
+                            </a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+            
+              
+
+
+
+
+
+<div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+                
+                    
+                    
+                    
+                    <a href="https://montrealrobotics.ca/ltvn/">
+                            <img class="card-img" style="height: 90%; object-fit: contain" src="/img/papers/ltvn.gif" alt="Lifelong Topological Visual Navigation"/>
+                    </a>
+                
+          </div>
+          <div class="col-md-8">
+            <div class="card-body border-bottom-primary">
+                
+                <h3 class="card-title">
+                    <strong>
+                        Lifelong Topological Visual Navigation 
+                    </strong>
+                </h3>
+                
+                
+              <p class="card-text"><p>A learning-based topological visual navigation method with graph update strategies that improves lifelong navigation performance over time.</p>
+</p>
+              
+                <div class="card-footer d-flex flex-row flex-wrap justify-content-right">
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://rrwiyatn.github.io/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Rey Reza Wiyatno"
+             title="Rey Reza Wiyatno"
+             src="/img/people/rey.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/img/people/liam.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                </div>
+                
+                
+                  Collaborators:
+                  <ul>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://anqixu.me/"
+                         style="text-decoration: none">
+                        Anqi Xu
+                      </a>
+                      
+                    </li>
+                    
+                  </ul>
+                
+                
+                
+                <br/>
+                <div class="text-right">
+                        <a href="https://montrealrobotics.ca/ltvn/" class="btn btn-primary btn-icon-split btn-sm">
+                                <span class="icon text-white-50">
+                                <i class="fa fa-robot"></i>
+                                </span>
+                                <span class="text">Read more &raquo;</span>
+                            </a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+            
+              
+
+
+
+
+
+<div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+                
+                    
+                    
+                    
+                    <a href="https://taskography.github.io">
+                            <img class="card-img" style="height: 90%; object-fit: contain" src="/img/papers/3dsg.png" alt="Taskography - Evaluating robot task planning over large 3D scene graphs"/>
+                    </a>
+                
+          </div>
+          <div class="col-md-8">
+            <div class="card-body border-bottom-primary">
+                
+                <h3 class="card-title">
+                    <strong>
+                        Taskography - Evaluating robot task planning over large 3D scene graphs 
+                    </strong>
+                </h3>
+                
+                
+              <p class="card-text"><p>Taskography is the first large-scale robotic task planning benchmark over 3DSGs. While most benchmarking efforts in this area focus on vision-based planning, we systematically study symbolic planning, to decouple planning performance from visual representation learning.</p>
+</p>
+              
+                <div class="card-footer d-flex flex-row flex-wrap justify-content-right">
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://krrish94.github.io"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Krishna Murthy Jatavallabhula"
+             title="Krishna Murthy Jatavallabhula"
+             src="/img/people/krishna.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/img/people/liam.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                </div>
+                
+                
+                  Collaborators:
+                  <ul>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://agiachris.github.io/"
+                         style="text-decoration: none">
+                        Christopher Agia
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://www.linkedin.com/in/khodeir/?originalSubdomain=ca"
+                         style="text-decoration: none">
+                        Mohamed Khodeir
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://www.microsoft.com/en-us/research/people/onmiksik/"
+                         style="text-decoration: none">
+                        Ondrej Miksik
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="http://vibhavvineet.info/"
+                         style="text-decoration: none">
+                        Vibhav Vineet
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://www.mustafamukadam.com/"
+                         style="text-decoration: none">
+                        Mustafa Mukadam
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="http://www.cs.toronto.edu/~florian/"
+                         style="text-decoration: none">
+                        Florian Shkurti
+                      </a>
+                      
+                    </li>
+                    
+                  </ul>
+                
+                
+                
+                <br/>
+                <div class="text-right">
+                        <a href="https://taskography.github.io" class="btn btn-primary btn-icon-split btn-sm">
+                                <span class="icon text-white-50">
+                                <i class="fa fa-robot"></i>
+                                </span>
+                                <span class="text">Read more &raquo;</span>
+                            </a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+            
+              
+
+
+
+
+
+<div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+                
+                    
+                    
+                    
+                    <a href="https://gradslam.github.io/">
+                            <img class="card-img" style="height: 90%; object-fit: contain" src="/img/papers/walker.gif" alt="gradsim"/>
+                    </a>
+                
+          </div>
+          <div class="col-md-8">
+            <div class="card-body border-bottom-primary">
+                
+                <h3 class="card-title">
+                    <strong>
+                        gradsim 
+                    </strong>
+                </h3>
+                
+                
+              <p class="card-text"><p>gradSim is a framework that overcomes the dependence on 3D supervision by leveraging differentiable multiphysics simulation and differentiable rendering to jointly model the evolution of scene dynamics and image formation.</p>
+</p>
+              
+                <div class="card-footer d-flex flex-row flex-wrap justify-content-right">
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://krrish94.github.io"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Krishna Murthy Jatavallabhula"
+             title="Krishna Murthy Jatavallabhula"
+             src="/img/people/krishna.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://fgolemo.github.io/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Florian Golemo"
+             title="Florian Golemo"
+             src="/img/people/florian.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Breandan Considine"
+             title="Breandan Considine"
+             src="/img/people/breandan.jpg" />
+    
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/img/people/liam.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                </div>
+                
+                
+                  Collaborators:
+                  <ul>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      Miles Macklin
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      Vikram Voleti
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      Linda Petrini
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      Martin Weiss
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      Jerome Parent-Levesque
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      Kevin Xie
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      Kenny Erleben
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="http://www.cs.toronto.edu/~florian/"
+                         style="text-decoration: none">
+                        Florian Shkurti
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      Derek Nowrouzerzahrai
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      Sanja Fidler
+                      
+                    </li>
+                    
+                  </ul>
+                
+                
+                
+                <br/>
+                <div class="text-right">
+                        <a href="https://gradslam.github.io/" class="btn btn-primary btn-icon-split btn-sm">
+                                <span class="icon text-white-50">
+                                <i class="fa fa-robot"></i>
+                                </span>
+                                <span class="text">Read more &raquo;</span>
+                            </a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+            
+              
+
+
+
+
+
+<div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+                
+                    
+                    
+                    
+                    <a href="https://gradslam.github.io/">
+                            <img class="card-img" style="height: 90%; object-fit: contain" src="https://gradslam.github.io/images/pointfusiondemo.gif" alt="gradslam"/>
+                    </a>
+                
+          </div>
+          <div class="col-md-8">
+            <div class="card-body border-bottom-primary">
+                
+                <h3 class="card-title">
+                    <strong>
+                        gradslam 
+                    </strong>
+                </h3>
+                
+                
+              <p class="card-text"><p>gradslam is an open-source framework providing differentiable building blocks for simultaneous localization and mapping (SLAM) systems. We enable the usage of dense SLAM subsystems from the comfort of PyTorch.</p>
+</p>
+              
+                <div class="card-footer d-flex flex-row flex-wrap justify-content-right">
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://krrish94.github.io"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Krishna Murthy Jatavallabhula"
+             title="Krishna Murthy Jatavallabhula"
+             src="/img/people/krishna.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/img/people/liam.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                </div>
+                
+                
+                  Collaborators:
+                  <ul>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://epiception.github.io"
+                         style="text-decoration: none">
+                        Ganesh Iyer
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://saryazdi.github.io/"
+                         style="text-decoration: none">
+                        Soroush Saryazdi
+                      </a>
+                      
+                    </li>
+                    
+                  </ul>
+                
+                
+                
+                <br/>
+                <div class="text-right">
+                        <a href="https://gradslam.github.io/" class="btn btn-primary btn-icon-split btn-sm">
+                                <span class="icon text-white-50">
+                                <i class="fa fa-robot"></i>
+                                </span>
+                                <span class="text">Read more &raquo;</span>
+                            </a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+            
+              
+
+
+
+
+
+<div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+                
+                    
+                    
+                    
+                    <a href="https://mila.quebec/en/article/la-maml-look-ahead-meta-learning-for-continual-learning/">
+                            <img class="card-img" style="height: 90%; object-fit: contain" src="https://mila.quebec/wp-content/uploads/2020/11/lamaml_jpg.gif" alt="La-MAML"/>
+                    </a>
+                
+          </div>
+          <div class="col-md-8">
+            <div class="card-body border-bottom-primary">
+                
+                <h3 class="card-title">
+                    <strong>
+                        La-MAML 
+                    </strong>
+                </h3>
+                
+                
+              <p class="card-text"><p>Look-ahead meta-learning for continual learning</p>
+</p>
+              
+                <div class="card-footer d-flex flex-row flex-wrap justify-content-right">
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Gunshi Gupta"
+             title="Gunshi Gupta"
+             src="/img/people/gunshi.jpg" />
+    
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/img/people/liam.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                </div>
+                
+                
+                  Collaborators:
+                  <ul>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      Karmesh Yadav
+                      
+                    </li>
+                    
+                  </ul>
+                
+                
+                
+                <br/>
+                <div class="text-right">
+                        <a href="https://mila.quebec/en/article/la-maml-look-ahead-meta-learning-for-continual-learning/" class="btn btn-primary btn-icon-split btn-sm">
+                                <span class="icon text-white-50">
+                                <i class="fa fa-robot"></i>
+                                </span>
+                                <span class="text">Read more &raquo;</span>
+                            </a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+            
+              
+
+
+
+
+
+<div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+                
+                    
+                    
+                    
+                    <a href="/projects/adr.html">
+                            <img class="card-img" style="height: 90%; object-fit: contain" src="/img/papers/adr.gif" alt="Active Domain Randomization"/>
+                    </a>
+                
+          </div>
+          <div class="col-md-8">
+            <div class="card-body border-bottom-primary">
+                
+                <h3 class="card-title">
+                    <strong>
+                        Active Domain Randomization 
+                    </strong>
+                </h3>
+                
+                
+              <p class="card-text"><p>Making sim-to-real transfer more efficient</p>
+</p>
+              
+                <div class="card-footer d-flex flex-row flex-wrap justify-content-right">
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Bhairav Mehta"
+             title="Bhairav Mehta"
+             src="/img/people/bhairav.jpg" />
+    
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://fgolemo.github.io/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Florian Golemo"
+             title="Florian Golemo"
+             src="/img/people/florian.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://manfreddiaz.github.io/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Manfred Diaz"
+             title="Manfred Diaz"
+             src="/img/people/manfred.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/img/people/liam.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                </div>
+                
+                
+                  Collaborators:
+                  <ul>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      Chris Pal
+                      
+                    </li>
+                    
+                  </ul>
+                
+                
+                
+                <br/>
+                <div class="text-right">
+                        <a href="/projects/adr.html" class="btn btn-primary btn-icon-split btn-sm">
+                                <span class="icon text-white-50">
+                                <i class="fa fa-robot"></i>
+                                </span>
+                                <span class="text">Read more &raquo;</span>
+                            </a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+            
+              
+
+
+
+
+
+<div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+                
+                    
+                    
+                    
+                    <a href="https://krrish94.github.io/CTCNet-release/">
+                            <img class="card-img" style="height: 90%; object-fit: contain" src="/img/events/ctcnet.png" alt="Self-supervised visual odometry estimation"/>
+                    </a>
+                
+          </div>
+          <div class="col-md-8">
+            <div class="card-body border-bottom-primary">
+                
+                <h3 class="card-title">
+                    <strong>
+                        Self-supervised visual odometry estimation 
+                    </strong>
+                </h3>
+                
+                
+              <p class="card-text"><p>A self-supervised deep network for visual odometry estimation from monocular imagery.</p>
+</p>
+              
+                <div class="card-footer d-flex flex-row flex-wrap justify-content-right">
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://krrish94.github.io"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Krishna Murthy Jatavallabhula"
+             title="Krishna Murthy Jatavallabhula"
+             src="/img/people/krishna.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Gunshi Gupta"
+             title="Gunshi Gupta"
+             src="/img/people/gunshi.jpg" />
+    
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/img/people/liam.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                </div>
+                
+                
+                  Collaborators:
+                  <ul>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://epiception.github.io"
+                         style="text-decoration: none">
+                        Ganesh Iyer
+                      </a>
+                      
+                    </li>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      <a href="https://robotics.iiit.ac.in"
+                         style="text-decoration: none">
+                        K. Madhava Krishna
+                      </a>
+                      
+                    </li>
+                    
+                  </ul>
+                
+                
+                
+                <br/>
+                <div class="text-right">
+                        <a href="https://krrish94.github.io/CTCNet-release/" class="btn btn-primary btn-icon-split btn-sm">
+                                <span class="icon text-white-50">
+                                <i class="fa fa-robot"></i>
+                                </span>
+                                <span class="text">Read more &raquo;</span>
+                            </a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+            
+              
+
+
+
+
+
+<div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+                
+                    
+                    
+                    
+                    <a href="/projects/dal.html">
+                            <img class="card-img" style="height: 90%; object-fit: contain" src="/img/papers/dal.jpg" alt="Deep Active Localization"/>
+                    </a>
+                
+          </div>
+          <div class="col-md-8">
+            <div class="card-body border-bottom-primary">
+                
+                <h3 class="card-title">
+                    <strong>
+                        Deep Active Localization 
+                    </strong>
+                </h3>
+                
+                
+              <p class="card-text"><p>Learned active localization, implemented on “real” robots.</p>
+</p>
+              
+                <div class="card-footer d-flex flex-row flex-wrap justify-content-right">
+                    
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://saikrishna-1996.github.io/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Sai Krishna G.V."
+             title="Sai Krishna G.V."
+             src="/img/people/sai.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Dhaivat Bhatt"
+             title="Dhaivat Bhatt"
+             src="/img/people/dhaivat.jpeg" />
+    
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="https://krrish94.github.io"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Krishna Murthy Jatavallabhula"
+             title="Krishna Murthy Jatavallabhula"
+             src="/img/people/krishna.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Vincent Mai"
+             title="Vincent Mai"
+             src="/img/people/vincent.jpg" />
+    
+
+
+                        </span>
+                        
+                        <span>
+                            
+                            
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/img/people/liam.jpg" />
+    
+    </a>
+
+
+                        </span>
+                        
+                </div>
+                
+                
+                  Collaborators:
+                  <ul>
+                    
+                    
+                    <li style="display: block; width: 50%; float: left;">
+                      
+                      Keehong Seo
+                      
+                    </li>
+                    
+                  </ul>
+                
+                
+                
+                <br/>
+                <div class="text-right">
+                        <a href="/projects/dal.html" class="btn btn-primary btn-icon-split btn-sm">
+                                <span class="icon text-white-50">
+                                <i class="fa fa-robot"></i>
+                                </span>
+                                <span class="text">Read more &raquo;</span>
+                            </a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+            
             <p>
-                <a href="{{ site.base }}/research.html" class="btn btn-primary btn-icon-split btn-sm">
+                <a href="/research.html" class="btn btn-primary btn-icon-split btn-sm">
                   <span class="icon text-white-50">
                   <i class="fa fa-robot"></i>
                   </span>
@@ -82,3 +2642,34 @@ carousels:
 </section>
 
 
+
+
+            <div class="my-5 pt-5 text-muted text-center text-md">
+                <p class="affiliations">
+                  <a href="https://en.diro.umontreal.ca/home/">
+                    <img src="https://montrealrobotics.github.io/website-assets/assets/img/diro.png" width="150px" alt=
+                            "Department of Computer Science and Operations Research"> </a>
+                        |
+                        <a href="https://www.umontreal.ca/">
+                            <img src="https://montrealrobotics.github.io/website-assets/assets/img/udem.png" width="150px" alt=
+                            "Universit&eacute; de Montr&eacute;al">
+                        </a> |
+                        
+                        <a href="https://mila.quebec/">
+                          <img src="https://montrealrobotics.github.io/website-assets/assets/img/mila.png" width="150px" alt=
+                               "Mila">
+                        </a>
+                </p>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Load jquery-->
+        <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/website-assets/assets/js/srcset-polyfill.js"></script>
+        <!-- Support hidden abstract/bibtex blocks. -->
+        <script src="/website-assets/assets/js/common.js"></script>
+    </body>
+</html>

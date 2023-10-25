@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width initial-scale=1" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
       
-        <title>Robotics Group @ University of Montreal | Blog</title>
+        <title>Robotics Group @ University of Montreal | Active Domain Randomization</title>
         <meta name="description" content="The Robotics and Embodied AI Lab @ U de Montreal">
       
         <link rel="shortcut icon" href="https://montrealrobotics.github.io/website-assets/assets/img/favicon.png">
@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="https://montrealrobotics.github.io/website-assets/assets/css/sb-admin-2.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="https://montrealrobotics.github.io/website-assets/assets/css/main.css">
-        <link rel="canonical" href="https://montrealrobotics.github.io/blog">
+        <link rel="canonical" href="https://montrealrobotics.github.io/projects/adr">
 
       </head>
     <body>
@@ -68,7 +68,7 @@
                                     
             
                                     <li class="nav-item">
-                                        <a class="nav-link "
+                                        <a class="nav-link active"
                                            href="/research.html">
                                             Research
                                         </a>
@@ -124,7 +124,7 @@
                                     
             
                                     <li class="nav-item">
-                                        <a class="nav-link active"
+                                        <a class="nav-link "
                                            href="/blog.html">
                                             Blog
                                         </a>
@@ -135,49 +135,80 @@
             </nav>
 
             
+                <img src="/img/papers/adr.gif"
+                     alt="Active Domain Randomization"
+                     style="max-width: 400px"
+                     class="img-fluid mx-auto d-block mb-4"/>
+            
 
             <!-- 
-                <h1>Blog</h1>
+                <h1>Active Domain Randomization</h1>
              -->
 
-            <div class="card border-bottom-primary shadow py-2 mb-4">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="h2 font-weight-bold text-primary mb-1">Recent News</div>
-                    </div>
-                  </div>
-                </div>
-</div>
+            <h2 id="active-domain-randomization">Active Domain Randomization</h2>
+
+<p>Domain randomization is a popular technique for improving domain transfer, often used in a zero-shot setting when the target domain is unknown or cannot easily be used for training. In this work, we empirically examine the effects of domain randomization on agent generalization. Our experiments show that domain randomization may lead to suboptimal, high-variance policies, which we attribute to the uniform sampling of environment parameters. We propose Active Domain Randomization, a novel algorithm that learns a parameter sampling strategy. Our method looks for the most informative environment variations within the given randomization ranges by leveraging the discrepancies of policy rollouts in randomized and reference environment instances. We find that training more frequently on these instances leads to better overall agent generalization. Our experiments across various physics-based simulated and real-robot tasks show that this enhancement leads to more robust, consistent policies.</p>
+
+
+<h2> People </h2>
+<section class="people project-people">
+    
+        
+        
+
+
+
+
+
+
+
+<div class="card mr-2 mb-2 border-bottom-primary" style="min-width: 330px; max-width: 330px">
+  <div class="card-body">
+  
+
+  
+    <div class="person person-with-image row align-items-center">
+      
+
+
+
+
+
 
 
     
-
-
-
-
-
-
-
-<div class="card-body border-left-success">
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Bhairav Mehta"
+             title="Bhairav Mehta"
+             src="/img/people/bhairav.jpg" />
     
-        
-<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> December 05, 2020</span>
 
-        
-    <div>
-        
-            Krishna <a href="https://blogs.nvidia.com/blog/2020/12/04/graduate-fellowships-gpu-computing-research/">won an NVIDIA fellowship</a> for 2021-22. Congratulations!
 
+      
+      
+      <h4 class="person-name">&nbsp;&nbsp;&nbsp; Bhairav Mehta </h4> </br>
+      <h5>
+      
+      
+      
+        </br><b>Thesis</b>: <a href="https://papyrus.bib.umontreal.ca/xmlui/handle/1866/24310"> On learning and generalization in unstructured task spaces </a> 
+      
+      
+        </br><b>Current Position</b>: CEO at Innabox 
         
+        </h5>
+      
     </div>
-
-    
+  
+  
 </div>
-<br/>
+  </div>
+
 
 
     
+        
+        
 
 
 
@@ -185,25 +216,56 @@
 
 
 
-<div class="card-body border-left-success">
+<div class="card mr-2 mb-2 border-bottom-primary" style="min-width: 330px; max-width: 330px">
+  <div class="card-body">
+  
+
+  
+    <div class="person person-with-image row align-items-center">
+      
+
+
+
+
+
+
+
+    <a href="https://fgolemo.github.io/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Florian Golemo"
+             title="Florian Golemo"
+             src="/img/people/florian.jpg" />
     
-        
-<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> November 30, 2020</span>
+    </a>
 
-        
-    <div>
-        
-            We released <a href="http://gradslam.github.io/">gradslam</a> - a differentiable dense SLAM framework for deep learning. Check it out!
 
-        
+      
+      
+      <h4 class="person-name">&nbsp;&nbsp;&nbsp; 
+<a href="https://fgolemo.github.io/"> Florian Golemo </a>
+ </h4> </br>
+      <h5>
+      
+      
+       </br><b>Coadvisor</b>: Chris Pal &nbsp;&nbsp;&nbsp;
+      
+      
+      
+        </h5>
+      
     </div>
-
-    
+  
+  
 </div>
-<br/>
+  </div>
+
 
 
     
+        
+        
 
 
 
@@ -211,25 +273,54 @@
 
 
 
-<div class="card-body border-left-success">
+<div class="card mr-2 mb-2 border-bottom-primary" style="min-width: 330px; max-width: 330px">
+  <div class="card-body">
+  
+
+  
+    <div class="person person-with-image row align-items-center">
+      
+
+
+
+
+
+
+
+    <a href="https://manfreddiaz.github.io/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Manfred Diaz"
+             title="Manfred Diaz"
+             src="/img/people/manfred.jpg" />
     
-        
-<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> October 30, 2020</span>
+    </a>
 
-        
-    <div>
-        
-            We organized an IROS workshop on <a href="http://montrealrobotics.ca/driving-benchmarks/">Benchmarking progress in autonomous driving</a>
 
-        
+      
+      
+      <h4 class="person-name">&nbsp;&nbsp;&nbsp; 
+<a href="https://manfreddiaz.github.io/"> Manfred Diaz </a>
+ </h4> </br>
+      <h5>
+      
+      
+      
+      
+        </h5>
+      
     </div>
-
-    
+  
+  
 </div>
-<br/>
+  </div>
+
 
 
     
+        
+        
 
 
 
@@ -237,336 +328,55 @@
 
 
 
-<div class="card-body border-left-success">
+<div class="card mr-2 mb-2 border-bottom-primary" style="min-width: 330px; max-width: 330px">
+  <div class="card-body">
+  
+
+  
+    <div class="person person-with-image row align-items-center">
+      
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/img/people/liam.jpg" />
     
-        
-<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> October 15, 2020</span>
+    </a>
 
-        
-    <div>
-        
-            Checkout our new Neurips 2020 Oral paper <a href="https://arxiv.org/abs/2007.13904">La-MAML: Look-Ahead Meta-Learning for Continual Learning</a> [<a href="https://github.com/montrealrobotics/La-MAML">Code</a>], [<a href="https://www.youtube.com/watch?v=HzewyVu8LaY">Short Video</a>].
 
-        
+      
+      
+      <h4 class="person-name">&nbsp;&nbsp;&nbsp; 
+<a href="http://liampaull.ca"> Liam Paull </a>
+ </h4> </br>
+      <h5>
+      
+       </br><b>Interests</b>: Robot perception, uncertainty, sim2real, and robot benchmarking 
+      
+      
+      
+      
+        </h5>
+      
     </div>
-
-    
+  
+  
 </div>
-<br/>
+  </div>
+
 
 
     
-
-
-
-
-
-
-
-<div class="card-body border-left-success">
-    
-        
-<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> October 10, 2020</span>
-
-        
-    <div>
-        
-            Two papers accepted to Neurips 2020 (one of them an oral - top 1.1%). Congratulations Gunshi and Ruixiang!
-
-        
-    </div>
-
-    
-</div>
-<br/>
-
-
-    
-
-
-
-
-
-
-
-<div class="card-body border-left-success">
-    
-        
-<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> September 10, 2020</span>
-
-        
-    <div>
-        
-            <a href="http://montrealrobotics.ca/robotlearningseries/">Robot learning seminar series</a> launched!
-
-        
-    </div>
-
-    
-</div>
-<br/>
-
-
-    
-
-
-
-
-
-
-
-<div class="card-body border-left-success">
-    
-        
-<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> June 30, 2020</span>
-
-        
-    <div>
-        
-            Gunshi Gupta succesfully completes her M.Sc. and joins Wayve as a deep learning researcher!
-
-        
-    </div>
-
-    
-</div>
-<br/>
-
-
-    
-
-
-
-
-
-
-
-<div class="card-body border-left-success">
-    
-        
-<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> June 05, 2020</span>
-
-        
-    <div>
-        
-            Our paper [MapLite: Autonomous intersection navigation without detailed prior maps] was adjudged <em>best Robotics and Automation Letters (RAL) paper for 2019</em>! Check it out <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8936918">here</a>. And, here’s a short <a href="https://youtu.be/P6Kk5pB2gF4">video abstract</a>.
-
-        
-    </div>
-
-    
-</div>
-<br/>
-
-
-    
-
-
-
-
-
-
-
-<div class="card-body border-left-success">
-    
-        
-<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> January 20, 2020</span>
-
-        
-    <div>
-        
-            Check out our new ICRA 2020 paper <a href="https://arxiv.org/abs/1910.10672">gradSLAM: Dense SLAM meets automatic differentiation</a> on fully differentiable dense SLAM: <a href="http://montrealrobotics.ca/gradSLAM/">Project page</a>, <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=2ygtSJTmo08">Video</a>.
-
-        
-    </div>
-
-    
-</div>
-<br/>
-
-
-    
-
-
-
-
-
-
-
-<div class="card-body border-left-success">
-    
-        
-<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> September 10, 2019</span>
-
-        
-    <div>
-        
-            The “Active Domain Randomization” paper got accepted to CoRL 2019. Congrats Bhairav, Manfred, and Florian.
-
-        
-    </div>
-
-    
-</div>
-<br/>
-
-
-    
-
-
-
-
-
-
-
-<div class="card-body border-left-success">
-    
-        
-<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> September 01, 2019</span>
-
-        
-    <div>
-        
-            Dhaivat, Rey, and Philippe joined the group as Masters’ students. Welcome!
-
-        
-    </div>
-
-    
-</div>
-<br/>
-
-
-    
-
-
-
-
-
-
-
-<div class="card-body border-left-success">
-    
-        
-<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> September 01, 2019</span>
-
-        
-    <div>
-        
-            Sharath, Mark, Amrut, Rohan, and Dishank joined the group as interns. Welcome!
-
-        
-    </div>
-
-    
-</div>
-<br/>
-
-
-    
-
-
-
-
-
-
-
-<div class="card-body border-left-success">
-    
-        
-<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> August 01, 2019</span>
-
-        
-    <div>
-        
-            Our paper <em>Deep Active Localization</em> got accepted into Robotics and Automation Letters
-
-        
-    </div>
-
-    
-</div>
-<br/>
-
-
-    
-
-
-
-
-
-
-
-<div class="card-body border-left-success">
-    
-        
-<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> November 28, 2018</span>
-
-        
-    <div>
-        
-            Dhaivat Bhatt just joined our group as an intern. Welcome!
-
-        
-    </div>
-
-    
-</div>
-<br/>
-
-
-    
-
-
-
-
-
-
-
-<div class="card-body border-left-success">
-    
-        
-<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> September 05, 2018</span>
-
-        
-    <div>
-        
-            Manfred Diaz and Ruixiang Zhang join the group as PhD students …
-
-        
-    </div>
-
-    
-</div>
-<br/>
-
-
-    
-
-
-
-
-
-
-
-<div class="card-body border-left-success">
-    
-        
-<span class="text-md font-weight-bold text-primary text-uppercase mb-1"><i class="fa fa-newspaper"></i> April 20, 2018</span>
-
-        
-    <div>
-        
-            Paper on self-supervised visual odometry estimation accepted to CVPR workshop on SLAM.
-
-        
-    </div>
-
-    
-</div>
-<br/>
-
-
+</section>
 
 
             <div class="my-5 pt-5 text-muted text-center text-md">

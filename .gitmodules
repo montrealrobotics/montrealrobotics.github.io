@@ -1,4 +1,0 @@
-[submodule "website-assets"]
-	path = website-assets
-	url = git@github.com:montrealrobotics/website-assets.git
-        branch = master
