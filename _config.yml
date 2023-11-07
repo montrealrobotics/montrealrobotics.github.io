@@ -49,7 +49,8 @@ front_page_news: 8
 front_page_old_projects: 4
 
 # Base pathname for links.
-base: ''
+base: ""
+baseurl: ""
 
 # make pages for the _projects folder
 collections:
@@ -113,3 +114,8 @@ scholar:
 jquery_version: "1.12.4"
 katex_version: "0.7.1"
 anchorjs_version: "3.2.2"
+
+plugins:
+  - jekyll-multiple-languages-plugin
+
+languages: ["en", "fr"]
