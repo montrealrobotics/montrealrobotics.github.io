@@ -112,6 +112,7 @@ luke:
     advisor: Liam Paull
     image: /img/people/luke.png
     coadvisor: "Chris Pal"
+    interests: "Machine learning, autonomous driving"
 
 ruixiang:
     display_name: "Ruixiang Zhang"
