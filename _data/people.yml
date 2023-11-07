@@ -112,7 +112,6 @@ luke:
     advisor: Liam Paull
     image: /img/people/luke.png
     coadvisor: "Chris Pal"
-    interests: "Prediction, planning, and simulation for autonomous driving"
 
 ruixiang:
     display_name: "Ruixiang Zhang"
@@ -232,9 +231,19 @@ siddarth:
 
 raj:
     display_name: "Raj Ghugare"
-    role: intern
+    advisor: Glen Berseth
+    role: phd
     image: /img/people/raj-g.png
+    interests: "Reinforcement learning, machine learning"
     webpage: "http://RajGhugare19.github.io/"
+
+esraa:
+    display_name: "Esra'a Saleh"
+    advisor: Glen Berseth
+    role: phd
+    image: /img/people/esraa.png
+    coadvisor: "Aaron Courville"
+    webpage: "https://esraasaleh.com/"
 
 aurelien:
     display_name: "Aurélien Bück-Kaeffer"
