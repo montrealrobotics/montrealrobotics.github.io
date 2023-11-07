@@ -7,13 +7,12 @@
     <a class="btn btn-primary btn-lg" href="{{ site.base }}/contact.html" role="button">Learn more</a>
   </div>
 
-
+<!--
 <section>
     <div class="card shadow mb-4">
         <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
             <h6 class="m-0 font-weight-bold text-primary text-lg">News</h6>
         </div>
-        <!-- Card Body -->
         <div class="card-body">
             {% for post in site.posts limit: site.front_page_news %}
             {% include news-item.html item=post %}
@@ -30,6 +29,7 @@
         </div>
     </div>
 </section>
+-->
 
 <section>
     <div class="card shadow mb-4">
