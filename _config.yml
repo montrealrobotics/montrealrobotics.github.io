@@ -49,7 +49,8 @@ front_page_news: 8
 front_page_old_projects: 4
 
 # Base pathname for links.
-base: ''
+base: ""
+baseurl: ""
 
 # make pages for the _projects folder
 collections:
