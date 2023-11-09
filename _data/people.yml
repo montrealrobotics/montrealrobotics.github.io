@@ -238,6 +238,7 @@ raj:
     interests: "Reinforcement learning, machine learning"
     webpage: "http://RajGhugare19.github.io/"
 
+
 esraa:
     display_name: "Esra'a Saleh"
     advisor: Glen Berseth
@@ -245,6 +246,18 @@ esraa:
     image: /img/people/esraa.png
     coadvisor: "Aaron Courville"
     webpage: "https://esraasaleh.com/"
+
+ria2:
+    display_name: "Ria Arora"
+    role: intern-alum
+
+
+ria:
+    display_name: "Ria Arora"
+    role: masters
+    advisor: Liam Paull
+    coadvisor: "Guy Wolf"
+    image: /img/people/ria.png
 
 aurelien:
     display_name: "Aurélien Bück-Kaeffer"
