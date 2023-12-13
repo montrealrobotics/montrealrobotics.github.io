@@ -71,6 +71,15 @@ steven:
     image: /img/people/stevenhead.png
     current_role: Robotics researcher at the Institut de Recherche d'Hydro Québec (IREQ)
 
+melrose:
+    display_name: "Melrose Roderick"
+    webpage: "https://melroderick.github.io/"
+    interests: "Safe and robust reinforcement learning, environmental sustainability"
+    advisor: Glen Berseth
+    coadvisor: Marc Bellemare
+    role: postdoc
+    image: /img/people/melrose.jpg
+
 kirsty:
     display_name: "Kirsty Ellis"
     role: developer
