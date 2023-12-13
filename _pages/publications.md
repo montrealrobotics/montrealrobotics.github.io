@@ -21,5 +21,4 @@ years: [2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016]
             <div class="h2 font-weight-bold text-primary mb-1">{{y}}</div>
           </div>
   </div>  
-{% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
