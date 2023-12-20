@@ -262,11 +262,11 @@ ria2:
 
 
 ria:
-    display_name: "Ria Arora"
+    display_name: "Ria Arora&nbsp;&nbsp;&nbsp;&nbsp;"
     role: masters
     advisor: Liam Paull
     coadvisor: "Guy Wolf"
-    image: /img/people/ria.png
+    image: /img/people/ria.jpg
 
 aurelien:
     display_name: "Aurélien Bück-Kaeffer"
