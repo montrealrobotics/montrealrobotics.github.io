@@ -80,6 +80,14 @@ melrose:
     role: postdoc
     image: /img/people/melrose.jpg
 
+Hongyao:
+    display_name: "Hongyao Tang"
+    webpage: "https://bluecontra.github.io/"
+    interests: "Reinforcement Learning, Representation Learning"
+    advisor: Glen Berseth
+    role: postdoc
+    image: /img/people/hongyao.jpg
+
 kirsty:
     display_name: "Kirsty Ellis"
     role: developer
