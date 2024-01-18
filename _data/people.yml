@@ -626,3 +626,36 @@ erleben:
 yadav:
     display_name: Karmesh Yadav
     role: collab
+
+
+yfeng:
+    display_name: Yao Feng
+    role: collab
+    webpage: https://scholar.google.com/citations?user=wNQQhSIAAAAJ&hl=en
+
+yxiu:
+    display_name: Yuliang Xiu
+    role: collab
+    webpage: https://xiuyuliang.cn/
+
+wyliu:
+    display_name: Weiyang Liu
+    role: collab
+    webpage: https://wyliu.com/
+
+mjb:
+    display_name: Michael J. Black
+    role: collab
+    webpage: https://ps.is.mpg.de/person/black
+
+bs:
+    display_name: Bernhard Schölkopf
+    role: collab
+    webpage: https://is.mpg.de/~bs
+
+
+
+
+
+
+
