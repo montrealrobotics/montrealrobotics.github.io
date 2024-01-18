@@ -20,7 +20,7 @@ collaborators:
 
 layout: project
 image: /img/papers/meshdiffusion.png
-link: https://https://meshdiffusion.github.io/
+link: https://meshdiffusion.github.io/
 last-updated: 2024-01-18
 ---
 
