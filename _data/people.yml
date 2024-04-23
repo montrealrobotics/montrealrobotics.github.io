@@ -80,6 +80,14 @@ melrose:
     role: postdoc
     image: /img/people/melrose.jpg
 
+Hongyao:
+    display_name: "Hongyao Tang"
+    webpage: "https://bluecontra.github.io/"
+    interests: "Reinforcement Learning, Representation Learning"
+    advisor: Glen Berseth
+    role: postdoc
+    image: /img/people/hongyao.jpg
+
 kirsty:
     display_name: "Kirsty Ellis"
     role: developer
@@ -618,3 +626,25 @@ erleben:
 yadav:
     display_name: Karmesh Yadav
     role: collab
+
+
+yfeng:
+    display_name: Yao Feng
+    role: collab
+    webpage: https://scholar.google.com/citations?user=wNQQhSIAAAAJ&hl=en
+
+wyliu:
+    display_name: Weiyang Liu
+    role: collab
+    webpage: https://wyliu.com/
+
+mjb:
+    display_name: Michael J. Black
+    role: collab
+    webpage: https://ps.is.mpg.de/person/black
+
+
+
+
+
+
