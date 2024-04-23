@@ -1,5 +1,5 @@
 <div class="jumbotron">
-    {% include carousel.html height="50" unit="%" duration="4" number="1" %}
+    {% include carousel.html height="65" unit="%" duration="4" number="1" %}
     <!-- <img src="/img/group.jpg" class="d-block w-100" alt="..."> -->
     <h1 class="display-4">Robotics and Embodied AI Lab (REAL)</h1>
     <p class="lead">The <strong>Robotics and Embodied AI Lab (REAL)</strong> is a research lab in <a href="http://diro.umontreal.ca">DIRO</a> at the  <b>Université de Montréal</b>  and is also affiliated with  <a href="https://mila.quebec/en/">Mila</a>. REAL is dedicated to making generalist robots and other embodied agents. </p>
