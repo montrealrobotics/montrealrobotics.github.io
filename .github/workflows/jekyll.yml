@@ -32,6 +32,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: checkout_assets
+        uses: actions/checkout@v3
+        with:
+          repository: montrealrobotics/website-assets
+          path: website-assets
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1 # v1.115.3
         with:
