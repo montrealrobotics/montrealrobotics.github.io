@@ -144,7 +144,7 @@ zhen:
     coadvisor: "Yoshua Bengio"
     role: phd
     image: /img/people/zhen.jpeg
-    website: "http://itszhen.com/"
+    webpage: "http://itszhen.com/"
 
 mostafa:
     display_name: "Mostafa ElAraby"
@@ -152,7 +152,7 @@ mostafa:
     advisor: Liam Paull
     interests: "Continual learning, Out Of Distribution Detection, Robustness"
     image: /img/people/mostafa.jpg
-    website: "https://www.mostafaelaraby.com/"
+    webpage: "https://www.mostafaelaraby.com/"
 
 
 sacha:
