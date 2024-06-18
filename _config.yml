@@ -82,9 +82,9 @@ navigation:
 # Includes
 include: ['_pages']
 
-gems:
+plugins:
     - jekyll-paginate
-    - jekyll/scholar
+    - ['jekyll/scholar']
     - jemoji
 
 
@@ -93,26 +93,26 @@ markdown: kramdown
 highlighter: pygments
 
 # Jekyll-Scholar
-#scholar:
+scholar:
 
-#  style: apa
-#  locale: en
+  style: apa
+  locale: en
 
-#  sort_by: year
-#  order: descending
+  sort_by: year
+  order: descending
 
-#  source: /_bibliography/
-#  bibliography: pubs.bib
-#  bibliography_template: bib
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
 
-#  replace_strings: true
-#  join_strings: true
+  replace_strings: true
+  join_strings: true
 
-#  details_dir: bibliography
-#  details_layout: bibtex.html
-#  details_link: Details
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
 
-#  query: "@*"
+  query: "@*"
 
 jquery_version: "1.12.4"
 katex_version: "0.7.1"
