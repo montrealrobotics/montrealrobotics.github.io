@@ -223,13 +223,13 @@ miguel2:
     thesis: "Leveraging Self-Supervision for Visual Embodied Navigation with Neuralized Potential Fields"
     current_role: PhD Student at Mila / REAL
 
-
-simon:
-    display_name: "Simon Demeule"
-    role: masters
+lea:
+    display_name: "Léa Demeule"
+    role: phd
     advisor: Glen Berseth
-    webpage: "https://simondemeule.com/"
-    image: /img/people/simon.jpg
+    coadvisor: Chris Pal
+    webpage: "https://leademeule.com/"
+    image: /img/people/lea.jpg
     
 adriana:
     display_name: "Adriana Hugessen"
