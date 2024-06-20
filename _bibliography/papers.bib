@@ -1,3 +1,15 @@
+@inproceedings{morin2023one,
+  author    = {Morin, Sacha and Saavedra-Ruiz, Miguel and Paull, Liam},
+  title     = {One-4-all: Neural potential fields for embodied navigation},
+  booktitle = {2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  arxiv = {2303.04011},
+  image = {papers/o4a.gif},
+  projectpage = {https://montrealrobotics.ca/o4a/},
+  video = {https://youtu.be/wOV_FWpb9yg?si=h0KW-YQzPwjGhyC1},
+  abstract = {A fundamental task in robotics is to navigate between two locations. In particular, real-world navigation can require long-horizon planning using high-dimensional RGB images, which poses a substantial challenge for end-to-end learning-based approaches. Current semi-parametric methods instead achieve long-horizon navigation by combining learned modules with a topological memory of the environment, often represented as a graph over previously collected images. However, using these graphs in practice requires tuning a number of pruning heuristics. These heuristics are necessary to avoid spurious edges, limit runtime memory usage and maintain reasonably fast graph queries in large environments. In this work, we present One-4-All (O4A), a method leveraging self-supervised and manifold learning to obtain a graph-free, end-to-end navigation pipeline in which the goal is specified as an image. Navigation is achieved by greedily minimizing a potential function defined continuously over image embeddings. Our system is trained offline on non-expert exploration sequences of RGB data and controls, and does not require any depth or pose measurements. We show that O4A can reach long-range goals in 8 simulated Gibson indoor environments and that resulting embeddings are topologically similar to ground truth maps, even if no pose is observed. We further demonstrate successful real-world navigation using a Jackal UGV platform.},
+  year={2023}
+}
+
 @article{conceptfusion,
   author    = {Jatavallabhula, {Krishna Murthy} and Kuwajerwala, Alihusein and Gu, Qiao and Omama, Mohd and Chen, Tao and Li, Shuang and Iyer, Ganesh and Saryazdi, Soroush and Keetha, Nikhil and Tewari, Ayush and Tenenbaum, {Joshua B.} and {de Melo}, {Celso Miguel} and Krishna, Madhava and Paull, Liam and Shkurti, Florian and Torralba, Antonio},
   title     = {ConceptFusion: Open-set Multimodal 3D Mapping},
