@@ -37,6 +37,8 @@ roles:
     name: Past Master's Students
   - key: intern-alum
     name: Past Undergraduate Researchers and Interns
+  - key: visitor
+    name: Visiting Students and Faculty
 
 
 includes_dir: website-assets/_includes

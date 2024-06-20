@@ -60,6 +60,7 @@ kaustubh2:
     interests: "Safety, Robustness and Model-Based RL"
     advisor: Liam Paull
     role: phd
+    image: /img/people/kaustubh.jpeg
    
 
 steven:
@@ -71,14 +72,15 @@ steven:
     image: /img/people/stevenhead.png
     current_role: Robotics researcher at the Institut de Recherche d'Hydro Québec (IREQ)
 
-melrose:
-    display_name: "Melrose Roderick"
-    webpage: "https://melroderick.github.io/"
-    interests: "Safe and robust reinforcement learning, environmental sustainability"
-    advisor: Glen Berseth
-    coadvisor: Marc Bellemare
+samer:
+    display_name: "Samer Nashed"
+    webpage: "https://samernashed.github.io/"
+    advisor: Liam Paull
     role: postdoc
-    image: /img/people/melrose.jpg
+    image: /img/people/samer.jpg
+
+
+
 
 Hongyao:
     display_name: "Hongyao Tang"
@@ -177,7 +179,7 @@ mahtab:
     display_name: "Mahtab Sandhu"
     role: masters
     advisor: Liam Paull
-    # image: /img/people/ali-k.jpeg
+    image: /img/people/mahtab.jpeg
 
 dishank:
     display_name: "Dishank Bansal"
@@ -279,6 +281,12 @@ ria:
     advisor: Liam Paull
     coadvisor: "Guy Wolf"
     image: /img/people/ria.jpg
+
+yehao:
+    display_name: "Yehao Yan"
+    role: intern
+    advisor: Glen Berseth
+    image: /img/people/yehao_yan.png
 
 aurelien:
     display_name: "Aurélien Bück-Kaeffer"
@@ -382,12 +390,15 @@ rey:
     webpage: "http://rrwiyatn.github.io/"
 
 
-
+michael-p:
+    display_name: Michael Przystupa
+    role: visitor
+    image: /img/people/michael-p.png
 
 kaustubh:
     display_name: "Kaustubh Mani"
     role: intern-alum
-    current_role: "PhD student at Mila / REALl"
+    current_role: "PhD student at Mila / REAL"
 
 nikhil:
     display_name: "Nikhil Varma Keetha"
