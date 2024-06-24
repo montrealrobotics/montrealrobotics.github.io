@@ -251,7 +251,8 @@ siddarth:
     advisor: Glen Berseth
     role: phd
     image: /img/people/siddarth.jpg
-    interests: Reinforcement learning, representation learning
+    interests: Probabilistic inference, Generative models, Reinforcement learning
+    webpage: "https://hyperpotatoneo.github.io/"
 
 raj:
     display_name: "Raj Ghugare"
