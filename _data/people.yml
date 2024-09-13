@@ -665,6 +665,9 @@ james:
     webpage: https://www.mcgill.ca/mecheng/james-forbes
 
 
-
-
-
+rod:
+    display_name: "Rodrigue de Schaetzen"
+    role: phd
+    advisor: Liam Paull
+    image: /img/people/rod.jpg
+    webpage: "https://rdesc.dev/"
