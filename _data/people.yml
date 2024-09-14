@@ -90,6 +90,13 @@ Hongyao:
     role: postdoc
     image: /img/people/hongyao.jpg
 
+cyrus:
+    display_name: "Cyrus Neary"
+    webpage: "https://www.cyrusneary.com/"
+    advisor: Glen Berseth
+    role: postdoc
+    image: /img/people/cyrus.jpg
+
 kirsty:
     display_name: "Kirsty Ellis"
     role: developer
