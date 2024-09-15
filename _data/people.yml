@@ -678,3 +678,10 @@ rod:
     advisor: Liam Paull
     image: /img/people/rod.jpg
     webpage: "https://rdesc.dev/"
+
+ozgur:
+    display_name: "Ozgur Aslan"
+    role: phd
+    advisor: Glen Berseth
+    image: /img/people/ozgur.jpeg
+    webpage: "https://ozgraslan.github.io/"
