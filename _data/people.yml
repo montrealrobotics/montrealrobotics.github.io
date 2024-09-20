@@ -685,3 +685,10 @@ ozgur:
     advisor: Glen Berseth
     image: /img/people/ozgur.jpeg
     webpage: "https://ozgraslan.github.io/"
+
+alexbrown:
+    display_name: "Alexandre Brown"
+    role: masters
+    advisor: Glen Berseth
+    image: /img/people/alexbrown.jpeg
+    webpage: "https://alexandrebrown.github.io/"
