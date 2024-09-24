@@ -1,5 +1,5 @@
 ---
-title: gradslam
+title: "∇SLAM: Dense SLAM meets Automatic Differentiation"
 
 notitle: false
 

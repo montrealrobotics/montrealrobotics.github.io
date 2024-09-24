@@ -1,5 +1,5 @@
 ---
-title: gradsim
+title: "∇Sim: Differentiable Simulation for System Identification and Visuomotor Control"
 
 notitle: false
 

@@ -665,6 +665,59 @@ james:
     webpage: https://www.mcgill.ca/mecheng/james-forbes
 
 
+yxiu:
+    display_name: Yuliang Xiu
+    role: collab
+    webpage: https://xiuyuliang.cn/
 
 
+scholkopf:
+    display_name: Bernard Schölkopf
+    role: collab
+    webpage: https://is.mpg.de/~bs
 
+corban:
+    display_name: Corban Rivera
+    role: collab
+    webpage: https://www.jhuapl.edu/work/our-organization/research-and-exploratory-development/red-staff-directory/corban-rivera
+    
+william_paul:
+    display_name: William Paul
+    role: collab
+    webpage: https://scholar.google.com/citations?user=92bmh84AAAAJ
+
+
+rama_chellappa:
+    display_name: Rama Chellappa
+    role: collab
+    webpage: https://engineering.jhu.edu/faculty/rama-chellappa/
+
+
+chuang_gan:
+    display_name: Chuang Gan
+    role: collab
+    webpage: https://people.csail.mit.edu/ganchuang/
+
+roger_girgis:
+    display_name: Roger Girgis
+    role: collab
+    webpage: https://mila.quebec/en/person/roger-girgis/
+
+anthony_gosselin:
+    display_name: Anothony Gosselin
+    role: collab
+    webpage: https://www.linkedin.com/in/anthony-gosselin-098b7a1a1/?originalSubdomain=ca
+
+
+bruno_carrez:
+    display_name: Bruno Carrez
+    role: collab
+    webpage: https://mila.quebec/en/person/bruno-carrez/
+
+felix_heide:
+    display_name: Felix Heide
+    role: collab
+    webpage: https://www.cs.princeton.edu/~fheide/
+
+
+    

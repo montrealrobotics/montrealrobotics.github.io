@@ -1,5 +1,5 @@
 ---
-title: Self-supervised visual odometry estimation
+title: Geometric Consistency for Self-Supervised End-to-End Visual Odometry
 
 description: |
   A self-supervised deep network for visual odometry estimation from monocular imagery.
