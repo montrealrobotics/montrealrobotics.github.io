@@ -90,6 +90,13 @@ Hongyao:
     role: postdoc
     image: /img/people/hongyao.jpg
 
+cyrus:
+    display_name: "Cyrus Neary"
+    webpage: "https://www.cyrusneary.com/"
+    advisor: Glen Berseth
+    role: postdoc
+    image: /img/people/cyrus.jpg
+
 kirsty:
     display_name: "Kirsty Ellis"
     role: developer
@@ -670,6 +677,19 @@ yxiu:
     role: collab
     webpage: https://xiuyuliang.cn/
 
+rod:
+    display_name: "Rodrigue de Schaetzen"
+    role: phd
+    advisor: Liam Paull
+    image: /img/people/rod.jpg
+    webpage: "https://rdesc.dev/"
+
+ozgur:
+    display_name: "Ozgur Aslan"
+    role: phd
+    advisor: Glen Berseth
+    image: /img/people/ozgur.jpeg
+    webpage: "https://ozgraslan.github.io/"
 
 scholkopf:
     display_name: Bernard Schölkopf
@@ -720,4 +740,9 @@ felix_heide:
     webpage: https://www.cs.princeton.edu/~fheide/
 
 
-    
+alexbrown:
+    display_name: "Alexandre Brown"
+    role: masters
+    advisor: Glen Berseth
+    image: /img/people/alexbrown.jpeg
+    webpage: "https://alexandrebrown.github.io/"
