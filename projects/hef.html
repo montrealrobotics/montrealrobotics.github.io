@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      
+        <title>Robotics Group @ University of Montreal | The Harmonic Exponential Filter for Nonparametric Estimation on Motion Groups</title>
+        <meta name="description" content="The Robotics and Embodied AI Lab @ U de Montreal">
+      
+        <link rel="shortcut icon" href="https://montrealrobotics.github.io/website-assets/assets/img/favicon.png">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous">
+        <link rel="stylesheet" href="https://montrealrobotics.github.io/website-assets/assets/css/sb-admin-2.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://montrealrobotics.github.io/website-assets/assets/css/main.css">
+        <link rel="canonical" href="https://montrealrobotics.github.io/projects/hef">
+
+      </head>
+    <body>
+      <div class="container">
+
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-dark bg-primary mb-2 text-white">
+                <a class="navbar-brand" href="/">REAL</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                                
+                                
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/">
+                                            Home
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/people.html">
+                                            People
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link active"
+                                           href="/research.html">
+                                            Research
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/events.html">
+                                            Events
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/contact.html">
+                                            Contact
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/blog.html">
+                                            Blog
+                                        </a>
+                                    </li>
+                                    
+                                    
+                        </ul>
+
+                      </div>
+                      <div class="navbar-right">
+                        
+                        
+                        <a href="/">en</a>
+                        
+                        
+                        
+                        | <a href="/fr/">fr</a>
+                        
+                        
+                      </div>
+                      <style>
+                        .navbar-right{
+                            float: right;
+                            text-align: right;
+                        }
+                      </style>
+            </nav>
+
+            
+                <img src="/img/papers/hef.gif"
+                     alt="The Harmonic Exponential Filter for Nonparametric Estimation on Motion Groups"
+                     style="max-width: 400px"
+                     class="img-fluid mx-auto d-block mb-4"/>
+            
+
+            <!-- 
+                <h1>The Harmonic Exponential Filter for Nonparametric Estimation on Motion Groups</h1>
+             -->
+
+            <h2 id="the-harmonic-exponential-filter-for-nonparametric-estimation-on-motion-groups">The Harmonic Exponential Filter for Nonparametric Estimation on Motion Groups</h2>
+<p>Bayesian estimation is a vital tool in robotics as it allows systems to update the belief of the robot state using incomplete information from noisy sensors. To render the state estimation problem tractable, many systems assume that the motion and measurement noise, as well as the state distribution, are all unimodal and Gaussian. However, there are numerous scenarios and systems that do not comply with these assumptions. Existing non-parametric filters that are used to model multimodal distributions have drawbacks that limit their ability to represent a diverse set of distributions. In this paper, we introduce a novel approach to nonparametric Bayesian filtering to cope with multimodal distributions using harmonic exponential distributions. This approach leverages two key insights of harmonic exponential distributions: a) the product of two distributions can be expressed as the element-wise addition of their log-likelihood Fourier coefficients, and b) the convolution of two distributions can be efficiently computed as the tensor product of their Fourier coefficients. These observations enable the development of an efficient and exact solution to the Bayes filter up to the band limit of a Fourier transform.  We demonstrate our filter’s superior performance compared with established nonparametric filtering methods across a range of simulated and real-world localization tasks.</p>
+
+
+<h2> People </h2>
+<section class="people project-people">
+    
+        
+        
+
+
+
+
+
+
+
+<div class="card mr-2 mb-2 border-bottom-primary" style="min-width: 330px; max-width: 330px">
+  <div class="card-body">
+  
+
+  
+    <div class="person person-with-image row align-items-center">
+      
+
+
+
+
+
+
+
+    <a href="https://mikes96.github.io/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Miguel Saavedra-Ruiz"
+             title="Miguel Saavedra-Ruiz"
+             src="/img/people/miguel.jpg" />
+    
+    </a>
+
+
+      
+      
+      <h4 class="person-name">&nbsp;&nbsp;&nbsp; 
+<a href="https://mikes96.github.io/"> Miguel Saavedra-Ruiz </a>
+ </h4> </br>
+      <h5>
+       
+       </br><b>Advisor</b>: Liam Paull &nbsp;&nbsp;&nbsp;
+              
+       
+      
+      
+      
+        </h5>
+      
+    </div>
+  
+  
+</div>
+  </div>
+
+
+
+    
+        
+        
+
+
+
+
+
+
+
+<div class="card mr-2 mb-2 border-bottom-primary" style="min-width: 330px; max-width: 330px">
+  <div class="card-body">
+  
+
+  
+    <div class="person person-with-image row align-items-center">
+      
+
+
+
+
+
+
+
+    <a href="https://saparkison.github.io/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Steven Parkison"
+             title="Steven Parkison"
+             src="/img/people/stevenhead.png" />
+    
+    </a>
+
+
+      
+      
+      <h4 class="person-name">&nbsp;&nbsp;&nbsp; 
+<a href="https://saparkison.github.io/"> Steven Parkison </a>
+ </h4> </br>
+      <h5>
+       
+       </br><b>Advisor</b>: Liam Paull &nbsp;&nbsp;&nbsp;
+              
+       
+      
+       </br><b>Interests</b>: SLAM, optimization, robotic perception, and lukewarm coffee 
+      
+      
+      
+        </br><b>Current Position</b>: Robotics researcher at the Institut de Recherche d'Hydro Québec (IREQ) 
+        
+        </h5>
+      
+    </div>
+  
+  
+</div>
+  </div>
+
+
+
+    
+        
+        
+
+
+
+
+
+
+
+<div class="card mr-2 mb-2 border-bottom-primary" style="min-width: 330px; max-width: 330px">
+  <div class="card-body">
+  
+
+  
+    <div class="person person-with-image row align-items-center">
+      
+
+
+
+
+
+
+
+    
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Ria Arora&nbsp;&nbsp;&nbsp;&nbsp;"
+             title="Ria Arora&nbsp;&nbsp;&nbsp;&nbsp;"
+             src="/img/people/ria.jpg" />
+    
+
+
+      
+      
+      <h4 class="person-name">&nbsp;&nbsp;&nbsp; Ria Arora&nbsp;&nbsp;&nbsp;&nbsp; </h4> </br>
+      <h5>
+       
+       </br><b>Advisor</b>: Liam Paull &nbsp;&nbsp;&nbsp;
+              
+        
+       </br><b>Coadvisor</b>: Guy Wolf &nbsp;&nbsp;&nbsp;
+      
+      
+      
+      
+        </h5>
+      
+    </div>
+  
+  
+</div>
+  </div>
+
+
+
+    
+        
+        
+
+
+
+
+
+
+
+<div class="card mr-2 mb-2 border-bottom-primary" style="min-width: 330px; max-width: 330px">
+  <div class="card-body">
+  
+
+  
+    <div class="person person-with-image row align-items-center">
+      
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/img/people/liam.jpg" />
+    
+    </a>
+
+
+      
+      
+      <h4 class="person-name">&nbsp;&nbsp;&nbsp; 
+<a href="http://liampaull.ca"> Liam Paull </a>
+ </h4> </br>
+      <h5>
+              
+       
+      
+       </br><b>Interests</b>: Robot perception, uncertainty, sim2real, and robot benchmarking 
+      
+      
+      
+        </h5>
+      
+    </div>
+  
+  
+</div>
+  </div>
+
+
+
+    
+</section>
+
+
+            <div class="my-5 pt-5 text-muted text-center text-md">
+                <p class="affiliations">
+                  <a href="https://en.diro.umontreal.ca/home/">
+                    <img src="https://montrealrobotics.github.io/website-assets/assets/img/diro.png" width="150px" alt=
+                            "Department of Computer Science and Operations Research"> </a>
+                        |
+                        <a href="https://www.umontreal.ca/">
+                            <img src="https://montrealrobotics.github.io/website-assets/assets/img/udem.png" width="150px" alt=
+                            "Universit&eacute; de Montr&eacute;al">
+                        </a> |
+                        
+                        <a href="https://mila.quebec/">
+                          <img src="https://montrealrobotics.github.io/website-assets/assets/img/mila.png" width="150px" alt=
+                               "Mila">
+                        </a>
+                </p>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Load jquery-->
+        <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/website-assets/assets/js/srcset-polyfill.js"></script>
+        <!-- Support hidden abstract/bibtex blocks. -->
+        <script src="/website-assets/assets/js/common.js"></script>
+    </body>
+</html>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      
+        <title>Robotics Group @ University of Montreal | MeshDiffusion: Score-based Generative 3D Mesh Modeling</title>
+        <meta name="description" content="The Robotics and Embodied AI Lab @ U de Montreal">
+      
+        <link rel="shortcut icon" href="https://montrealrobotics.github.io/website-assets/assets/img/favicon.png">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous">
+        <link rel="stylesheet" href="https://montrealrobotics.github.io/website-assets/assets/css/sb-admin-2.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://montrealrobotics.github.io/website-assets/assets/css/main.css">
+        <link rel="canonical" href="https://montrealrobotics.github.io/projects/meshdiffusion">
+
+      </head>
+    <body>
+      <div class="container">
+
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-dark bg-primary mb-2 text-white">
+                <a class="navbar-brand" href="/">REAL</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                                
+                                
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/">
+                                            Home
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/people.html">
+                                            People
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link active"
+                                           href="/research.html">
+                                            Research
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/events.html">
+                                            Events
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/contact.html">
+                                            Contact
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/blog.html">
+                                            Blog
+                                        </a>
+                                    </li>
+                                    
+                                    
+                        </ul>
+
+                      </div>
+                      <div class="navbar-right">
+                        
+                        
+                        <a href="/">en</a>
+                        
+                        
+                        
+                        | <a href="/fr/">fr</a>
+                        
+                        
+                      </div>
+                      <style>
+                        .navbar-right{
+                            float: right;
+                            text-align: right;
+                        }
+                      </style>
+            </nav>
+
+            
+                <img src="/img/papers/meshdiffusion.png"
+                     alt="MeshDiffusion: Score-based Generative 3D Mesh Modeling"
+                     style="max-width: 400px"
+                     class="img-fluid mx-auto d-block mb-4"/>
+            
+
+            <!-- 
+                <h1>MeshDiffusion: Score-based Generative 3D Mesh Modeling</h1>
+             -->
+
+            <h2 id="meshdiffusion-score-based-generative-3d-mesh-modeling">MeshDiffusion: Score-based Generative 3D Mesh Modeling</h2>
+
+<p>We consider the task of generating realistic 3D shapes, which is useful for a variety of applications such as automatic scene generation and physical simulation. Compared to other 3D representations like voxels and point clouds, meshes are more desirable in practice, because (1) they enable easy and arbitrary manipulation of shapes for relighting and simulation, and (2) they can fully leverage the power of modern graphics pipelines which are mostly optimized for meshes. Previous scalable methods for generating meshes typically rely on sub-optimal post-processing, and they tend to produce overly-smooth or noisy surfaces without fine-grained geometric details. To overcome these shortcomings, we take advantage of the graph structure of meshes and use a simple yet very effective generative modeling method to generate 3D meshes. Specifically, we represent meshes with deformable tetrahedral grids, and then train a diffusion model on this direct parameterization. We demonstrate the effectiveness of our model on multiple generative tasks.</p>
+
+
+<h2> People </h2>
+<section class="people project-people">
+    
+        
+        
+
+
+
+
+
+
+
+<div class="card mr-2 mb-2 border-bottom-primary" style="min-width: 330px; max-width: 330px">
+  <div class="card-body">
+  
+
+  
+    <div class="person person-with-image row align-items-center">
+      
+
+
+
+
+
+
+
+    <a href="http://itszhen.com/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Zhen Liu"
+             title="Zhen Liu"
+             src="/img/people/zhen.jpeg" />
+    
+    </a>
+
+
+      
+      
+      <h4 class="person-name">&nbsp;&nbsp;&nbsp; 
+<a href="http://itszhen.com/"> Zhen Liu </a>
+ </h4> </br>
+      <h5>
+       
+       </br><b>Advisor</b>: Liam Paull &nbsp;&nbsp;&nbsp;
+              
+        
+       </br><b>Coadvisor</b>: Yoshua Bengio &nbsp;&nbsp;&nbsp;
+      
+      
+      
+      
+        </h5>
+      
+    </div>
+  
+  
+</div>
+  </div>
+
+
+
+    
+        
+        
+
+
+
+
+
+
+
+<div class="card mr-2 mb-2 border-bottom-primary" style="min-width: 330px; max-width: 330px">
+  <div class="card-body">
+  
+
+  
+    <div class="person person-with-image row align-items-center">
+      
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/img/people/liam.jpg" />
+    
+    </a>
+
+
+      
+      
+      <h4 class="person-name">&nbsp;&nbsp;&nbsp; 
+<a href="http://liampaull.ca"> Liam Paull </a>
+ </h4> </br>
+      <h5>
+              
+       
+      
+       </br><b>Interests</b>: Robot perception, uncertainty, sim2real, and robot benchmarking 
+      
+      
+      
+        </h5>
+      
+    </div>
+  
+  
+</div>
+  </div>
+
+
+
+    
+</section>
+
+
+            <div class="my-5 pt-5 text-muted text-center text-md">
+                <p class="affiliations">
+                  <a href="https://en.diro.umontreal.ca/home/">
+                    <img src="https://montrealrobotics.github.io/website-assets/assets/img/diro.png" width="150px" alt=
+                            "Department of Computer Science and Operations Research"> </a>
+                        |
+                        <a href="https://www.umontreal.ca/">
+                            <img src="https://montrealrobotics.github.io/website-assets/assets/img/udem.png" width="150px" alt=
+                            "Universit&eacute; de Montr&eacute;al">
+                        </a> |
+                        
+                        <a href="https://mila.quebec/">
+                          <img src="https://montrealrobotics.github.io/website-assets/assets/img/mila.png" width="150px" alt=
+                               "Mila">
+                        </a>
+                </p>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Load jquery-->
+        <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/website-assets/assets/js/srcset-polyfill.js"></script>
+        <!-- Support hidden abstract/bibtex blocks. -->
+        <script src="/website-assets/assets/js/common.js"></script>
+    </body>
+</html>
