@@ -746,3 +746,9 @@ alexbrown:
     advisor: Glen Berseth
     image: /img/people/alexbrown.jpeg
     webpage: "https://alexandrebrown.github.io/"
+
+adam:
+    display_name: "Adam Burhan"
+    role: masters
+    advisor: Liam Paull
+    image: /img/people/adam.jpg
