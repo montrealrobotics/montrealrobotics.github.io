@@ -48,7 +48,7 @@ florian:
 
 ali:
     display_name: "Ali Harakeh"
-    webpage: "https://www.aharakeh.com/"
+    webpage: ""
     interests: "Bayesian deep learning, conformal prediction, out-of-distribution generalization, and continual learning"
     advisor: Liam Paull
     role: postdoc-alum
