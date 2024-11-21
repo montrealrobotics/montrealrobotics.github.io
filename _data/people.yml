@@ -48,7 +48,6 @@ florian:
 
 ali:
     display_name: "Ali Harakeh"
-    webpage: ""
     interests: "Bayesian deep learning, conformal prediction, out-of-distribution generalization, and continual learning"
     advisor: Liam Paull
     role: postdoc-alum
@@ -102,9 +101,20 @@ kirsty:
     role: developer
     image: /img/people/kirsty.jpg
 
+
+roger2:
+    display_name: "Roger Creus Castanyer"
+    role: phd
+    advisor: Glen Berseth
+    coadvisor: "Pablo Samuel Castro"
+    image: /img/people/rogercreus.jpeg
+    interests: "(Unsupervised) (Deep) reinforcement learning"
+    webpage: "https://roger-creus.github.io/"
+
+
 roger:
     display_name: "Roger Creus Castanyer"
-    role: masters
+    role: masters-alum
     advisor: Glen Berseth
     image: /img/people/rogercreus.jpeg
     interests: "(Unsupervised) (Deep) reinforcement learning"
@@ -114,13 +124,18 @@ vincent:
     display_name: "Vincent Mai"
     role: phd-alum
     advisor: Liam Paull
+    thesis: "Reinforcement learning applied to the real world : uncertainty, sample efficiency, and multi-agent coordination"
+    thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/28319"
     image: /img/people/vincent.jpg
+    
     current_role: AI researcher at the Institut de Recherche d'Hydro Québec (IREQ)
 
 krishna:
     display_name: "Krishna Murthy Jatavallabhula"
     role: phd-alum
     advisor: Liam Paull
+    thesis: "Differentiable world programs"
+    thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/26822"
     image: /img/people/krishna.jpg
     webpage: "https://krrish94.github.io"
     current_role: PostDoc at MIT with Antonio Torralba and Joshua Tenenbaum
@@ -137,6 +152,7 @@ luke:
     role: phd
     advisor: Liam Paull
     image: /img/people/luke.png
+    webpage: "https://rluke22.github.io/"
     coadvisor: "Chris Pal"
     interests: "Machine learning, autonomous driving"
 
@@ -145,6 +161,8 @@ ruixiang:
     role: phd-alum
     advisor: Liam Paull
     image: /img/people/ruixiang.jpg
+    webpage: "https://ruixiangz.me/"
+    current_role: Research Scientist at Apple
     coadvisor: "Yoshua Bengio"
 
 zhen:
@@ -159,6 +177,7 @@ mostafa:
     display_name: "Mostafa ElAraby"
     role: phd
     advisor: Liam Paull
+    webpage: "https://www.mostafaelaraby.com/"
     interests: "Continual learning, Out Of Distribution Detection, Robustness"
     image: /img/people/mostafa.jpg
     webpage: "https://www.mostafaelaraby.com/"
@@ -174,12 +193,12 @@ sacha:
 
 ali-k:
     display_name: "Ali Kuwajerwala"
-    role: masters
+    role: masters-alum
     advisor: Liam Paull
+    thesis: "Leveraging foundation models towards semantic world representations for robotics"
+    thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/33896"
     image: /img/people/ali-k.jpeg
     webpage: "https://alihkw.com/"
-
-
 
 
 mahtab:
@@ -201,6 +220,7 @@ charlie:
     display_name: "Charlie Gauthier"
     role: masters-alum
     image: /img/people/charlie.jpg
+    webpage: "https://velythyl.github.io/"
     advisor: Liam Paull
     thesis: "Fear prediction for training robust RL agents"
     thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/28235"
@@ -210,7 +230,7 @@ charlie2:
     display_name: "Charlie Gauthier"
     advisor: Liam Paull
     role: phd
-    coadvisor: "Glen Berseth"
+    webpage: "https://velythyl.github.io/"
     image: /img/people/charlie.jpg
 
 
@@ -230,6 +250,7 @@ miguel2:
     webpage: "https://mikes96.github.io/"
     image: /img/people/miguel.jpg
     thesis: "Leveraging Self-Supervision for Visual Embodied Navigation with Neuralized Potential Fields"
+    thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/32002"
     current_role: PhD Student at Mila / REAL
 
 lea:
@@ -239,12 +260,21 @@ lea:
     coadvisor: Chris Pal
     webpage: "https://leademeule.com/"
     image: /img/people/lea.jpg
-    
+
+
 adriana:
-    display_name: "Adriana Hugessen"
+    display_name: "Adriana Knatchbull-Hugessen"
     advisor: Glen Berseth
-    role: masters
+    role: phd
     image: /img/people/adriana.jpg
+
+
+adriana2:
+    display_name: "Adriana Knatchbull-Hugessen"
+    advisor: Glen Berseth
+    role: masters-alum
+    image: /img/people/adriana.jpg
+    current_role: PhD Student at Mila / REAL
     
 albert:
     display_name: "Albert Zhan"
@@ -264,10 +294,11 @@ siddarth:
 raj:
     display_name: "Raj Ghugare"
     advisor: Glen Berseth
-    role: phd
+    role: masters-alum
     image: /img/people/raj-g.png
     interests: "Reinforcement learning, machine learning"
     webpage: "http://RajGhugare19.github.io/"
+    current_role: "PhD Student at CMU"
 
 
 esraa:
@@ -295,6 +326,18 @@ yehao:
     role: intern
     advisor: Glen Berseth
     image: /img/people/yehao_yan.png
+
+kumaraditya:
+    display_name: Kumaraditya Gupta
+    role: intern
+    advisor: Liam Paull
+    image: /img/people/kumaraditya.jpg
+
+anshul:
+    display_name: Anshul Gupta
+    role: intern
+    advisor: Liam Paull
+    image: /img/people/anshul.jpg
 
 aurelien:
     display_name: "Aurélien Bück-Kaeffer"
@@ -372,7 +415,7 @@ anthony:
     role: masters-alum
     thesis: "On quantifying the value of simulation for training and evaluating robotic agents"
     advisor: Liam Paull
-    thesis_link: 
+    thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/26067"
     image: /img/people/anthony.jpg
     webpage: "https://helium.sparkpi.ca/"
     current_role: Project manager at Institut du Vehicule Innovant (IVI)
@@ -383,7 +426,7 @@ dhaivat:
     role: masters-alum
     thesis: "Variational aleatoric uncertainty calibration in neural regression"
     advisor: Liam Paull
-    thesis_link:
+    thesis_link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/26065"
     current_role: Research engineer at Samsung
     image: /img/people/dhaivat.jpeg
 
@@ -392,7 +435,7 @@ rey:
     role: masters-alum
     thesis: "Lifelong Topological Visual Navigation"
     advisor: Liam Paull
-    thesis_link:
+    thesis_link: https://papyrus.bib.umontreal.ca/xmlui/handle/1866/26544
     current_role:
     image: /img/people/rey.jpg
     webpage: "http://rrwiyatn.github.io/"
