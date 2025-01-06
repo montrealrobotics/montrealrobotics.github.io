@@ -795,3 +795,9 @@ adam:
     role: masters
     advisor: Liam Paull
     image: /img/people/adam.jpg
+
+florence_cloutier:
+    display_name: "Florence Cloutier"
+    role: masters
+    advisor: Glen Berseth
+    image: /img/people/florence.png
