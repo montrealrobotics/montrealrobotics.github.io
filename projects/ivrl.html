@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      
+        <title>Robotics Group @ University of Montreal | Inverse Variance Reinforcement Learning</title>
+        <meta name="description" content="The Robotics and Embodied AI Lab @ U de Montreal">
+      
+        <link rel="shortcut icon" href="https://montrealrobotics.github.io/website-assets/assets/img/favicon.png">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous">
+        <link rel="stylesheet" href="https://montrealrobotics.github.io/website-assets/assets/css/sb-admin-2.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://montrealrobotics.github.io/website-assets/assets/css/main.css">
+        <link rel="canonical" href="https://montrealrobotics.github.io/projects/ivrl">
+
+      </head>
+    <body>
+      <div class="container">
+
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-dark bg-primary mb-2 text-white">
+                <a class="navbar-brand" href="/">REAL</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                                
+                                
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/">
+                                            Home
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/people.html">
+                                            People
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link active"
+                                           href="/research.html">
+                                            Research
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/events.html">
+                                            Events
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/contact.html">
+                                            Contact
+                                        </a>
+                                    </li>
+                                    
+            
+                                    
+            
+                                    
+                                    
+                                    
+            
+                                    <li class="nav-item">
+                                        <a class="nav-link "
+                                           href="/blog.html">
+                                            Blog
+                                        </a>
+                                    </li>
+                                    
+                                    
+                        </ul>
+
+                      </div>
+                      <div class="navbar-right">
+                        
+                        
+                        <a href="/">en</a>
+                        
+                        
+                        
+                        | <a href="/fr/">fr</a>
+                        
+                        
+                      </div>
+                      <style>
+                        .navbar-right{
+                            float: right;
+                            text-align: right;
+                        }
+                      </style>
+            </nav>
+
+            
+                <img src="/img/papers/mai2022ivrl_resized.jpg"
+                     alt="Inverse Variance Reinforcement Learning"
+                     style="max-width: 400px"
+                     class="img-fluid mx-auto d-block mb-4"/>
+            
+
+            <!-- 
+                <h1>Inverse Variance Reinforcement Learning</h1>
+             -->
+
+            <h2 id="inverse-variance-reinforcement-learning">Inverse Variance Reinforcement Learning</h2>
+
+<p>Most robotics problems can be written as (Partially Observable) Markov Decision Processes (MDPs), with discrete or continuous observation and action spaces. Deep Reinforcement Learning (DRL) is a powerful tool to find an optimal policy for these processes, based on experience acquired during the training process. The training of a DRL agent requires many trajectories, which can be arduous and expensive to produce in the real world. Indeed, the real world is not parallelizable, may require human efforts to reset, and comes with risks for the robot and the environment. Gathering sufficient experience is therefore one of the most important challenges when applying DRL to robotics. <em>The objective of this project is to reduce the amount of samples necessary to train a DRL agent on a robot.</em></p>
+
+<p><img title="The noisy target generation process" alt="A diagram representing the generation process of the noisy target." src="/img/papers/mai2022ivrl.png" height="300px" align="right" /></p>
+
+<p>DRL algorithms are complex processes. An important part of most model-free algorithms is learning the value function of a given state or state-action pair, i.e., the expected return given the current policy. To do so, deep supervised learning components are used, where the input is the state(-action), and the label is called the target. The target T is a noisy sample of the value. Often, it is computed using the reward r and the next state s’ sampled from experience, the next action a’ based on s’ and the current policy, and the value Q of the next state-action pair which is bootstrapped from the current value estimator (this is the Temporal Difference target). The noise on the target negatively impacts the learning process: the networks learn from wrong data, which entails slower learning and instability.</p>
+
+<p>The key element in this project is the fact that the noise affecting in the target, i.e. its difference from the true and unique value function, is heteroscedastic. This means that the distribution it is sampled from changes for each input and training step. Sometimes, this distribution has a very low variance: the target is close to the value. Sometimes, on the other hand, the target is subject to a lot of noise and it does not contain useful information with respect to the value. Therefore, the value estimation task in DRL is a case of heteroscedastic regression.</p>
+
+<h2 id="projects">Projects</h2>
+
+<h3 id="batch-inverse-variance-weighting-for-deep-heteroscedastic-regression">Batch Inverse-Variance Weighting for Deep Heteroscedastic Regression</h3>
+
+<p>Noisy labels slows the learning process in regression: the first part of this project was to prove that the effect of noisy labels can be mitigated given the hypothesis that we know the variance of the noise distribution of each label. How can we include this additional information for heteroscedastic regression? Intuitively, we shoud give more weight to the labels we trust more. In linear regression, the Gauss-Markov theorem shows that the optimal solution is to weigh each sample by the inverse of the variance of the label noise. We show that adapting inverse-variance weighting for gradient-based optimization methods allows to significantly improve the performance of the learning process. Our paper, <a href="https://arxiv.org/abs/2107.04497">Batch Inverse-Variance Weighting: Deep Heteroscedastic Regression</a> (BIV), was presented at the <a href="https://sites.google.com/view/udlworkshop2021/home?authuser=0">Uncertainty and Robustness in Deep Learning</a> workshop at ICML 2021.</p>
+
+<figure>
+  <img title="BIV results." alt="A plot showing learning curves, where BIV is doing better than L2 and some baselines." src="/img/papers/mai2021biv.png" height="200px" />
+  <figcaption>BIV improves the learning performance with noisy labels compared to the L2 loss. Source: Batch Inverse-Variance Weighting: Deep Heteroscedastic Regression</figcaption>
+</figure>
+
+<h3 id="inverse-variance-reinforcement-learning-1">Inverse-Variance Reinforcement Learning</h3>
+
+<p>See project page: <b><a href="https://montrealrobotics.ca/ivrl/" target="_blank" rel="noopener noreferrer">https://montrealrobotics.ca/ivrl/</a></b></p>
+
+<p>The second part of the project was to use this weighting scheme in a DRL setting. For this work, the challenge was to estimate the uncertainty of the target. A systematic analysis of the sources of uncertainty in the target generation process justifies the use of deep variance ensembles. These are used to estimate the variance due to the stochasticity of the environment and the policy, as well as the predictive uncertainty of the value prediction used to bootstrap the target. As the variance output by these deep ensembles is also the result of a training process, the uncertainty estimation is subject to complex dynamics. We show that the BIV weighting scheme is robust to changes of scale in the variance estimation. We show that combining BIV with deep variance ensembles in DRL algorithms such as DQN and SAC leads to significant improvements in the sample efficiency. This framework, called Inverse-Variance Reinforcement Learning (IV-RL), is presented in our <a href="https://openreview.net/forum?id=vrW3tvDfOJQ">Sample Efficient Deep Reinforcement Learning via Uncertainty Estimation</a> submission to ICLR 2022.</p>
+
+<figure>
+  <img title="IV-SAC results" alt="A plot showing learning curves, where IV-SAC is doing better than DQN and other ensemble baselines." src="/img/papers/mai2022ivrlres.png" height="200px" />
+  <figcaption>IV-RL on SAC improves the learning performance and the sample efficiency compared to other ensemble-based baselines. Source: Sample Efficient Deep Reinforcement Learning via Uncertainty Estimation</figcaption>
+</figure>
+
+
+<h2> People </h2>
+<section class="people project-people">
+    
+        
+        
+
+
+
+
+
+
+
+<div class="card mr-2 mb-2 border-bottom-primary" style="min-width: 330px; max-width: 330px">
+  <div class="card-body">
+  
+
+  
+    <div class="person person-with-image row align-items-center">
+      
+
+
+
+
+
+
+
+    
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Vincent Mai"
+             title="Vincent Mai"
+             src="/img/people/vincent.jpg" />
+    
+
+
+      
+      
+      <h4 class="person-name">&nbsp;&nbsp;&nbsp; Vincent Mai </h4> </br>
+      <h5>
+       
+       </br><b>Advisor</b>: Liam Paull &nbsp;&nbsp;&nbsp;
+              
+       
+      
+      
+        </br><b>Thesis</b>: <a href="https://papyrus.bib.umontreal.ca/xmlui/handle/1866/28319"> Reinforcement learning applied to the real world : uncertainty, sample efficiency, and multi-agent coordination </a> 
+      
+      
+        </br><b>Current Position</b>: AI researcher at the Institut de Recherche d'Hydro Québec (IREQ) 
+        
+        </h5>
+      
+    </div>
+  
+  
+</div>
+  </div>
+
+
+
+    
+        
+        
+
+
+
+
+
+
+
+<div class="card mr-2 mb-2 border-bottom-primary" style="min-width: 330px; max-width: 330px">
+  <div class="card-body">
+  
+
+  
+    <div class="person person-with-image row align-items-center">
+      
+
+
+
+
+
+
+
+    
+        <svg class="profile noprofile"
+             alt="Kaustubh Mani"
+             viewBox="0 0 100 100">
+            <title>Kaustubh Mani</title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                K
+            </text>
+        </svg>
+    
+
+
+      
+      
+      <h4 class="person-name">&nbsp;&nbsp;&nbsp; Kaustubh Mani </h4> </br>
+      <h5>
+              
+       
+      
+      
+      
+        </br><b>Current Position</b>: PhD student at Mila / REAL 
+        
+        </h5>
+      
+    </div>
+  
+  
+</div>
+  </div>
+
+
+
+    
+        
+        
+
+
+
+
+
+
+
+<div class="card mr-2 mb-2 border-bottom-primary" style="min-width: 330px; max-width: 330px">
+  <div class="card-body">
+  
+
+  
+    <div class="person person-with-image row align-items-center">
+      
+
+
+
+
+
+
+
+    <a href="https://khamies.github.io/about"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Waleed Khamies"
+             title="Waleed Khamies"
+             src="/img/people/waleed.jpg" />
+    
+    </a>
+
+
+      
+      
+      <h4 class="person-name">&nbsp;&nbsp;&nbsp; 
+<a href="https://khamies.github.io/about"> Waleed Khamies </a>
+ </h4> </br>
+      <h5>
+              
+       
+      
+      
+      
+        </h5>
+      
+    </div>
+  
+  
+</div>
+  </div>
+
+
+
+    
+        
+        
+
+
+
+
+
+
+
+<div class="card mr-2 mb-2 border-bottom-primary" style="min-width: 330px; max-width: 330px">
+  <div class="card-body">
+  
+
+  
+    <div class="person person-with-image row align-items-center">
+      
+
+
+
+
+
+
+
+    <a href="http://liampaull.ca"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile" style="float: none !important"
+             alt="Liam Paull"
+             title="Liam Paull"
+             src="/img/people/liam.jpg" />
+    
+    </a>
+
+
+      
+      
+      <h4 class="person-name">&nbsp;&nbsp;&nbsp; 
+<a href="http://liampaull.ca"> Liam Paull </a>
+ </h4> </br>
+      <h5>
+              
+       
+      
+       </br><b>Interests</b>: Robot perception, uncertainty, sim2real, and robot benchmarking 
+      
+      
+      
+        </h5>
+      
+    </div>
+  
+  
+</div>
+  </div>
+
+
+
+    
+</section>
+
+
+            <div class="my-5 pt-5 text-muted text-center text-md">
+                <p class="affiliations">
+                  <a href="https://en.diro.umontreal.ca/home/">
+                    <img src="https://montrealrobotics.github.io/website-assets/assets/img/diro.png" width="150px" alt=
+                            "Department of Computer Science and Operations Research"> </a>
+                        |
+                        <a href="https://www.umontreal.ca/">
+                            <img src="https://montrealrobotics.github.io/website-assets/assets/img/udem.png" width="150px" alt=
+                            "Universit&eacute; de Montr&eacute;al">
+                        </a> |
+                        
+                        <a href="https://mila.quebec/">
+                          <img src="https://montrealrobotics.github.io/website-assets/assets/img/mila.png" width="150px" alt=
+                               "Mila">
+                        </a>
+                </p>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Load jquery-->
+        <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/website-assets/assets/js/srcset-polyfill.js"></script>
+        <!-- Support hidden abstract/bibtex blocks. -->
+        <script src="/website-assets/assets/js/common.js"></script>
+    </body>
+</html>
