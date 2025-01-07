@@ -801,3 +801,10 @@ florence_cloutier:
     role: masters
     advisor: Glen Berseth
     image: /img/people/florence.png
+
+charlotte_cloutier:
+    display_name: "Charlotte Cloutier"
+    role: intern
+    advisor: Glen Berseth
+    image: /img/people/charlotte.JPG
+
