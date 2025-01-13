@@ -808,3 +808,9 @@ charlotte_cloutier:
     advisor: Glen Berseth
     image: /img/people/charlotte.JPG
 
+artur_kuramshin:
+    display_name: "Artur Kuramshin"
+    role: masters
+    advisor: Glen Berseth
+    image: /img/people/artur-k.jpg
+    webpage: "https://akuramshin.github.io/"
