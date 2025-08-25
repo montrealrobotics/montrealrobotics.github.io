@@ -825,3 +825,13 @@ tabitha:
     image: /img/people/tabitha.png
     webpage: "https://tabula-rosa.github.io/"
     interests: "Causality, Reinforcement Learning, Representation Learning, Robotics"
+
+jesse:
+    display_name: "Jesse Silverberg"
+    role: phd
+    advisor: Glen Berseth
+    coadvisor: Marc G. Bellemare
+    image: /img/people/jesse.jpg
+    webpage: "https://jessesilverberg.com"
+    github: jessesilverberg
+    interests: "Reinforcement Learning, Robotics"
