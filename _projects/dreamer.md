@@ -1,6 +1,6 @@
 ---
 title: Safe RL (Nightmare Dreamer)
-description: Nightmare Dreamer is a sample efficient, multi-agent approach to Safe RL.
+description: Nightmare Dreamer is a sample efficient, multi-agent approach to Safe RL (Submitted to RSS Muti OCnstrained Objective Workshop)
 
 people:
   - tosin
