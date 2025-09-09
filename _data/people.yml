@@ -80,3 +80,9 @@ rebecca:
     role: intern
     image: /img/people/rebecca.jpg
     current_role: Developer
+
+lael:
+    display_name: "Lael Lum"
+    interests: "Robot Inspection and Simulation"
+    role: masters
+    image: /img/people/lael.jpg
