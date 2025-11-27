@@ -334,6 +334,13 @@ kumaraditya:
     role: phd
     advisor: Liam Paull
     image: /img/people/kumaraditya.jpg
+    webpage: "https://kumaradityag.com/"
+
+kumaraditya:
+    display_name: Kumaraditya Gupta
+    role: intern-alum
+    advisor: Liam Paull
+    image: /img/people/kumaraditya.jpg
 
 anshul:
     display_name: Anshul Gupta
