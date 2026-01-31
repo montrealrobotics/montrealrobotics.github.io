@@ -842,3 +842,12 @@ jesse:
     webpage: "https://jessesilverberg.com"
     github: jessesilverberg
     interests: "Reinforcement Learning, Robotics"
+
+daniel:
+    display_name: "Daniel Lawson"
+    role: phd
+    advisor: Glen Berseth
+    coadvisor: Khimya Khetarpal
+    image: /img/people/daniel.jpg
+    webpage: "https://danielblawson.github.io/"
+    github: daniellawson9999
