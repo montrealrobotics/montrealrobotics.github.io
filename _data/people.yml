@@ -851,3 +851,33 @@ daniel:
     image: /img/people/daniel.jpg
     webpage: "https://danielblawson.github.io/"
     github: daniellawson9999
+
+rosemary_ke:
+    display_name: Nan Rosemary Ke
+    role: collab
+    webpage: https://nke001.github.io/
+
+sarvesh_patil:
+    display_name: Sarvesh Patil
+    role: collab
+    webpage: https://servo97.github.io/
+
+annya_dahmani:
+    display_name: Annya Dahmani
+    role: collab
+    webpage: https://annyadahmani.github.io/
+
+eunice_yiu:
+    display_name: Eunice Yiu
+    role: collab
+    webpage: https://ey242.github.io/about.html
+
+oliver_kroemer:
+    display_name: Oliver Kroemer
+    role: collab
+    webpage: https://www.ri.cmu.edu/ri-faculty/oliver-kroemer/
+
+alison_gopnik:
+    display_name: Alison Gopnik
+    role: collab
+    webpage: https://alisongopnik.com/
