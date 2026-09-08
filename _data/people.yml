@@ -828,10 +828,9 @@ tabitha:
     display_name: "Tabitha Edith Lee"
     role: postdoc
     advisor: Glen Berseth
-    coadvisor: Yoshua Bengio
     image: /img/people/tabitha.png
     webpage: "https://tabula-rosa.github.io/"
-    interests: "Causality, Reinforcement Learning, Representation Learning, Robotics"
+    interests: "Causality, Curriculum Reinforcement Learning, World Models, Robotics"
 
 jesse:
     display_name: "Jesse Silverberg"
@@ -881,3 +880,9 @@ alison_gopnik:
     display_name: Alison Gopnik
     role: collab
     webpage: https://alisongopnik.com/
+
+bhargava_uppuluri:
+    display_name: Bhargava Uppuluri
+    role: intern-alum
+    current_role: "Master's student at CMU"
+    webpage: "https://bhargavauppuluri.github.io/"
