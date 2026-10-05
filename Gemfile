@@ -6,6 +6,7 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'jekyll-multiple-languages-plugin'
+    gem 'jekyll-sitemap'
 
 end
 

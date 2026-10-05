@@ -3,7 +3,7 @@ repository: montrealrobotics/montrealrobotics.github.io
 
 name: Robotics Group @ University of Montreal
 description: The Robotics and Embodied AI Lab @ U de Montreal
-url: https://montrealrobotics.github.io
+url: https://montrealrobotics.ca
 
 exclude: [bibble, README.md, Makefile, screenshot.png, vendor]
 
@@ -88,7 +88,8 @@ plugins:
     - jekyll-paginate
     - ['jekyll/scholar']
     - jemoji
-
+    - jekyll-multiple-languages-plugin
+    - jekyll-sitemap
 
 # Build settings
 markdown: kramdown
@@ -119,8 +120,5 @@ scholar:
 jquery_version: "1.12.4"
 katex_version: "0.7.1"
 anchorjs_version: "3.2.2"
-
-plugins:
-  - jekyll-multiple-languages-plugin
 
 languages: ["en", "fr"]

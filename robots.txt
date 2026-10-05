@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://montrealrobotics.ca/sitemap.xml
+Sitemap: https://montrealrobotics.ca/robotlearningseries/sitemap.xml
