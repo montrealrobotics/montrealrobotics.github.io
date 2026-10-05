@@ -86,7 +86,7 @@ include: ['_pages']
 
 plugins:
     - jekyll-paginate
-    - ['jekyll/scholar']
+    - jekyll/scholar
     - jemoji
     - jekyll-multiple-languages-plugin
     - jekyll-sitemap
