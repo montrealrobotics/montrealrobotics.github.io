@@ -6,6 +6,15 @@ notitle: false
 description: |
   PredictiveGraphs augments open-vocabulary 3D scene graphs with temporal reasoning for predictive navigation in semi-static scenes.
 
+people:
+  - miguel
+  - charlie2
+  - kumaraditya
+  - shima
+  - kirsty
+  - steven
+  - liam
+
 layout: project
 image: /img/papers/predictive-graphs.png
 link: https://montrealrobotics.ca/predictive-graphs/
