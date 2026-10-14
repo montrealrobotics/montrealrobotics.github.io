@@ -99,6 +99,7 @@ cyrus:
 kirsty:
     display_name: "Kirsty Ellis"
     role: developer
+    webpage: "https://www.linkedin.com/in/kirsty-ellis-943b8245"
     image: /img/people/kirsty.jpg
 
 
@@ -232,7 +233,7 @@ charlie2:
     display_name: "Charlie Gauthier"
     advisor: Liam Paull
     role: phd
-    webpage: "https://velythyl.github.io/"
+    webpage: "https://charliegauthier.ca/"
     image: /img/people/charlie.jpg
 
 
@@ -335,6 +336,13 @@ kumaraditya:
     advisor: Liam Paull
     image: /img/people/kumaraditya.jpg
     webpage: "https://kumaradityag.com/"
+
+shima:
+    display_name: Shima Shahfar
+    role: phd
+    advisor: Liam Paull
+    image: /img/people/shima.jpg
+    webpage: "https://scholar.google.com/citations?user=kLfWoIcAAAAJ&hl=en"
 
 kumaraditya2:
     display_name: Kumaraditya Gupta
