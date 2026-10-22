@@ -859,6 +859,15 @@ daniel:
     webpage: "https://danielblawson.github.io/"
     github: daniellawson9999
 
+elham:
+    display_name: "Elham Daneshmand"
+    role: phd
+    advisor: Glen Berseth
+    coadvisor: "Hsiu-Chin Lin"
+    image: /img/people/elham.jpg
+    webpage: "https://lhumd.github.io/"
+    interests: "Robotics, Reinforcement Learning, Safety"
+
 rosemary_ke:
     display_name: Nan Rosemary Ke
     role: collab
