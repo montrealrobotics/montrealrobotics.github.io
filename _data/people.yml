@@ -903,3 +903,12 @@ bhargava_uppuluri:
     role: intern-alum
     current_role: "Master's student at CMU"
     webpage: "https://bhargavauppuluri.github.io/"
+
+naoki_shitanda:
+    display_name: "Naoki Shitanda"
+    role: intern
+    image: /img/people/naoki.jpg
+    webpage: "https://naoki04.github.io/"
+    advisor: Glen Berseth
+    interests: "Reinforcement Learning, Exploration, Robotics"
+    
